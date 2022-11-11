@@ -1,30 +1,30 @@
 
-var LINE_WIDTH = 900
-var POP_WORDS_WIDTH = 900
+var LINE_WIDTH = 900;
+var POP_WORDS_WIDTH = 900;
 
 let wrapper = d3.select("body")
     .append('div')
     .attr('id', 'wrapper_div')
-
+;
 let head_div = wrapper.append('div')
         .attr("id", 'head_div')
-
+;
 let lineDiv = wrapper.append('div')
                 .attr("id", 'line_div')
                 .style('width', '900px')
                 .style('float', 'left')
-
+;
 let popWordsDiv = wrapper.append('div')
                 .attr("id", 'pop_words_div')
                 // .style('width', '900px')
                 // .style('float', 'left')
-
+;
 let lineWordsDiv = wrapper.append('div')
                 .attr("id", 'line_words_div')
-
+;
 let allGenres =  ["pop", 'rock', 'hip hop', 'latin', 'edm', 'r&b', 
 'country', 'folk',  'metal', 'jazz', 'easy listening', 'new age', 'blues', 'world']
-
+;
 
 // scaleColor = d3.scaleOrdinal() 
 //         .domain(allGenres)
@@ -46,24 +46,28 @@ const globalApplicationState = {
     new_age_checked: false,
     blues_checked: false,
     world_checked: false,
-    scaleColor
+    scaleColor,
   };
 
         
 
 
 //for the first view
-main_line_data = d3.json("./vis_data/main_line.json")
+main_line_data = d3.json("./vis_data/main_line.json");
 genre_lines_data = d3.json('./vis_data/genre_lines.json');
+word_freq_data = d3.json('./vis_data/word_freq.json');
 
-Promise.all([main_line_data,genre_lines_data]).then( data =>
+Promise.all([main_line_data,genre_lines_data,word_freq_data]).then( data =>
     {
         //data[0] = main_line_data
         //data[1] = genre_line_data
-        console.log("main line", data[0])
-        console.log("genre line", data[1])
+        console.log("main line", data[0]);
+        console.log("genre line", data[1]);
+        console.log("word frequency", data[2]);
 
-        line = new Line(data[0], data[1],lineDiv ,globalApplicationState)
+        line = new Line(data[0], data[1],lineDiv ,globalApplicationState);
+
+        //word_line = new Word_Line(data[3],lineWordsDiv,globalApplicationState);
 
        
 
