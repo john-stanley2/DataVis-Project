@@ -1,85 +1,83 @@
 class Word_Line {
-    constructor(main_data, genre_data, line_div, globalApplicationState){
+    constructor(word_counts,line_words_div, globalApplicationState){
 
         //**********************************************************************************************
         //                                  CONSTANTS FOR CHART SIZE
         //**********************************************************************************************
   
-        this.TOTAL_WIDTH = 900
-        this.TOTAL_HEIGHT = 500
-        this.MARGIN_BOTTOM = 50
-        this.MARGIN_TOP = 10
-        this.MARGIN_LEFT = 10
-        this.MARGIN_RIGHT = 50
+        this.TOTAL_WIDTH = 900;
+        this.TOTAL_HEIGHT = 500;
+        this.MARGIN_BOTTOM = 50;
+        this.MARGIN_TOP = 10;
+        this.MARGIN_LEFT = 10;
+        this.MARGIN_RIGHT = 50;
 
-        this.PUSH_AXIS_RIGHT = 50
-        this.PUSH_X_DOWN = 40 
+        this.PUSH_AXIS_RIGHT = 50;
+        this.PUSH_X_DOWN = 40 ;
 
-        this.GENRE_LINE_OPACITY = .9
-        this.GENRE_LINE_STROKE_WIDTH = 2
+        this.GENRE_LINE_OPACITY = .9;
+        this.GENRE_LINE_STROKE_WIDTH = 2;
 
-        this.MAIN_LINE_OPACITY = .25
-        this.MAIN_LINE_STROKE_WIDTH = 1.5
+        this.MAIN_LINE_OPACITY = .25;
+        this.MAIN_LINE_STROKE_WIDTH = 1.5;
        
-        this.ANIMATION_DURATION = 8
+        this.ANIMATION_DURATION = 8;
 
 
         //**********************************************************************************************
         //                                  GENERAL SET UP 
         //**********************************************************************************************
-        this.globalApplicationState = globalApplicationState
-        this.main_data = main_data
-        this.genre_data = genre_data
-        this.line_div = line_div
+        this.globalApplicationState = globalApplicationState;
+        this.word_counts = word_counts;
+        this.line_div = line_words_div;
         
         this.lineSvg = this.line_div.append("svg")
-            .attr('id', 'line_svg')
+            .attr('id', 'line_words_svg')
             .attr('width', this.TOTAL_WIDTH)
             .attr('height', this.TOTAL_HEIGHT)
-
+        ;
         //Consider putting the buttonSVG in lineSVG
-        this.buttonsSvg = this.line_div.append("svg")
-            .attr('id', 'buttons_svg')
-            .attr('height', this.TOTAL_HEIGHT)
-            .attr('width', this.TOTAL_WIDTH)
-            .style('position', 'absolute')
+        // this.buttonsSvg = this.line_div.append("svg")
+        //     .attr('id', 'buttons_svg')
+        //     .attr('height', this.TOTAL_HEIGHT)
+        //     .attr('width', this.TOTAL_WIDTH)
+        //     .style('position', 'absolute')
+        // ;
+        this.lineSvg 
+            .append("g")
+            .attr("id", "word_y_axis");
+        this.lineSvg 
+            .append("g")
+            .attr("id", "word_x_axis");
 
         this.lineSvg 
             .append("g")
-            .attr("id", "y_axis");
-        this.lineSvg 
-            .append("g")
-            .attr("id", "x_axis");
-
-        this.lineSvg 
-            .append("g")
-            .attr("id", "lineChart")
+            .attr("id", "word_lineChart")
             .append("path")
-            .attr('id', 'line_id')
+            .attr('id', 'word_line_id')
             .style('stroke', 'grey')
-            .style('stroke-width', this.MAIN_LINE_STROKE_WIDTH)
-
+            .style('stroke-width', this.MAIN_LINE_STROKE_WIDTH);
 
         //**********************************************************************************************
         //                                  GET MIN AND MAX
         //**********************************************************************************************
 
         // //min max for source x and y
-        this.max_metric = d3.max(this.genre_data.map(d => d.median_metric))
-        this.min_metric = d3.min(this.genre_data.map(d => d.median_metric))
+        this.max_metric = d3.max(this.word_counts.map(d => d.dance_norm))
+        this.min_metric = 0;//d3.min(this.genre_data.map(d => d.median_metric))
 
-
-        this.max_year = d3.max(this.main_data.map(d => d.year))
-        this.min_year = d3.min(this.main_data.map(d => d.year))
+        this.max_year = d3.max(this.word_counts.map(d => d.year));
+        this.min_year = d3.min(this.word_counts.map(d => d.year));
        
         // //**********************************************************************************************
         // //                                  SCALES
         // //**********************************************************************************************
+        
 
         //TODO FIX HARD CODING
         this.scale_metric = d3.scaleLinear()
             .range([ this.TOTAL_HEIGHT - this.MARGIN_BOTTOM, 0 + this.MARGIN_TOP]) 
-            .domain([this.min_metric, this.max_metric]);
+            .domain([0, this.max_metric]);
 
         //TODO scale
         this.scale_year = d3.scaleLinear()  
@@ -90,26 +88,27 @@ class Word_Line {
         let xAxisGenerator = d3.axisBottom(this.scale_year);
     
         xAxisGenerator.ticks(9);
-        xAxisGenerator.tickValues(['1940', '1950', '1960', '1970', '1980','1990', '2000', '2010', '2020'])
-        xAxisGenerator.tickSize(0)
+        xAxisGenerator.tickValues(['1940', '1950', '1960', '1970', '1980','1990', '2000', '2010', '2020']);
+        xAxisGenerator.tickSize(0);
 
 
-            let xAxis =  d3.select('#x_axis')
+            let xAxis =  d3.select('#word_x_axis')////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                   .call(xAxisGenerator)
                   .selectAll("text")
                   .data(legend_data)
                   .text((d)=>d)
                   .attr("color", 'black')
                   .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${this.TOTAL_HEIGHT - this.PUSH_X_DOWN})`)
-
+            ;
                
             xAxis
             .data(legend_data)
             .text((d)=>d)
             .style("font", "12px sans-serif")
+            ;
 
-            d3.select('.domain').attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${this.TOTAL_HEIGHT - this.PUSH_X_DOWN})`)
-            d3.select('.ticks').attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${this.TOTAL_HEIGHT - this.PUSH_X_DOWN})`)
+            d3.select('#word_x_axis').select('.domain').attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${this.TOTAL_HEIGHT - this.PUSH_X_DOWN})`);
+            d3.select('#word_x_axis').select('.ticks').attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${this.TOTAL_HEIGHT - this.PUSH_X_DOWN})`);
 
 
      
@@ -123,7 +122,7 @@ class Word_Line {
         // let xAxisGenerator = d3.axisBottom(this.scale_margin);
 
         //FIXME!!! I'm hard coding this stuff. Got to make it better
-        d3.select('#y_axis')
+        d3.select('#word_y_axis')
             .attr('transform', `translate(${this.PUSH_AXIS_RIGHT},${this.MARGIN_TOP})`)
             .call(d3.axisLeft(this.scale_metric));
         // d3.select('#x_axis')
@@ -141,13 +140,13 @@ class Word_Line {
         this.lineGenerator = d3
             .line()
             .x((data) => this.scale_year (data.year))
-            .y((data) => this.scale_metric (data.median_metric));
+            .y((data) => this.scale_metric (data.dance_norm));
 
         //FIXME HARDOCODING
         let lineChart = 
-            d3.select("#lineChart")
-            .select('#line_id')
-            .datum(this.main_data)
+            d3.select("#word_lineChart")
+            .select('#word_line_id')
+            .datum(this.word_counts)
             .attr('d', this.lineGenerator)
             .attr('stroke', (d) => {
                 return('grey')
@@ -297,6 +296,7 @@ class Word_Line {
     }
 
     draw_genre_lines(){
+
 
         //ROCK
         if (this.globalApplicationState.rock_checked){

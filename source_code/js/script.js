@@ -67,7 +67,7 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data]).then( data =>
 
         line = new Line(data[0], data[1],lineDiv ,globalApplicationState);
 
-        //word_line = new Word_Line(data[3],lineWordsDiv,globalApplicationState);
+        word_line = new Word_Line(data[2],lineWordsDiv,globalApplicationState);
 
        
 
