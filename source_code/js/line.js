@@ -433,7 +433,7 @@ class Line{
             .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
 
             
-            let jazzChart = 
+            let bluesChart = 
                 d3.select("#blues_group")
                 .select('#blues_line_id')
                 .datum(blues_data)
@@ -445,6 +445,120 @@ class Line{
         else{
             d3
             .select('#blues_group')
+            .remove()
+        }
+
+        //rnb
+        if (this.globalApplicationState.rnb_checked){
+            let rnb_data = this.genre_data.filter((d) => d.genre == "r&b")
+            this.lineSvg 
+            .append("g")
+            .attr("id", "rnb_group")
+            .append("path")
+            .attr('id', 'rnb_line_id')
+            .style('stroke', (d) => {
+                return(this.globalApplicationState.scaleColor('r&b'))
+            })
+            .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
+
+            let rnbChart = 
+                d3.select("#rnb_group")
+                .select('#rnb_line_id')
+                .datum(rnb_data)
+                .attr('d', this.lineGenerator)
+                .attr('opacity',  this.GENRE_LINE_OPACITY)
+                .attr('fill', 'none')
+                .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+        }
+        else{
+            d3
+            .select('#rnb_group')
+            .remove()
+        }
+
+        //country
+        if (this.globalApplicationState.country_checked){
+
+            let country_data = this.genre_data.filter((d) => d.genre == "country")
+            this.lineSvg 
+            .append("g")
+            .attr("id", "country_group")
+            .append("path")
+            .attr('id', 'country_line_id')
+            .style('stroke', (d) => {
+                return(this.globalApplicationState.scaleColor('country'))
+            })
+            .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
+
+            let countryChart = 
+                d3.select("#country_group")
+                .select('#country_line_id')
+                .datum(country_data)
+                .attr('d', this.lineGenerator)
+                .attr('opacity',  this.GENRE_LINE_OPACITY)
+                .attr('fill', 'none')
+                .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+        }
+        else{
+            d3
+            .select('#country_group')
+            .remove()
+        }
+
+        //FOLK
+        if (this.globalApplicationState.folk_checked){
+            let folk_data = this.genre_data.filter((d) => d.genre == "folk")
+            this.lineSvg 
+            .append("g")
+            .attr("id", "folk_group")
+            .append("path")
+            .attr('id', 'folk_line_id')
+            .style('stroke', (d) => {
+                return(this.globalApplicationState.scaleColor('folk'))
+            })
+            .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
+
+            let folkChart = 
+                d3.select("#folk_group")
+                .select('#folk_line_id')
+                .datum(folk_data)
+                .attr('d', this.lineGenerator)
+                .attr('opacity',  this.GENRE_LINE_OPACITY)
+                .attr('fill', 'none')
+                .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+        }
+        else{
+            d3
+            .select('#folk_group')
+            .remove()
+        }
+
+
+        //easy_listening
+        if (this.globalApplicationState.easy_listening_checked){
+            let easy_listening_data = this.genre_data.filter((d) => d.genre == "easy listening")
+            this.lineSvg 
+            .append("g")
+            .attr("id", "easy_listening_group")
+            .append("path")
+            .attr('id', 'easy_listening_line_id')
+            .style('stroke', (d) => {
+                return(this.globalApplicationState.scaleColor('easy listening'))
+            })
+            .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
+
+            let easy_listeningChart = 
+                d3.select("#easy_listening_group")
+                .select('#easy_listening_line_id')
+                .datum(easy_listening_data)
+                .attr('d', this.lineGenerator)
+                .attr('opacity',  this.GENRE_LINE_OPACITY)
+                .attr('fill', 'none')
+                .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+        }
+        else{
+            d3
+            .select('#easy_listening_group')
             .remove()
         }
 

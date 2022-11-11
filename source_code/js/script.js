@@ -133,6 +133,58 @@ Promise.all([main_line_data,genre_lines_data]).then( data =>
      line.draw_genre_lines()
  });
 
+  //R&B
+  d3.select('#r_b_box').on('click', (d) => 
+  {        
+      if (globalApplicationState.rnb_checked){
+          globalApplicationState.rnb_checked = false
+      }
+      else{
+          globalApplicationState.rnb_checked = true
+      }
+      line.draw_genre_lines()
+  });
+
+  //country
+  d3.select('#country_box').on('click', (d) => 
+  {        
+    
+
+      if (globalApplicationState.country_checked){
+          globalApplicationState.country_checked = false
+      }
+      else{
+          globalApplicationState.country_checked = true
+      }
+      line.draw_genre_lines()
+  });
+
+  d3.select('#folk_box').on('click', (d) => 
+  {        
+
+      if (globalApplicationState.folk_checked){
+          globalApplicationState.folk_checked = false
+      }
+      else{
+          globalApplicationState.folk_checked = true
+      }
+      line.draw_genre_lines()
+  });
+
+  d3.select('#easy_listening_box').on('click', (d) => 
+  {        
+
+      if (globalApplicationState.easy_listening_checked){
+          globalApplicationState.easy_listening_checked = false
+      }
+      else{
+          globalApplicationState.easy_listening_checked = true
+      }
+      line.draw_genre_lines()
+  });
+ 
+ 
+
 
 
 
