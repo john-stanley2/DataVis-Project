@@ -1,0 +1,6 @@
+song,artist,year,genre,numUnique,totalWords,love_words,god_words,dance_words,cool_words,rock_words,swear_words,cw1,cwc1,cw2,cwc2,cw3,cwc3,cw4,cwc4,cw5,cwc5
+Like a Rolling Stone,Bob Dylan,1965,folk,182,422,0,0,0,0,0,0,feel,8,like,8,used,6,home,4,complete,4
+Smells Like Teen Spirit,Nirvana,1991,rock,92,266,0,0,0,0,0,0,hello,36,low,9,denial,9,entertain,6,us,6
+A Day in the Life,The Beatles,1967,rock,135,240,2,0,0,0,0,0,ah,8,read,3,news,3,today,3,oh,3
+Good Vibrations,The Beach Boys,1966,rock,85,343,1,0,0,0,0,0,bop,30,good,27,vibrations,21,excitations,15,pickin,9
+Johnny B. Goode,Chuck Berry,1958,rock,110,233,0,0,0,0,0,0,go,45,johnny,17,b,5,goode,5,oh,4

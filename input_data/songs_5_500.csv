@@ -1,0 +1,408 @@
+song,artist,year,genre,numUnique,totalWords,love_words,god_words,dance_words,cool_words,rock_words,swear_words,cw1,cwc1,cw2,cwc2,cw3,cwc3,cw4,cwc4,cw5,cwc5
+Respect,Aretha Franklin,1967,r&b,88,384,0,0,0,0,0,0,little,27,bit,22,home,9,sock,8,respect,7
+Be My Baby,The Ronettes,1963,r&b,68,287,1,0,0,0,0,0,baby,29,oh,24,say,4,little,4,whoa,4
+What's Going On,Marvin Gaye,1971,r&b,111,469,3,0,0,0,0,0,boo,29,going,15,brother,11,right,11,woo,10
+I Heard It Through the Grapevine,Marvin Gaye,1968,r&b,113,343,3,0,0,0,0,0,heard,13,grapevine,13,yeah,12,much,9,would,9
+(I Can't Get No) Satisfaction,The Rolling Stones,1965,rock,78,304,0,0,0,0,0,0,get,20,try,12,satisfaction,9,hey,9,cause,5
+Billie Jean,Michael Jackson,1982,r&b,146,634,10,0,3,0,0,0,hee,22,billie,13,jean,13,oh,13,lover,9
+Heartbreak Hotel,Elvis Presley,1956,rock,83,241,0,0,0,0,0,0,lonely,18,well,10,baby,7,could,5,get,4
+Born to Run,Bruce Springsteen,1975,rock,192,355,3,0,0,0,0,0,baby,7,run,6,oh,4,tramps,4,like,4
+My Generation,The Who,1965,rock,56,309,0,0,0,0,0,0,generation,43,talkin,26,bout,26,g,6,baby,5
+Love Will Tear Us Apart,Joy Division,1980,rock,86,157,16,0,0,0,0,0,love,16,tear,8,apart,8,us,6,routine,1
+God Only Knows,The Beach Boys,1966,rock,56,315,1,21,0,0,0,0,god,21,knows,21,without,16,bow,11,buh,10
+(Sittin' On) The Dock of the Bay,Otis Redding,1968,r&b,89,202,0,0,0,0,0,0,sittin,7,dock,7,bay,7,roll,5,watching,4
+Hey Ya!,OutKast,2003,hip hop,146,520,2,1,1,4,0,0,oh,30,hey,28,uh,23,shake,18,right,17
+Anarchy in the U.K.,Sex Pistols,1976,rock,78,171,0,0,0,0,0,0,wan,7,anarchy,7,use,4,know,3,get,3
+Paper Planes,M.I.A.,2007,pop,114,432,0,0,0,0,0,0,wan,12,money,12,like,9,get,6,making,4
+London Calling,The Clash,1979,rock,129,283,0,0,0,0,0,0,london,14,calling,11,ice,3,age,3,coming,3
+Sympathy for the Devil,The Rolling Stones,1968,rock,167,472,0,1,0,0,0,1,hoo,28,yeah,14,ooo,14,ah,8,meet,6
+Strawberry Fields Forever,The Beatles,1967,rock,74,212,0,0,0,0,0,0,strawberry,10,fields,10,nothing,8,forever,6,think,5
+Tutti Frutti,Little Richard,1955,rock,52,276,3,0,0,0,2,0,frutti,25,oh,25,rooty,25,b,11,girl,7
+Stairway to Heaven,Led Zeppelin,1971,rock,163,367,0,0,0,0,1,0,ooh,6,makes,5,wonder,5,stairway,4,know,4
+The Message,Grandmaster Flash and The Furious Five,1982,hip hop,420,1241,0,3,2,2,0,4,huh,24,like,20,sometimes,14,keep,14,jungle,13
+What'd I Say,Ray Charles,1959,blues,83,536,1,0,0,0,0,0,alright,31,baby,22,feel,22,hey,21,make,17
+Imagine,John Lennon,1971,rock,70,143,0,0,0,0,0,1,imagine,6,us,4,people,3,world,3,living,2
+A Change Is Gonna Come,Sam Cooke,1964,r&b,82,194,0,0,0,0,0,0,long,9,oh,5,know,5,time,4,comin,4
+"Heroes",David Bowie,1977,rock,78,279,0,0,0,0,0,0,day,10,oh,10,nothing,9,heroes,9,could,6
+When Doves Cry,Prince,1984,r&b,103,396,0,0,0,0,0,0,yeah,24,cry,20,doves,15,maybe,12,like,11
+Superstition,Stevie Wonder,1972,r&b,78,171,0,0,0,0,0,2,superstitious,5,things,5,way,4,believe,3,understand,3
+Common People,Pulp,1995,rock,194,616,0,0,2,1,0,0,common,23,people,23,like,17,wan,15,never,14
+Gimme Shelter,The Rolling Stones,1969,rock,61,249,1,0,0,0,0,0,away,28,shot,19,kiss,7,ooh,6,yeah,6
+Strange Fruit,Billie Holiday,1939,jazz,58,94,0,0,0,0,0,0,strange,3,fruit,3,southern,2,trees,2,blood,2
+You Really Got Me,The Kinks,1964,rock,39,247,0,0,0,0,0,1,got,29,really,19,yeah,7,sleep,6,night,6
+Crazy in Love,Beyoncé,2003,pop,216,893,21,0,0,0,0,0,oh,89,got,41,crazy,34,looking,33,right,26
+Seven Nation Army,The White Stripes,2003,rock,109,204,0,0,0,0,0,1,gon,5,back,5,comin,4,bleedin,3,right,2
+Losing My Religion,R.E.M.,1991,rock,94,298,0,0,0,0,0,0,thought,9,said,7,dream,7,heard,6,oh,5
+God Save the Queen,Sex Pistols,1977,rock,74,207,2,11,0,0,0,0,future,19,god,11,save,8,queen,8,mean,3
+Bohemian Rhapsody,Queen,1975,rock,162,393,2,0,0,0,0,0,go,15,let,12,really,5,ooh,5,never,5
+Blue Monday,New Order,1983,rock,92,194,0,0,0,0,0,0,feel,7,tell,6,thought,5,grows,5,cold,5
+Purple Haze,Jimi Hendrix,1967,rock,72,137,0,0,0,0,0,0,purple,5,haze,4,help,4,know,3,yeah,2
+Louie Louie,The Kingsmen,1963,rock,82,206,1,0,0,0,0,1,louie,16,yeah,15,oh,9,got,9,go,9
+I Want You Back,The Jackson 5,1969,r&b,112,387,5,0,0,0,0,0,buh,20,baby,16,back,13,let,12,oh,11
+Crazy,Gnarls Barkley,2006,hip hop,101,216,0,0,0,0,0,0,crazy,9,think,6,remember,4,like,4,make,3
+You've Lost That Lovin' Feelin',The Righteous Brothers,1964,rock,100,285,8,0,0,0,0,0,lovin,12,baby,11,feelin,11,gone,11,oh,8
+Hey Jude,The Beatles,1968,rock,96,560,0,0,0,1,0,2,jude,43,hey,27,yeah,18,make,12,better,12
+Waterloo Sunset,The Kinks,1967,rock,81,176,0,0,0,0,0,0,waterloo,8,sunset,6,chilly,4,night,3,feel,3
+Take Me Out,Franz Ferdinand,2004,rock,57,269,0,0,0,0,0,0,know,16,say,11,leaving,9,move,5,could,5
+Get Ur Freak On,Missy Elliott,2001,hip hop,136,566,0,0,0,0,0,5,get,67,go,48,freak,42,yes,20,hit,6
+That'll Be the Day,Buddy Holly & The Crickets,1957,rock,320,671,3,0,1,0,0,1,like,16,ever,3,head,2,taking,2,emcee,2
+Light My Fire,The Doors,1967,rock,53,213,2,0,0,0,0,0,fire,15,try,9,baby,8,light,8,set,7
+I Feel Love,Donna Summer,1977,pop,22,249,35,0,0,0,0,0,feel,36,love,36,ooh,12,get,10,good,5
+There Is a Light That Never Goes Out,The Smiths,1986,rock,98,338,0,1,0,0,0,1,never,12,light,8,goes,8,oh,7,home,5
+Space Oddity,David Bowie,1969,rock,117,230,2,1,0,0,0,0,major,9,tom,9,ground,6,control,6,hear,3
+Stand by Me,Ben E. King,1961,rock,58,166,0,0,0,0,0,0,stand,24,oh,8,darlin,6,afraid,2,long,2
+Mr. Tambourine Man,The Byrds,1965,rock,74,154,0,0,1,0,0,0,hey,4,mr,4,tambourine,4,play,4,song,4
+Bitter Sweet Symphony,The Verve,1997,rock,93,495,0,0,0,0,0,0,change,22,mould,14,ever,13,violence,8,melody,7
+(We're Gonna) Rock Around the Clock,Bill Haley and His Comets,1954,rock,76,250,0,0,0,1,33,0,rock,33,gon,21,clock,19,around,11,tonight,10
+Layla,Derek and The Dominos,1970,rock,83,189,2,0,0,0,0,0,layla,12,darling,8,please,5,got,4,knees,4
+River Deep - Mountain High,Ike and Tina Turner,1966,r&b,92,273,17,0,0,0,0,0,baby,22,love,13,oh,9,river,6,gets,5
+Unfinished Sympathy,Massive Attack,1991,pop,62,218,1,0,0,0,0,0,know,10,without,10,mind,5,body,5,like,5
+Loser,Beck,1993,pop,188,436,0,0,0,0,0,0,baby,10,kill,9,loser,9,perdedor,8,got,3
+Fight the Power,Public Enemy,1989,hip hop,210,615,1,0,0,0,0,3,fight,37,power,29,say,19,got,16,lem,11
+Once in a Lifetime,Talking Heads,1980,rock,100,562,0,1,0,0,2,0,water,30,ever,22,go,17,letting,16,days,16
+Paranoid Android,Radiohead,1997,rock,96,227,2,2,0,0,0,0,rain,9,height,8,great,6,may,4,paranoid,4
+Whole Lotta Love,Led Zeppelin,1969,rock,59,233,20,0,0,0,0,0,love,20,wan,12,whole,12,lotta,12,oh,11
+Alright ,Kendrick Lamar,2015,hip hop,269,745,1,2,0,0,0,5,alright,28,gon,27,nigga,19,like,6,hear,6
+House of the Rising Sun,The Animals,1964,rock,82,160,0,2,0,0,0,0,new,4,rising,3,sun,3,orleans,3,call,2
+Walk on the Wild Side,Lou Reed,1972,rock,108,425,0,0,0,0,0,0,doo,162,hey,10,walk,10,wild,10,side,10
+Hotel California,Eagles,1976,rock,187,358,6,0,3,1,0,1,lovely,6,place,5,california,4,night,3,time,3
+99 Problems,Jay-Z,2003,hip hop,290,781,2,0,0,0,0,19,problems,17,got,12,99,12,bitch,12,havin,8
+Dancing on My Own,Robyn,2010,pop,90,306,1,0,10,0,0,0,keep,9,dancing,9,oh,8,see,5,corner,4
+Formation,Beyoncé,2016,pop,191,729,0,0,0,0,4,8,slay,49,okay,42,cause,13,get,11,go,8
+Let's Stay Together,Al Green,1971,r&b,83,191,2,0,0,0,0,0,let,8,whether,7,times,6,together,5,stay,4
+Jumpin' Jack Flash,The Rolling Stones,1968,rock,67,216,0,0,0,0,0,0,gas,18,jumpin,9,jack,9,flash,9,right,8
+All My Friends,LCD Soundsystem,2007,rock,190,470,0,0,0,0,0,0,friends,9,tonight,8,five,5,see,5,could,5
+California Dreamin',The Mamas and the Papas,1965,rock,64,230,0,0,0,0,0,0,winter,9,day,8,california,8,dreamin,8,leaves,4
+Blitzkrieg Bop,Ramones,1976,rock,52,227,0,0,0,0,0,0,go,12,hey,10,let,10,back,8,blitzkrieg,6
+Dancing in the Street,Martha and The Vandellas,1964,r&b,95,319,0,0,27,0,0,0,dancing,27,street,24,sweet,10,music,9,everywhere,6
+Hound Dog,Elvis Presley,1956,rock,36,258,0,0,0,0,0,0,well,10,ahh,8,nothin,6,hound,6,cryin,6
+Oblivion,Grimes,2012,pop,84,256,0,0,0,0,0,0,dark,14,see,13,night,13,look,4,someone,3
+I Want to Hold Your Hand,The Beatles,1963,rock,43,198,2,0,0,0,0,0,hold,13,hand,13,wan,10,something,6,hide,6
+All Along the Watchtower,Jimi Hendrix,1968,rock,109,154,0,0,0,0,0,0,hey,4,along,3,watchtower,3,thief,2,get,2
+Nothing Compares 2 U,Sinéad O'Connor,1990,pop,109,218,2,0,0,0,0,0,nothing,13,compares,10,away,4,since,3,took,2
+How Soon Is Now?,The Smiths,1984,rock,80,211,4,0,0,0,0,0,go,6,like,5,heir,4,say,4,shut,3
+Sweet Child O' Mine,Guns N' Roses,1987,rock,96,309,3,0,0,0,0,1,oh,23,go,19,woah,9,sweet,9,child,7
+For What It's Worth,Buffalo Springfield,1966,rock,102,226,0,0,0,0,0,0,ooh,12,everybody,8,sound,7,look,7,going,7
+The Weight,The Band,1968,rock,144,405,0,0,0,0,0,0,load,25,fanny,11,put,10,right,10,said,7
+Runaway,Kanye West,2010,hip hop,194,758,0,0,0,0,0,5,look,37,toast,15,run,15,away,15,let,13
+Ghost Town,The Specials,1981,rock,65,142,0,0,1,0,0,0,town,14,like,9,ghost,9,coming,8,place,2
+Royals,Lorde,2013,pop,134,427,4,0,0,0,0,0,rule,12,royals,6,kind,6,let,6,ruler,6
+Get Lucky,Daft Punk,2013,hip hop,74,856,0,0,0,0,0,0,night,92,get,73,lucky,51,sun,10,good,10
+Suspicious Minds,Elvis Presley,1969,rock,85,340,9,0,0,0,0,0,love,9,caught,8,trap,8,walk,8,much,8
+Life on Mars?,David Bowie,1971,rock,131,274,0,1,2,0,0,0,oh,4,look,4,show,4,go,3,film,2
+Reach Out I'll Be There,Four Tops,1966,r&b,102,327,7,0,0,0,0,0,reach,12,love,7,feel,3,around,3,darlin,3
+That's All Right,Elvis Presley,1954,rock,51,159,0,0,0,0,0,0,right,14,dee,12,mama,7,anyway,5,well,4
+Get Up (I Feel Like Being a) Sex Machine,James Brown,1970,r&b,98,646,0,0,0,0,0,0,get,85,like,18,right,16,machine,11,stay,11
+Wonderwall,Oasis,1995,rock,86,309,0,0,0,0,0,0,gon,9,saves,9,maybe,6,said,5,way,4
+Heroin,The Velvet Underground,1967,rock,149,398,0,3,0,0,0,0,know,8,guess,8,cause,3,like,3,big,3
+Whole Lotta Shakin' Goin' On,Jerry Lee Lewis,1957,rock,73,245,0,0,0,0,0,0,shake,20,baby,18,whole,7,shakin,7,got,7
+Thunder Road,Bruce Springsteen,1975,rock,223,452,0,0,1,1,0,0,oh,8,road,6,make,5,thunder,5,hey,4
+One,U2,1991,rock,113,287,8,0,0,0,0,0,love,8,higher,6,got,5,life,4,get,4
+I'm Waiting for the Man,The Velvet Underground,1967,rock,126,223,0,0,0,0,0,0,waiting,6,oh,4,got,4,feeling,3,hey,2
+The Tracks of My Tears,Smokey Robinson and The Miracles,1965,r&b,87,243,0,0,0,0,0,0,look,8,need,8,see,5,smile,5,good,4
+Yesterday,The Beatles,1965,rock,68,143,2,0,0,0,0,0,yesterday,9,mmm,5,oh,4,away,3,believe,3
+Dancing Queen,ABBA,1976,pop,85,221,0,0,13,0,1,0,dancing,8,queen,8,dance,5,digging,4,jive,3
+Summertime Blues,Eddie Cochran,1958,rock,92,194,0,0,0,0,0,0,gon,7,work,3,sometimes,3,wonder,3,cure,3
+This Charming Man,The Smiths,1983,rock,74,172,0,0,0,0,0,0,nana,6,knows,5,much,5,charming,4,said,4
+Blue Suede Shoes,Carl Perkins,1956,rock,64,230,0,0,0,0,1,0,blue,21,shoes,14,suede,13,anything,7,lay,7
+Good Times,Chic,1979,rock,107,389,0,0,0,0,0,2,good,35,times,35,leave,6,cares,6,behind,6
+Pyramids,Frank Ocean,2012,hip hop,207,583,3,1,0,0,0,1,pyramid,27,working,27,oh,16,cleopatra,15,tonight,14
+My Girl,The Temptations,1964,r&b,81,220,0,0,0,0,0,0,girl,22,got,7,talkin,7,bout,7,ooh,7
+Paint It Black,The Rolling Stones,1966,rock,111,244,2,0,0,0,0,0,black,12,see,11,painted,9,turn,6,red,3
+Video Games,Lana Del Rey,2011,pop,120,415,3,0,0,0,0,0,tell,6,say,5,video,4,like,4,everything,3
+Rehab,Amy Winehouse,2006,r&b,108,352,0,0,0,0,0,2,go,16,know,13,tried,7,make,7,rehab,7
+Rapper's Delight,The Sugarhill Gang,1979,hip hop,945,2783,3,0,2,2,11,4,would,17,breaks,17,break,17,brown,17,used,16
+The Sound of Silence,Simon and Garfunkel,1965,folk,125,222,0,1,0,0,0,0,silence,6,people,5,sound,4,words,4,like,3
+Fortunate Son,Creedence Clearwater Revival,1969,rock,76,234,0,0,0,0,0,0,lord,5,fortunate,5,ooh,4,folks,3,born,2
+Papa's Got a Brand New Bag,James Brown,1965,r&b,104,315,0,0,0,0,0,0,figaro,19,citta,10,bravo,8,fortuna,6,papa,6
+Bridge Over Troubled Water,Simon and Garfunkel,1970,folk,81,172,0,0,0,0,0,0,like,7,bridge,6,troubled,6,water,6,lay,4
+No Woman No Cry,Bob Marley and The Wailers,1974,no genre,97,282,0,0,0,0,0,0,woman,15,cry,13,everything,8,going,8,alright,8
+Proud Mary,Creedence Clearwater Revival,1969,rock,80,187,0,0,0,0,0,0,rollin,24,river,11,keep,6,big,3,wheel,3
+Every Breath You Take,The Police,1983,rock,73,366,0,0,0,0,0,0,every,52,watching,14,move,8,make,8,break,7
+Maybellene,Chuck Berry,1955,rock,99,282,0,0,0,0,0,0,maybellene,12,true,10,oh,6,done,6,started,6
+A Whiter Shade of Pale,Procol Harum,1967,rock,143,301,1,0,0,0,0,1,turned,5,later,4,miller,4,told,4,first,4
+Midnight City,M83,2011,pop,37,145,0,0,0,0,0,0,waiting,18,car,11,ride,8,dark,8,city,3
+Losing My Edge,LCD Soundsystem,2002,rock,292,742,0,0,0,0,1,0,know,18,really,17,losing,14,edge,14,every,8
+I'm So Lonesome I Could Cry,Hank Williams,1949,country,71,105,0,0,0,0,0,0,lonesome,4,could,3,cry,3,like,2,hear,1
+Eight Miles High,The Byrds,1966,rock,65,76,0,0,0,0,0,0,known,2,find,1,stranger,1,signs,1,street,1
+Born Slippy,Underworld,1995,edm,125,374,0,0,0,0,0,0,boy,41,lager,19,mega,15,blonde,6,shouting,6
+Great Balls of Fire,Jerry Lee Lewis,1957,rock,82,207,7,0,0,0,0,0,baby,6,love,5,goodness,4,gracious,4,great,4
+Maps,Yeah Yeah Yeahs,2003,rock,37,202,26,0,0,0,0,0,love,26,say,21,like,14,wait,13,oh,7
+Umbrella,Rihanna,2007,pop,156,567,1,0,0,0,0,0,eh,45,umbrella,15,rainin,11,uh,8,huh,8
+She Loves You,The Beatles,1963,rock,60,240,18,0,0,0,0,0,yeah,29,loves,13,know,11,glad,7,love,5
+Tangled Up in Blue,Bob Dylan,1975,folk,287,618,0,0,0,0,0,0,like,7,tangled,7,blue,7,never,4,know,4
+Maggie May,Rod Stewart,1971,rock,146,331,4,0,0,0,1,1,maggie,6,oh,4,tried,4,home,4,stole,4
+Will You Love Me Tomorrow,The Shirelles,1960,rock,66,144,10,0,0,0,0,0,love,10,tomorrow,5,still,5,tonight,3,night,2
+Seasons (Waiting on You),Future Islands,2014,rock,67,211,0,0,0,0,0,0,ooh,9,change,5,cause,5,waiting,5,crave,5
+Creep,Radiohead,1992,rock,69,189,0,0,0,0,0,3,special,6,run,5,belong,4,like,3,wish,3
+Be-Bop-a-Lula,Gene Vincent,1956,rock,51,247,1,0,0,0,2,0,baby,18,bop,16,lula,16,doll,11,mean,6
+Paranoid,Black Sabbath,1970,metal,88,146,1,0,0,0,0,0,think,3,things,3,help,2,mind,2,find,2
+Heart of Glass,Blondie,1978,rock,90,264,10,0,0,0,0,3,ah,16,love,10,dum,8,oooh,8,like,6
+Kashmir,Led Zeppelin,1975,rock,148,327,0,0,0,0,0,0,oh,18,yeah,17,ooh,10,let,6,fill,3
+Walk This Way,Run-D.M.C.,1986,hip hop,137,391,2,0,2,0,0,0,way,19,walk,10,talk,9,like,7,school,7
+Like a Prayer,Madonna,1989,pop,87,589,0,1,1,0,0,0,like,46,prayer,27,voice,13,oh,9,dream,9
+Marquee Moon,Television,1977,rock,87,209,0,0,0,0,0,0,life,6,listening,4,hearing,4,hive,3,puckered,3
+Hotline Bling ,Drake,2015,hip hop,131,458,8,0,1,0,0,0,need,10,call,9,used,8,cell,8,phone,8
+Time to Pretend,MGMT,2007,rock,121,254,1,0,0,0,0,1,yeah,14,pretend,8,miss,6,fated,4,models,3
+When a Man Loves a Woman,Percy Sledge,1966,r&b,105,204,7,0,0,0,0,0,loves,6,woman,6,baby,3,world,2,bad,2
+Brown Sugar,The Rolling Stones,1971,rock,102,222,0,0,0,0,0,0,yeah,12,brown,8,sugar,8,like,8,taste,5
+Over the Rainbow,Judy Garland,1939,easy listening,66,109,0,0,0,0,0,0,rainbow,5,somewhere,3,fly,3,like,2,bluebirds,2
+Tomorrow Never Knows,The Beatles,1966,rock,52,120,2,0,0,0,0,0,beginning,6,dying,2,shining,2,may,2,love,2
+This Land Is Your Land,Woody Guthrie,1945,folk,109,288,0,0,0,0,0,0,land,15,made,8,saw,3,voice,3,california,2
+Oh Pretty Woman,Roy Orbison,1964,rock,92,189,1,0,0,0,0,0,pretty,16,woman,15,yeah,4,walking,3,like,3
+Jailhouse Rock,Elvis Presley,1957,rock,131,299,0,0,9,0,22,0,rock,23,let,10,everybody,10,jailhouse,10,dancing,9
+Empire State of Mind,Jay-Z,2009,hip hop,314,782,1,0,0,0,1,2,new,26,yeah,21,york,20,uh,16,made,8
+I Bet You Look Good on the Dancefloor,Arctic Monkeys,2005,rock,103,338,1,0,3,0,0,0,bet,6,look,6,good,6,dancefloor,6,know,6
+Like a Virgin,Madonna,1984,pop,95,252,5,0,0,0,0,0,like,9,whoa,9,virgin,8,ooh,7,made,6
+Into the Groove,Madonna,1985,pop,109,539,9,0,11,0,0,0,get,17,yeah,17,boy,16,got,14,love,9
+Let It Happen,Tame Impala,2015,metal,130,353,0,0,0,0,0,0,ready,8,oh,8,let,6,happen,6,around,4
+Cranes in the Sky,Solange,2016,r&b,87,261,1,0,1,0,0,0,away,61,tried,8,like,5,feel,5,thought,4
+Song 2,Blur,1997,rock,53,141,0,0,0,0,0,0,woo,10,hoo,10,yeah,6,easy,3,got,2
+Purple Rain,Prince,1984,r&b,90,219,1,0,0,0,0,0,purple,23,rain,23,see,6,never,4,wanted,4
+Wuthering Heights,Kate Bush,1978,pop,92,302,2,0,0,0,0,0,let,10,heathcliff,8,cathy,8,home,8,cold,7
+Born in the U.S.A.,Bruce Springsteen,1984,rock,121,302,1,0,0,1,0,0,born,15,got,3,like,2,go,2,refinery,2
+Kids,MGMT,2007,rock,88,226,0,0,0,0,0,0,control,8,need,8,family,8,trees,7,wanted,7
+Nuthin' But a 'G' Thang,Dr. Dre,1992,hip hop,285,826,0,0,0,0,4,18,like,31,yeah,14,got,14,know,8,feeling,8
+Peggy Sue,Buddy Holly & The Crickets,1957,rock,958,4207,4,4,3,0,2,5,rick,98,neil,83,mike,69,vyvyan,65,oh,36
+White Rabbit,Jefferson Airplane,1967,rock,93,141,0,0,0,0,0,0,go,4,alice,3,pill,2,makes,2,small,2
+Kiss,Prince,1986,r&b,103,294,1,0,1,3,0,0,got,6,rule,5,world,5,girl,4,time,4
+Sunday Bloody Sunday,U2,1983,rock,110,273,0,0,0,0,0,0,sunday,40,bloody,20,long,8,tonight,8,oh,6
+Psycho Killer,Talking Heads,1977,rock,94,334,0,0,0,0,0,0,fa,60,run,42,oh,18,psycho,6,killer,6
+Tainted Love,Soft Cell,1981,rock,89,249,17,0,0,0,0,0,love,18,tainted,15,oh,8,got,4,run,4
+Little Red Corvette,Prince,1982,r&b,141,453,8,0,0,0,0,2,little,17,red,16,corvette,15,right,10,got,9
+Family Affair,Sly and the Family Stone,1971,rock,80,194,3,0,0,0,0,0,family,14,affair,13,cause,4,child,2,grows,2
+Can't Get You Out of My Head,Kylie Minogue,2001,pop,53,395,3,0,0,0,0,0,get,10,head,10,boy,6,think,6,ever,6
+Honky Tonk Women,The Rolling Stones,1969,rock,82,169,0,0,0,0,0,0,gim,12,honky,8,tonk,8,women,4,mind,3
+Your Best American Girl,Mitski,2016,pop,87,200,0,0,0,0,0,0,mother,6,american,4,approve,3,raised,3,think,3
+Autobahn,Kraftwerk,1974,rock,46,473,0,0,0,0,0,0,fahr,123,autobahn,53,liegt,1,weites,1,tal,1
+My Girls,Animal Collective,2009,rock,64,625,0,0,0,0,0,0,father,19,grave,19,like,13,much,9,feel,9
+Eleanor Rigby,The Beatles,1966,rock,86,210,0,0,0,0,0,0,lonely,12,people,12,look,7,ah,6,belong,3
+Get It On [Bang a Gong (Get It On)],T. Rex,1971,rock,204,693,5,0,1,0,4,0,truck,17,yeah,14,oh,9,baby,8,well,8
+There She Goes,The La's,1988,rock,39,131,0,0,0,0,0,0,goes,12,blows,5,contain,4,feelin,4,remains,4
+Help!,The Beatles,1965,rock,80,246,0,0,0,0,0,0,help,17,please,6,younger,4,need,3,anybody,3
+House of Jealous Lovers,The Rapture,2002,rock,24,70,1,0,0,0,0,0,house,9,jealous,9,lovers,8,shakedown,3,hand,2
+Last Nite,The Strokes,2001,rock,78,220,0,0,0,0,0,0,oh,10,understand,8,feel,7,baby,6,night,4
+Le Freak,Chic,1978,rock,95,268,0,0,1,0,0,0,freak,27,ah,7,chic,7,like,3,us,2
+Won't Get Fooled Again,The Who,1971,rock,130,329,0,0,0,0,0,0,get,8,new,7,smile,4,change,4,like,4
+In My Life,The Beatles,1965,rock,68,155,5,0,0,0,0,0,life,5,love,4,know,4,though,3,lose,3
+Hurt,Johnny Cash,2002,country,88,167,0,0,0,0,0,0,away,4,hurt,3,could,3,still,2,become,2
+Ms. Jackson,OutKast,2000,hip hop,258,728,3,0,0,1,0,5,ms,12,jackson,12,never,12,daughter,11,times,11
+Walk On By,Dionne Warwick,1964,easy listening,64,243,0,0,0,0,0,0,walk,18,stop,12,tears,5,cry,4,see,4
+Folsom Prison Blues,Johnny Cash,1955,country,113,192,0,0,0,0,0,0,train,3,know,3,prison,3,hear,2,folsom,2
+Sign 'O' the Times,Prince,1987,r&b,157,263,1,0,0,0,0,0,time,13,oh,4,baby,3,fly,3,truly,3
+Bad Guy,Billie Eilish,2019,pop,125,299,0,0,0,0,0,0,guy,16,bad,13,like,6,type,6,make,4
+Teenage Kicks,The Undertones,1978,rock,58,206,0,0,0,0,0,0,wan,10,hold,10,right,8,teenage,7,tight,5
+This Is America,Childish Gambino,2018,hip hop,136,660,0,0,2,0,0,0,yeah,62,black,30,get,25,ooh,18,money,17
+Blowin' in the Wind,Bob Dylan,1963,folk,79,192,0,0,0,0,0,0,many,10,yes,7,answer,6,blowin,6,must,5
+I Walk the Line,Johnny Cash,1956,country,82,194,1,0,0,0,0,0,keep,8,walk,5,line,4,day,3,close,2
+Brown Eyed Girl,Van Morrison,1967,folk,109,273,1,0,0,0,0,2,brown,6,eyed,6,girl,6,bit,6,sha,5
+Blueberry Hill,Fats Domino,1956,blues,49,109,2,0,0,0,0,0,blueberry,5,hill,4,thrill,3,still,3,found,2
+Planet Rock,Afrika Bambaataa & The Soulsonic Force,1982,hip hop,866,1317,18,1,3,1,3,4,love,15,jackson,8,michael,5,never,5,life,5
+Crazy,Patsy Cline,1961,rock,45,105,5,0,0,0,0,0,crazy,12,love,3,feeling,2,worry,2,thinking,2
+Bo Diddley,Bo Diddley,1955,blues,67,113,0,0,0,0,0,0,diddley,5,baby,4,ring,3,pretty,3,diamond,2
+Subterranean Homesick Blues,Bob Dylan,1965,folk,208,348,0,1,1,0,0,0,get,10,look,4,kid,4,better,4,keep,3
+Mr. Brightside,The Killers,2004,rock,103,324,0,0,0,0,0,0,kiss,6,got,4,calling,4,taking,4,sick,4
+People Get Ready,The Impressions,1965,r&b,74,160,1,0,0,0,0,0,need,6,get,5,people,3,ready,3,train,3
+Virginia Plain,Roxy Music,1972,rock,143,234,0,0,1,0,0,0,make,7,try,4,throw,3,show,2,time,2
+Runaway,Del Shannon,1961,rock,66,176,2,0,0,0,0,0,run,16,wonder,7,runaway,5,walk,2,love,2
+Baba O'Riley,The Who,1971,rock,68,113,0,0,0,0,0,0,yeah,6,teenage,5,wasteland,5,get,3,fight,2
+Go Your Own Way,Fleetwood Mac,1976,rock,57,184,1,0,0,0,0,0,go,14,way,13,another,6,lonely,6,day,6
+Two Weeks,FKA Twigs,2014,pop,104,364,4,0,0,0,0,8,high,19,open,13,mouth,12,like,6,know,5
+(White Man) In Hammersmith Palais,The Clash,1978,rock,176,268,0,0,0,1,3,1,got,4,lookin,3,fun,3,1,2,2,2
+(Don't Fear) The Reaper,Blue Öyster Cult,1976,rock,101,271,1,0,0,0,0,0,fear,9,reaper,8,baby,8,like,6,gone,3
+Penny Lane,The Beatles,1967,rock,107,240,0,0,0,0,0,1,penny,8,lane,8,back,4,ears,4,eyes,4
+Smoke on the Water,Deep Purple,1972,rock,107,197,0,0,0,0,0,0,smoke,6,water,6,place,4,fire,3,sky,3
+Toxic,Britney Spears,2003,pop,81,332,2,0,0,0,0,0,toxic,12,taste,8,know,7,lips,4,ride,4
+Roadrunner,Jonathan Richman/The Modern Lovers,1975,rock,158,555,8,0,0,0,0,0,modern,17,feel,13,roadrunner,12,got,10,radio,9
+Don't You Want Me,The Human League,1981,rock,113,362,1,0,0,0,0,0,baby,6,ohh,6,know,4,believe,4,much,4
+Bad Girls,M.I.A.,2012,pop,118,485,0,0,0,0,0,2,fast,17,live,16,young,16,bad,16,girls,16
+Changes,David Bowie,1971,rock,135,328,0,0,0,0,1,0,ch,36,changes,13,time,10,strange,7,turn,6
+Don't Stop 'Til You Get Enough,Michael Jackson,1979,r&b,100,791,14,0,0,0,0,0,stop,73,keep,46,force,38,get,37,enough,36
+Let It Be,The Beatles,1970,rock,67,270,0,0,0,0,0,0,let,41,words,7,wisdom,7,answer,5,yeah,5
+Don't Be Cruel,Elvis Presley,1956,rock,81,226,5,0,0,0,0,0,heart,7,cruel,6,true,6,baby,5,love,5
+Papa Was a Rolling Stone,The Temptations,1972,r&b,138,432,0,0,0,0,0,0,papa,15,momma,9,died,8,rolling,8,stone,8
+Rolling in the Deep,Adele,2010,pop,137,589,4,0,0,0,0,1,gon,24,rolling,16,deep,16,wish,12,never,12
+Living for the City,Stevie Wonder,1973,r&b,248,747,1,1,0,0,0,1,city,32,enough,25,living,21,oh,15,yeah,12
+Gloria,Them,1964,rock,68,193,0,0,0,0,0,0,yeah,12,gloria,10,comes,5,make,5,feel,5
+Try a Little Tenderness,Otis Redding,1966,r&b,101,298,5,0,0,0,0,0,yeah,20,got,13,try,11,little,6,tenderness,6
+I Wanna Be Your Dog,The Stooges,1969,rock,47,117,0,0,0,0,0,0,wan,6,ready,3,well,2,close,2,uh,2
+1979,Smashing Pumpkins,1995,rock,130,244,0,0,0,1,0,0,see,5,never,3,even,3,know,3,street,2
+The Girl from Ipanema,Stan Getz,1964,jazz,122,312,5,0,0,1,0,0,see,7,ah,6,passes,6,goes,5,gung,4
+You Send Me,Sam Cooke,1957,r&b,43,216,0,0,0,0,0,0,send,15,know,15,honest,9,whoa,6,oh,4
+Wild Thing,The Troggs,1966,rock,30,103,3,0,0,0,0,0,wild,11,thing,10,make,6,heart,3,sing,3
+Ziggy Stardust,David Bowie,1972,rock,114,186,1,1,0,0,0,2,ziggy,6,played,4,oh,3,yeah,3,guitar,3
+In the Midnight Hour,Wilson Pickett,1965,r&b,72,213,5,0,0,0,0,0,midnight,10,hour,9,gon,8,wait,6,love,5
+Wichita Lineman,Glen Campbell,1968,country,56,123,0,0,0,0,0,0,lineman,4,wichita,3,still,3,line,3,need,3
+I Got You (I Feel Good),James Brown,1965,r&b,38,203,2,0,0,0,0,0,good,12,nice,12,feel,10,got,7,like,7
+Idioteque,Radiohead,2000,rock,68,288,0,0,0,0,0,0,first,21,childre,11,children,6,alive,6,everything,6
+Sunshine of Your Love,Cream,1967,rock,60,201,7,0,0,0,0,0,love,7,waiting,5,long,5,stay,4,lights,3
+Search and Destroy,The Stooges,1973,rock,76,236,2,0,0,0,0,0,hey,11,forgotten,9,boy,9,got,8,honey,7
+While My Guitar Gently Weeps,The Beatles,1968,rock,63,167,3,0,0,0,0,0,oh,14,yeah,9,look,6,guitar,6,gently,6
+Ever Fallen in Love?,Buzzcocks,1978,rock,61,274,33,0,0,0,0,0,love,33,fallen,23,ever,16,someone,16,natural,2
+The Times They Are A-Changin',Bob Dylan,1964,folk,128,260,0,0,0,0,0,0,times,5,changin,5,later,4,soon,3,like,2
+With or Without You,U2,1987,rock,72,212,0,0,0,0,0,0,without,13,give,11,oh,10,away,6,wait,3
+Mystery Train,Elvis Presley,1955,rock,39,119,0,0,0,0,0,0,train,15,round,10,coming,6,bend,6,well,4
+Leader of the Pack,The Shangri-La's,1964,easy listening,149,350,0,0,0,0,0,0,gone,22,leader,8,pack,8,look,4,ooh,4
+Let's Get It On,Marvin Gaye,1973,r&b,120,387,10,0,0,0,0,0,baby,17,let,17,get,15,love,9,oh,8
+La Bamba,Ritchie Valens,1958,rock,29,134,0,0,0,0,0,0,bamba,18,arriba,10,bailar,6,poca,6,gracia,6
+Dance Yrself Clean,LCD Soundsystem,2010,rock,183,468,0,0,4,0,0,0,ah,23,present,11,company,11,go,9,ahhhh,8
+Relax,Frankie Goes to Hollywood,1983,rock,73,317,1,0,0,0,0,0,relax,18,ow,18,go,5,yeah,5,hit,5
+Rebellion (Lies),Arcade Fire,2004,rock,80,312,0,0,0,0,0,0,lies,27,time,16,every,15,close,15,eyes,15
+Don't Worry Baby,The Beach Boys,1964,rock,90,247,3,0,0,0,0,0,baby,23,worry,21,makes,4,everything,4,turn,4
+Debaser,Pixies,1989,rock,39,142,0,0,0,0,0,0,debaser,25,chien,8,andalusia,8,know,5,got,2
+Sweet Jane,The Velvet Underground,1970,rock,152,317,0,0,0,0,1,0,jane,17,sweet,15,oh,8,jack,3,know,3
+Why Do Fools Fall in Love,Frankie Lymon and The Teenagers,1955,rock,54,155,10,0,0,0,0,0,fall,10,love,10,fools,4,tell,4,ooooo,3
+Running Up That Hill,Kate Bush,1985,pop,93,405,1,5,0,0,0,0,yeah,16,runnin,15,could,10,hill,8,oh,7
+Beat It,Michael Jackson,1982,r&b,96,487,0,0,0,0,0,0,beat,61,right,9,wan,8,wants,8,defeated,8
+Wish You Were Here,Pink Floyd,1975,rock,93,147,0,0,0,1,0,1,yes,3,tell,3,wish,3,think,2,cold,2
+Sabotage,Beastie Boys,1994,hip hop,108,267,0,1,0,0,0,0,sabotage,6,listen,5,stand,4,cause,3,mirage,3
+Alone Again Or,Love,1967,pop,54,117,2,0,0,0,0,0,yeah,3,said,3,alone,3,tonight,3,dear,2
+One More Time,Daft Punk,2000,hip hop,47,433,0,0,19,0,0,0,celebrate,36,free,28,time,27,gon,22,feeling,17
+Green Light,Lorde,2017,pop,115,477,5,0,0,0,0,1,light,18,waiting,14,green,14,liar,9,honey,8
+Over and Over,Hot Chip,2006,rock,66,377,0,0,0,0,0,0,laid,12,back,12,tell,12,really,9,repetition,6
+All the Young Dudes,Mott the Hoople,1972,rock,153,423,2,0,0,0,0,0,dudes,19,news,17,carry,16,young,8,boogaloo,8
+The Boys Are Back in Town,Thin Lizzy,1976,rock,136,401,0,0,1,1,0,0,boys,31,back,30,town,27,around,4,got,3
+Lose Yourself,Eminem,2002,hip hop,316,856,1,1,0,0,0,2,better,16,go,15,shot,9,opportunity,8,moment,8
+212,Azealia Banks,2011,pop,238,619,0,0,1,0,0,22,bitch,14,get,6,nigga,6,fuck,5,like,5
+Firestarter,The Prodigy,1996,edm,37,163,0,0,0,0,0,1,hey,47,starter,18,fire,15,twisted,9,yeah,2
+Kick Out the Jams,MC5,1969,rock,119,276,0,0,0,0,0,1,kick,10,alright,8,got,5,let,5,right,4
+See Emily Play,Pink Floyd,1967,rock,65,131,0,0,0,0,0,0,emily,7,play,5,ah,3,ooh,3,day,3
+Two Weeks,Grizzly Bear,2009,rock,38,176,0,0,0,0,0,0,oh,85,would,6,time,5,like,4,always,4
+Girls and Boys,Blur,1994,rock,78,315,8,0,0,0,0,0,girls,28,boys,28,like,24,oh,22,love,8
+Son-of-a Preacher Man,Dusty Springfield,1968,rock,109,350,0,0,0,0,0,0,preacher,12,could,11,ever,11,yes,6,reach,5
+Cannonball,The Breeders,1993,rock,39,139,0,0,0,0,0,2,shade,9,cuckoo,7,cannonball,7,know,4,check,3
+B. O. B. (Bombs Over Baghdad),OutKast,2000,hip hop,3334,12572,43,29,6,4,20,29,feat,764,lil,152,denzel,71,curry,71,powfu,56
+Thinkin Bout You,Frank Ocean,2012,hip hop,113,321,1,0,0,1,0,0,thinkin,12,bout,12,think,9,ooh,8,know,7
+Many Rivers to Cross,Jimmy Cliff,1969,no genre,87,153,0,0,0,0,0,0,many,4,rivers,4,cross,4,find,3,seem,2
+Gold Digger,Kanye West,2005,hip hop,228,805,1,0,0,0,1,4,get,30,got,28,leave,20,girl,19,go,17
+Israelites,Desmond Dekker,1968,rock,76,273,0,0,0,0,0,0,poor,32,israelites,16,hey,10,yeah,6,sir,5
+Something,The Beatles,1969,rock,54,139,3,0,0,0,0,0,know,7,something,5,way,3,leave,3,believe,3
+Ring of Fire,Johnny Cash,1963,country,39,201,2,0,0,0,0,0,ring,20,fire,19,burns,15,went,9,fell,6
+Sexual Healing,Marvin Gaye,1982,r&b,129,448,2,0,0,0,0,0,darling,18,get,14,heal,14,sexual,13,healing,13
+Cross Road Blues,Robert Johnson,1936,blues,820,936,2,1,1,0,0,2,1971,4,1989,3,1964,3,rolling,3,1965,3
+Highway to Hell,AC/DC,1979,rock,80,210,0,0,0,0,1,19,highway,20,hell,20,gon,4,way,3,nothing,2
+Born to Be Wild,Steppenwolf,1968,rock,72,192,3,0,0,0,0,0,born,8,wild,6,like,4,yeah,3,darlin,3
+Theme from Shaft,Isaac Hayes,1971,r&b,65,96,0,0,0,0,0,1,shaft,6,right,2,black,1,private,1,dick,1
+Brass in Pocket,Pretenders,1979,rock,73,238,0,0,0,0,0,1,gon,19,use,13,make,12,special,12,got,9
+Shake Rattle and Roll,Big Joe Turner,1954,blues,91,264,0,0,0,0,0,0,shake,13,rattle,13,roll,13,get,5,soul,5
+Hoochie Coochie Man,Muddy Waters,1954,blues,94,277,0,0,0,0,0,0,know,8,everybody,8,knows,8,gon,7,got,6
+Jesus Walks,Kanye West,2004,hip hop,230,574,0,7,0,0,0,6,jesus,18,walk,14,god,7,way,7,tryna,5
+Suzanne,Leonard Cohen,1967,folk,154,336,3,0,0,0,0,0,travel,6,suzanne,3,river,3,know,3,blind,3
+Bye Bye Love,The Everly Brothers,1957,easy listening,58,185,13,0,0,0,0,0,bye,36,love,13,hello,6,goodbye,6,like,4
+Windowlicker,Aphex Twin,1999,new age,13,58,0,0,0,0,0,0,window,36,windowlicker,11,aime,1,faire,1,croquettes,1
+Heartbeats,The Knife,2002,edm,79,182,1,0,0,0,0,0,hands,6,night,5,call,5,lean,5,good,5
+School's Out,Alice Cooper,1972,rock,74,163,0,0,0,0,0,1,school,10,got,4,summer,4,well,3,forever,3
+Stop! In the Name of Love,The Supremes,1965,r&b,85,281,11,0,0,0,0,0,love,11,think,11,stop,10,break,9,heart,9
+La Vie en rose,Edith Piaf,1945,easy listening,96,251,0,0,0,0,0,0,vie,6,mots,4,cœur,4,prend,3,amour,3
+Fell in Love with a Girl,The White Stripes,2001,rock,94,293,9,0,0,0,0,0,ah,16,love,9,yeah,6,said,5,fell,4
+Enter Sandman,Metallica,1991,metal,110,281,0,0,0,0,0,0,never,19,land,9,light,5,hand,5,yeah,5
+Je t'aime moi non plus,Serge Gainsbourg,1969,rock,41,224,0,0,0,0,0,0,viens,13,aime,12,reins,11,vais,9,oh,6
+Where Is My Mind?,Pixies,1988,rock,66,190,0,0,0,0,1,0,mind,9,head,5,swimmin,4,feet,3,air,3
+96 Tears,Question Mark and the Mysterians,1966,no genre,78,227,0,0,0,0,0,0,cry,21,96,8,gon,7,tears,7,heart,4
+Stan,Eminem,2000,hip hop,386,1448,1,0,0,0,0,22,got,14,shit,14,like,12,see,11,bad,10
+Radio Free Europe,R.E.M.,1981,rock,72,189,0,0,0,0,0,0,radio,9,callin,9,transit,8,put,6,free,6
+Bring the Noise,Public Enemy,1987,hip hop,297,732,0,0,0,0,5,2,like,8,get,8,cause,7,got,7,know,6
+Ace of Spades,Motörhead,1980,metal,93,186,0,0,1,0,0,0,ace,6,spades,5,like,3,know,3,see,3
+Where Did Our Love Go,The Supremes,1964,r&b,61,177,5,0,0,0,0,0,baby,16,ooh,10,leave,7,burning,5,love,5
+Teen Age Riot,Sonic Youth,1988,rock,182,423,0,0,0,0,0,0,spirit,12,desire,12,fall,5,everybody,4,get,3
+(Your Love Keeps Lifting Me) Higher and Higher,Jackie Wilson,1967,r&b,84,289,23,0,0,0,0,0,lifting,36,higher,26,love,22,keeps,14,keep,10
+Wake Up,Arcade Fire,2004,rock,96,155,0,1,0,0,0,0,see,5,lightning,3,bolts,3,glowing,3,going,3
+Gimme Some Lovin',Spencer Davis Group,1966,rock,92,253,0,0,0,0,0,0,gim,15,lovin,15,made,7,glad,6,hey,5
+Gloria,Patti Smith,1975,rock,191,379,1,0,0,0,0,1,go,4,cause,4,thing,3,paper,3,well,3
+Back in Black,AC/DC,1980,rock,102,311,1,0,0,0,0,0,back,42,yes,12,well,12,black,9,yeah,7
+Tumbling Dice,The Rolling Stones,1972,rock,102,323,0,0,0,0,0,0,got,24,roll,24,oh,12,baby,10,tumbling,7
+Summer in the City,The Lovin' Spoonful,1966,rock,90,318,0,0,3,2,0,0,city,12,summer,8,night,6,pity,5,like,5
+Blind,Hercules and Love Affair,2008,pop,69,252,0,0,0,0,0,0,feel,17,present,6,stars,5,could,5,get,5
+Killing in the Name,Rage Against the Machine,1992,rock,52,627,0,0,0,0,0,17,told,24,fuck,16,tell,16,work,8,forces,8
+Only the Lonely (Know the Way I Feel),Roy Orbison,1960,rock,62,190,0,0,0,0,0,0,dum,27,yay,12,lonely,12,dumdy,9,doo,9
+Just Like Heaven,The Cure,1987,rock,104,207,3,0,1,0,0,0,show,4,like,4,said,3,away,3,alone,3
+Sweet Dreams (Are Made of This),Eurythmics,1983,rock,45,307,0,0,0,0,0,0,sweet,8,dreams,8,made,8,disagree,8,traveled,8
+Young Folks,Peter Bjorn and John,2006,rock,96,326,0,0,0,0,0,0,talking,18,bout,12,style,9,young,6,folks,6
+Seventeen,Sharon Van Etten,2019,rock,95,241,0,0,0,0,0,0,used,7,seventeen,7,know,4,like,4,think,3
+Sweet Home Alabama,Lynyrd Skynyrd,1974,rock,126,268,1,0,0,0,0,0,home,14,alabama,13,ah,12,sweet,9,blue,5
+I Can't Explain,The Who,1965,rock,71,224,2,0,0,0,0,0,explain,18,yeah,7,said,5,feeling,4,feel,3
+Groove Is in the Heart,Deee-Lite,1990,pop,172,413,1,0,3,0,0,0,groove,17,heart,14,ask,7,another,7,baby,5
+Float On,Modest Mouse,2004,rock,105,330,0,0,0,0,0,0,float,23,alright,11,okay,9,win,8,lose,8
+White Christmas,Bing Crosby,1942,easy listening,40,116,0,0,0,0,0,2,white,6,christmas,6,dreaming,4,may,4,like,3
+You Can't Always Get What You Want,The Rolling Stones,1969,rock,127,492,0,0,0,0,0,3,get,27,always,18,yeah,12,find,8,might,8
+Move On Up,Curtis Mayfield,1970,r&b,89,176,0,0,0,0,0,1,move,10,might,3,cry,2,folks,2,understand,2
+Cellophane,FKA twigs,2019,pop,57,257,3,0,0,0,0,0,us,9,wan,8,see,8,feel,3,share,3
+I Can't Stand the Rain,Ann Peebles,1973,r&b,68,149,0,0,0,0,0,0,window,7,stand,6,rain,6,sweet,5,memories,4
+Free Bird,Lynyrd Skynyrd,1973,rock,79,200,1,0,0,0,0,0,change,11,oh,10,bird,9,lord,5,cause,4
+Bodak Yellow,Cardi B,2017,pop,224,751,0,0,7,0,0,20,get,10,bitch,9,make,9,fuck,8,got,8
+Lust for Life,Iggy Pop,1977,rock,91,392,6,0,0,0,0,0,lust,32,life,32,cause,9,got,8,well,7
+Heart of Gold,Neil Young,1972,rock,44,148,0,0,0,0,0,0,heart,9,gold,8,searchin,7,keep,5,old,5
+HUMBLE.,Kendrick Lamar,2017,hip hop,200,618,0,0,0,1,0,38,hol,60,bitch,32,lil,25,humble,16,ayy,13
+Ashes to Ashes,David Bowie,1980,rock,130,287,2,0,0,0,0,0,major,6,tom,6,done,6,things,6,happy,4
+King Kunta ,Kendrick Lamar,2015,hip hop,233,745,0,0,0,0,0,14,funk,26,got,13,kunta,12,king,11,walkin,10
+I Say a Little Prayer,Aretha Franklin,1968,r&b,91,444,14,0,0,0,0,0,prayer,22,ever,17,together,16,forever,15,answer,15
+I Can See for Miles,The Who,1967,rock,100,354,0,0,0,0,0,0,miles,48,see,18,know,5,oh,4,yeah,4
+I Get Around,The Beach Boys,1964,rock,88,362,0,0,0,3,0,0,get,55,around,55,round,52,town,8,ah,8
+More Than a Feeling,Boston,1976,rock,81,229,0,0,0,0,0,0,feeling,12,away,7,see,5,marianne,5,song,4
+I Am the Walrus,The Beatles,1967,rock,188,416,0,0,0,0,0,0,joob,23,goo,18,g,8,see,6,crying,6
+Under the Bridge,Red Hot Chili Peppers,1991,rock,109,302,8,0,0,0,0,0,yeah,17,like,7,love,7,feel,6,ever,4
+Around the World,Daft Punk,1997,hip hop,7,435,0,0,0,0,0,0,around,144,world,143,worldyou,1,might,1,like,1
+Lola,The Kinks,1970,rock,130,418,0,0,1,0,0,0,lola,38,well,9,like,4,world,4,said,3
+Georgia on My Mind,Ray Charles,1960,blues,49,162,0,0,0,0,0,0,georgia,15,mind,7,song,6,sweet,5,old,4
+Do You Realize??,The Flaming Lips,2002,rock,71,172,0,0,0,0,0,0,realize,12,know,4,oh,3,beautiful,2,everyone,2
+Hey Joe,Jimi Hendrix,1966,rock,80,263,0,0,0,1,0,0,going,12,hey,9,joe,9,shot,7,around,6
+It's the End of the World As We Know It (And I Feel Fine),R.E.M.,1987,rock,185,654,0,0,0,0,0,0,time,32,world,23,know,21,alone,16,fine,9
+Dazed and Confused,Led Zeppelin,1969,rock,111,271,2,0,0,0,0,0,ah,31,ahh,19,oh,17,baby,7,know,4
+1901,Phoenix,2009,rock,91,264,0,0,0,0,0,0,hey,26,fold,20,think,5,going,5,like,3
+(You Gotta) Fight for Your Right (To Party!),Beastie Boys,1986,hip hop,102,131,0,0,0,0,0,0,feat,4,p,3,party,2,dogg,2,9,1
+Archangel,Burial,2007,edm,19,338,7,0,0,0,0,0,alone,42,tell,19,belong,19,trust,8,holding,7
+Ticket to Ride,The Beatles,1965,rock,63,309,0,0,0,0,0,0,got,12,ticket,12,ride,12,think,8,ought,8
+Sultans of Swing,Dire Straits,1978,rock,159,286,0,0,0,0,1,1,sultans,6,south,3,time,3,play,3,band,2
+Fools Gold,The Stone Roses,1989,rock,78,262,0,0,0,0,0,0,gold,11,standing,6,alone,6,watching,6,sinking,6
+Crying,Roy Orbison,1961,rock,82,152,2,0,0,0,0,0,crying,15,hand,2,alone,2,true,2,love,2
+West End Girls,Pet Shop Boys,1985,rock,105,376,0,0,0,0,0,1,west,34,girls,23,boys,12,town,10,east,10
+Rocket 88,Jackie Brenston,1951,rock,91,121,0,0,0,0,0,0,rocket,3,baby,3,heard,2,88,2,everybody,2
+Chicago,Sufjan Stevens,2005,pop,58,332,2,0,0,0,0,0,things,36,go,18,know,10,mind,10,made,10
+Manish Boy,Muddy Waters,1955,blues,120,342,2,0,0,0,0,0,yeah,11,child,10,well,8,hurt,5,boy,4
+Roll Over Beethoven,Chuck Berry,1956,rock,124,248,1,0,1,0,3,0,roll,11,beethoven,10,got,5,rhythm,5,blues,4
+Instant Karma (We All Shine On),John Lennon,1970,rock,88,300,1,0,0,0,0,0,shine,11,like,8,well,8,stars,7,sun,7
+Minnie the Moocher,Cab Calloway,1931,easy listening,104,260,1,0,0,0,0,0,hi,28,hee,12,around,3,gave,3,booriki,3
+Work,Rihanna feat. Drake,2016,pop,198,244,2,0,0,0,0,1,feat,12,future,3,something,3,run,3,lonely,2
+You Oughta Know,Alanis Morissette,1995,pop,131,427,2,0,0,0,0,1,know,9,gave,6,died,4,remind,4,mess,4
+Pink Moon,Nick Drake,1972,folk,29,91,0,0,0,0,0,0,pink,18,moon,9,saw,4,written,2,say,2
+American Pie,Don McLean,1971,folk,331,964,2,1,3,0,1,3,day,19,bye,14,levee,14,singin,13,music,12
+Fake Plastic Trees,Radiohead,1995,rock,77,172,1,0,0,0,0,0,wears,12,plastic,3,fake,3,rubber,3,like,3
+I've Been Loving You Too Long (To Stop Now),Otis Redding,1965,r&b,1630,3815,41,2,7,0,8,5,love,34,beatles,23,bob,16,rolling,14,stones,14
+No One Knows,Queens of the Stone Age,2002,rock,120,223,0,0,0,0,1,0,aquí,5,knows,4,realize,4,indeed,4,fool,4
+Monkey Gone to Heaven,Pixies,1989,rock,72,235,0,5,0,0,1,0,monkey,17,gone,17,heaven,16,god,5,devil,5
+Somebody to Love,Jefferson Airplane,1967,rock,63,193,21,0,0,0,0,0,love,22,somebody,16,need,4,better,4,find,4
+Welcome to the Jungle,Guns N' Roses,1987,rock,115,369,0,1,0,0,0,0,jungle,19,welcome,10,knees,8,watch,7,bring,6
+Loaded,Primal Scream,1990,rock,46,256,16,0,0,0,0,0,wan,29,lose,16,love,16,free,5,gon,5
+Going Underground,The Jam,1980,rock,137,414,0,0,0,0,0,4,going,20,underground,20,let,12,boys,8,well,6
+Long Tall Sally,Little Richard,1956,rock,61,188,0,0,0,0,0,0,baby,15,fun,11,tonight,9,uncle,5,john,5
+I Put a Spell on You,Screamin' Jay Hawkins,1956,blues,41,98,3,0,0,0,0,0,put,3,spell,3,yeah,3,love,3,stop,2
+Boogie Chillen,John Lee Hooker,1948,blues,82,150,0,0,0,0,0,0,mama,4,night,4,yes,4,well,3,allow,3
+Come Together,The Beatles,1969,rock,88,235,0,0,0,0,0,0,shoot,19,together,13,got,12,yeah,9,right,4
+Pump Up the Volume,M/A/R/R/S,1987,pop,56,230,0,0,3,0,0,1,pump,16,volume,13,go,5,oh,5,put,5
+Ohio,Crosby Stills Nash (& Young),1970,rock,58,202,0,0,0,0,0,0,dead,14,four,13,ohio,11,soldiers,4,tin,2
+1999,Prince,1982,r&b,165,512,0,0,2,0,0,0,party,29,say,14,1999,14,gon,12,zero,10
+Glory Box,Portishead,1994,pop,87,231,4,0,0,0,0,0,give,10,reason,7,woman,7,wan,5,playing,4
+Mack the Knife,Bobby Darin,1959,easy listening,132,231,1,0,0,0,0,0,babe,6,ol,5,mackie,4,macheath,3,back,3
+One Nation Under a Groove,Funkadelic/Parliament,1978,r&b,215,354,0,0,1,0,0,2,clinton,4,oh,4,groove,4,drum,3,like,3
+Since U Been Gone,Kelly Clarkson,2004,pop,84,298,1,0,0,1,0,0,yeah,14,since,12,gone,12,get,9,thanks,6
+Jolene,Dolly Parton,1973,country,93,218,1,0,0,0,0,0,jolene,30,please,6,like,3,could,3,easily,2
+Blister in the Sun,Violent Femmes,1983,rock,53,240,0,0,0,0,0,0,let,6,go,6,might,5,know,5,walking,4
+Moondance,Van Morrison,1970,folk,112,377,8,0,7,0,0,0,night,8,make,8,love,8,moondance,7,know,6
+Jump,Van Halen,1983,rock,64,193,0,0,0,0,0,0,jump,23,might,6,go,6,ahead,6,well,5
+Blank Generation,Richard Hell & The Voidoids,1977,rock,108,294,0,1,0,0,0,0,ooh,25,belong,8,generation,8,leave,8,time,8
+Wild Horses,The Rolling Stones,1971,rock,84,166,0,0,0,0,0,0,wild,12,horses,8,drag,6,away,6,know,3
+Norwegian Wood (This Bird Has Flown),The Beatles,1965,rock,74,124,0,0,0,0,0,0,told,3,good,2,norwegian,2,wood,2,time,2
+Girls Just Want to Have Fun,Cyndi Lauper,1983,rock,76,345,0,0,0,0,0,0,wan,46,girls,32,fun,22,oh,14,working,8
+I'm a Believer,The Monkees,1966,rock,70,226,7,0,0,0,0,0,believer,9,love,7,yeah,5,saw,4,trace,4
+I Will Survive,Gloria Gaynor,1978,r&b,153,688,11,0,0,0,0,0,survive,17,oh,11,love,11,got,10,go,8
+Another Brick in the Wall Part 2,Pink Floyd,1979,rock,57,203,0,0,0,0,0,0,need,4,leave,4,kids,4,alone,4,another,4
+Roxanne,The Police,1978,rock,70,290,1,0,0,0,0,0,roxanne,26,put,26,red,25,light,25,tell,2
+A Love Supreme Part 1: Acknowledgement,John Coltrane,1965,jazz,5314,50969,10,0,7,0,0,131,court,408,abortion,337,state,307,woman,286,roe,280
+The Killing Moon,Echo and the Bunnymen,1984,rock,62,226,0,0,0,0,0,0,give,8,fate,6,thick,6,thin,6,wait,6
+Under Pressure,Queen,1981,rock,130,333,19,0,2,0,0,0,love,19,give,11,people,10,pressure,9,streets,7
+In the Still of the Nite,The Five Satins,1956,r&b,1630,3815,41,2,7,0,8,5,love,34,beatles,23,bob,16,rolling,14,stones,14
+Pride (In the Name of Love),U2,1984,rock,59,189,19,0,0,0,0,0,love,19,like,5,nothing,2,nobody,2,go,1
+My Name Is,Eminem,1999,hip hop,320,831,0,1,0,0,0,9,chka,32,shady,18,hi,17,slim,17,huh,12
+There Goes My Baby,The Drifters,1959,rock,66,223,3,0,0,0,0,0,doo,37,goes,12,baby,11,doot,7,whoa,6
+Wolf Like Me,TV on the Radio,2006,rock,159,406,0,4,0,0,0,0,oh,17,howling,9,forever,8,got,6,like,5
+Just Like Honey,The Jesus and Mary Chain,1985,rock,47,133,0,0,0,0,0,0,like,18,honey,17,good,4,beehive,2,hardest,2

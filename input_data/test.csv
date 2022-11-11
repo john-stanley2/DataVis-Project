@@ -1,0 +1,9 @@
+song,artist,year,genre,numUnique,totalWords,love_words,god_words,dance_words,cool_words,rock_words,swear_words,cw1,cwc1,cw2,cwc2,cw3,cwc3,cw4,cwc4
+Eight Miles High,The Byrds,1966,rock,65,76,0,0,0,0,0,0,known,2,find,1,stranger,1,signs,1,street,1
+Born Slippy,Underworld,1995,edm,125,374,0,0,0,0,0,0,boy,41,lager,19,mega,15,blonde,6,shouting,6
+Great Balls of Fire,Jerry Lee Lewis,1957,rock,82,207,7,0,0,0,0,0,baby,6,love,5,goodness,4,gracious,4,great,4
+Maps,Yeah Yeah Yeahs,2003,rock,37,202,26,0,0,0,0,0,love,26,say,21,like,14,wait,13,oh,7
+Umbrella,Rihanna,2007,pop,156,567,1,0,0,0,0,0,eh,45,umbrella,15,rainin,11,uh,8,huh,8
+She Loves You,The Beatles,1963,rock,60,240,18,0,0,0,0,0,yeah,29,loves,13,know,11,glad,7,love,5
+Tangled Up in Blue,Bob Dylan,1975,folk,287,618,0,0,0,0,0,0,like,7,tangled,7,blue,7,never,4,know,4
+Maggie May,Rod Stewart,1971,rock,146,331,4,0,0,0,1,0,maggie,6,oh,4,tried,4,home,4,stole,4
