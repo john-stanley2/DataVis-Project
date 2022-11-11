@@ -121,6 +121,18 @@ Promise.all([main_line_data,genre_lines_data]).then( data =>
      line.draw_genre_lines()
  });
 
+ //BLUES
+ d3.select('#blues_box').on('click', (d) => 
+ {        
+     if (globalApplicationState.blues_checked){
+         globalApplicationState.blues_checked = false
+     }
+     else{
+         globalApplicationState.blues_checked = true
+     }
+     line.draw_genre_lines()
+ });
+
 
 
 

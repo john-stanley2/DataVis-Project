@@ -419,6 +419,35 @@ class Line{
             .remove()
         }
 
+        //BLUES
+        if (this.globalApplicationState.blues_checked){
+            let blues_data = this.genre_data.filter((d) => d.genre == "blues")
+            this.lineSvg 
+            .append("g")
+            .attr("id", "blues_group")
+            .append("path")
+            .attr('id', 'blues_line_id')
+            .style('stroke', (d) => {
+                return(this.globalApplicationState.scaleColor('jazz'))
+            })
+            .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
+
+            
+            let jazzChart = 
+                d3.select("#blues_group")
+                .select('#blues_line_id')
+                .datum(blues_data)
+                .attr('d', this.lineGenerator)
+                .attr('opacity',  this.GENRE_LINE_OPACITY)
+                .attr('fill', 'none')
+                .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+        }
+        else{
+            d3
+            .select('#blues_group')
+            .remove()
+        }
+
 
     }
 
