@@ -99,7 +99,7 @@ class Word_Line {
             .style("font", "12px sans-serif")
             ;
 
-            d3.select('#word_x_axis').select('.domain').attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${this.TOTAL_HEIGHT - this.PUSH_X_DOWN})`);
+            d3.select('#word_x_axis').select('.domain').attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${this.TOTAL_HEIGHT - this.MARGIN_BOTTOM})`);
             d3.select('#word_x_axis').select('.ticks').attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${this.TOTAL_HEIGHT - this.PUSH_X_DOWN})`);
 
         
@@ -107,20 +107,39 @@ class Word_Line {
 
 
 
-    draw_main_line(){
-        // //min max for source x and y
-        this.max_metric = d3.max(this.overall_word_counts.map(d => d.dance_norm))
-        this.min_metric = 0;//d3.min(this.genre_data.map(d => d.median_metric))
+    draw_main_line() {
+
+        let min_metric = 0;//d3.min(this.genre_data.map(d => d.median_metric))
+        let max_metric = 0;
+
+        if (this.globalApplicationState.love_checked){
+            max_metric = d3.max(this.overall_word_counts.map(d => d.love_norm))
+        }
+        if (this.globalApplicationState.dance_checked){
+            max_metric = d3.max(this.overall_word_counts.map(d => d.dance_norm))
+        }
+        if (this.globalApplicationState.cool_checked){
+            max_metric = d3.max(this.overall_word_counts.map(d => d.cool_norm))
+        }
+        if (this.globalApplicationState.god_checked){
+            max_metric = d3.max(this.overall_word_counts.map(d => d.god_norm))
+        }
+        if (this.globalApplicationState.rock_w_checked){
+            max_metric = d3.max(this.overall_word_counts.map(d => d.rock_norm))
+        }
+        if (this.globalApplicationState.swear_checked){
+            max_metric = d3.max(this.overall_word_counts.map(d => d.swear_norm))
+        }
 
         //TODO FIX HARD CODING
-        this.scale_metric = d3.scaleLinear()
+        let scale_metric = d3.scaleLinear()
         .range([ this.TOTAL_HEIGHT - this.MARGIN_BOTTOM, 0 + this.MARGIN_TOP]) 
-        .domain([0, this.max_metric]);
+        .domain([0, max_metric]);
 
         //FIXME!!! I'm hard coding this stuff. Got to make it better
         d3.select('#word_y_axis')
-        .attr('transform', `translate(${this.PUSH_AXIS_RIGHT},${this.MARGIN_TOP})`)
-        .call(d3.axisLeft(this.scale_metric));
+        .attr('transform', `translate(${this.PUSH_AXIS_RIGHT},${0})`)
+        .call(d3.axisLeft(scale_metric));
     
 
         //**********************************************************************************************
@@ -128,17 +147,40 @@ class Word_Line {
         //**********************************************************************************************
 
 
-        this.lineGenerator = d3
+        const lineGenerator = d3
             .line()
             .x((data) => this.scale_year (data.year))
-            .y((data) => this.scale_metric (data.dance_norm));
+            .y((data) => {
+                let word_value = 0;
+                if (this.globalApplicationState.love_checked){
+                    word_value = data.love_norm
+                }
+                if (this.globalApplicationState.dance_checked){
+                    word_value = data.dance_norm
+                }
+                if (this.globalApplicationState.cool_checked){
+                    word_value = data.cool_norm
+                }
+                if (this.globalApplicationState.god_checked){
+                    word_value = data.god_norm
+                }
+                if (this.globalApplicationState.rock_w_checked){
+                    word_value = data.rock_norm
+                }
+                if (this.globalApplicationState.swear_checked){
+                    word_value = data.swear_norm
+                }
+                return scale_metric(word_value)});
+
 
         //FIXME HARDOCODING
         let lineChart = 
             d3.select("#word_lineChart")
             .select('#word_line_id')
-            .datum(this.word_counts)
-            .attr('d', this.lineGenerator)
+            .datum(this.overall_word_counts)
+            .attr('d', (d) => {
+                return lineGenerator(d)}
+            )
             .attr('stroke', (d) => {
                 return('grey')
             })
@@ -151,20 +193,76 @@ class Word_Line {
 
     draw_genre_lines(){
 
+        let min_metric = 0;//d3.min(this.genre_data.map(d => d.median_metric))
+        let max_metric = 0;
+
+        if (this.globalApplicationState.love_checked){
+            max_metric = d3.max(this.overall_word_counts.map(d => d.love_norm))
+        }
+        if (this.globalApplicationState.dance_checked){
+            max_metric = d3.max(this.overall_word_counts.map(d => d.dance_norm))
+        }
+        if (this.globalApplicationState.cool_checked){
+            max_metric = d3.max(this.overall_word_counts.map(d => d.cool_norm))
+        }
+        if (this.globalApplicationState.god_checked){
+            max_metric = d3.max(this.overall_word_counts.map(d => d.god_norm))
+        }
+        if (this.globalApplicationState.rock_w_checked){
+            max_metric = d3.max(this.overall_word_counts.map(d => d.rock_norm))
+        }
+        if (this.globalApplicationState.swear_checked){
+            max_metric = d3.max(this.overall_word_counts.map(d => d.swear_norm))
+        }
+
+        //TODO FIX HARD CODING
+        let scale_metric = d3.scaleLinear()
+        .range([ this.TOTAL_HEIGHT - this.MARGIN_BOTTOM, 0 + this.MARGIN_TOP]) 
+        .domain([0, max_metric]);
+
+        const lineGenerator = d3
+            .line()
+            .x((data) => this.scale_year (data.year))
+            .y((data) => {
+                let word_value = null;
+                if (this.globalApplicationState.love_checked){
+                    word_value = data.love_norm
+                }
+                else if (this.globalApplicationState.dance_checked){
+                    word_value = data.dance_norm
+                }
+                else if (this.globalApplicationState.cool_checked){
+                    word_value = data.cool_norm
+                }
+                else if (this.globalApplicationState.god_checked){
+                    word_value = data.god_norm
+                }
+                else if (this.globalApplicationState.rock_w_checked){
+                    word_value = data.rock_norm
+                }
+                else if (this.globalApplicationState.swear_checked){
+                    word_value = data.swear_norm
+                }
+                return scale_metric(word_value)})
+            ;
+
+
         //**********************************************************************************************
         //                                      ADD Genre Lines
         //**********************************************************************************************
-
+        d3.selectAll('.line_group').remove();
 
         //ROCK
         if (this.globalApplicationState.rock_checked){
-            let rock_data = this.genre_data.filter((d) => d.genre == "rock")
+            let wc_filtered = JSON.parse(JSON.stringify(this.word_counts));
+            let rock_data = wc_filtered.filter((d) => d.genre === "rock");
 
             this.lineSvg 
             .append("g")
-            .attr("id", "rock_group")
+            .attr('class','line_group')
+            .attr("id", "wc_rock_group")
             .append("path")
-            .attr('id', 'rock_line_id')
+            .attr('id', 'wc_rock_line_id')
             .style('stroke', (d) => {
                 return(this.globalApplicationState.scaleColor('rock'))
             })
@@ -172,30 +270,30 @@ class Word_Line {
 
             
             let rockChart = 
-                d3.select("#rock_group")
-                .select('#rock_line_id')
+                d3.select("#wc_rock_group")
+                .select('#wc_rock_line_id')
                 .datum(rock_data)
-                .attr('d', this.lineGenerator)
+                .attr('d', lineGenerator)
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
         }
-
         else{
             d3
-            .select('#rock_group')
+            .select('#wc_rock_group')
             .remove()
         }
 
-        //POP
+        //Pop
         if (this.globalApplicationState.pop_checked){
-            let pop_data = this.genre_data.filter((d) => d.genre == "pop")
-
+            let wc_filtered = JSON.parse(JSON.stringify(this.word_counts));
+            let pop_data = wc_filtered.filter((d) => d.genre === "pop");
             this.lineSvg 
             .append("g")
-            .attr("id", "pop_group")
+            .attr('class','line_group')
+            .attr("id", "wc_pop_group")
             .append("path")
-            .attr('id', 'pop_line_id')
+            .attr('id', 'wc_pop_line_id')
             .style('stroke', (d) => {
                 return(this.globalApplicationState.scaleColor('pop'))
             })
@@ -203,10 +301,10 @@ class Word_Line {
 
             
             let popChart = 
-                d3.select("#pop_group")
-                .select('#pop_line_id')
+                d3.select("#wc_pop_group")
+                .select('#wc_pop_line_id')
                 .datum(pop_data)
-                .attr('d', this.lineGenerator)
+                .attr('d', lineGenerator)
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
@@ -214,69 +312,106 @@ class Word_Line {
 
         else{
             d3
-            .select('#pop_group')
+            .select('#wc_pop_group')
             .remove()
         }
 
         //Hip Hop
         if (this.globalApplicationState.hip_hop_checked){
-            let hip_hop_data = this.genre_data.filter((d) => d.genre == "hip hop")
-
+            let wc_filtered = JSON.parse(JSON.stringify(this.word_counts));
+            let hip_hop_data = wc_filtered.filter((d) => d.genre === "hip hop");
             this.lineSvg 
             .append("g")
-            .attr("id", "hip_hop_group")
+            .attr('class','line_group')
+            .attr("id", "wc_hip_hop_group")
             .append("path")
-            .attr('id', 'hip_hop_line_id')
+            .attr('id', 'wc_hip_hop_line_id')
             .style('stroke', (d) => {
                 return(this.globalApplicationState.scaleColor('hip hop'))
             })
             .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
 
             
-            let hipHopChart = 
-                d3.select("#hip_hop_group")
-                .select('#hip_hop_line_id')
+            let hip_hopChart = 
+                d3.select("#wc_hip_hop_group")
+                .select('#wc_hip_hop_line_id')
                 .datum(hip_hop_data)
-                .attr('d', this.lineGenerator)
+                .attr('d', lineGenerator)
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
         }
+
         else{
             d3
-            .select('#hip_hop_group')
+            .select('#wc_hip_hop_group')
             .remove()
         }
 
-        //JAZZ
-        if (this.globalApplicationState.jazz_checked){
-            let jazz_data = this.genre_data.filter((d) => d.genre == "jazz")
+
+        //Country
+        if (this.globalApplicationState.country_checked){
+            let wc_filtered = JSON.parse(JSON.stringify(this.word_counts));
+            let country_data = wc_filtered.filter((d) => d.genre === "country");
             this.lineSvg 
             .append("g")
-            .attr("id", "jazz_group")
+            .attr('class','line_group')
+            .attr("id", "wc_country_group")
             .append("path")
-            .attr('id', 'jazz_line_id')
+            .attr('id', 'wc_country_line_id')
             .style('stroke', (d) => {
-                return(this.globalApplicationState.scaleColor('jazz'))
+                return(this.globalApplicationState.scaleColor('country'))
             })
             .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
 
             
-            let jazzChart = 
-                d3.select("#jazz_group")
-                .select('#jazz_line_id')
-                .datum(jazz_data)
-                .attr('d', this.lineGenerator)
+            let countryChart = 
+                d3.select("#wc_country_group")
+                .select('#wc_country_line_id')
+                .datum(country_data)
+                .attr('d', lineGenerator)
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
         }
+
         else{
             d3
-            .select('#jazz_group')
+            .select('#wc_country_group')
             .remove()
         }
 
+        //Easy Listening
+        if (this.globalApplicationState.easy_listening_checked){
+            let wc_filtered = JSON.parse(JSON.stringify(this.word_counts));
+            let easy_listening_data = wc_filtered.filter((d) => d.genre === "easy_listening");
+            this.lineSvg 
+            .append("g")
+            .attr('class','line_group')
+            .attr("id", "wc_easy_listening_group")
+            .append("path")
+            .attr('id', 'wc_easy_listening_line_id')
+            .style('stroke', (d) => {
+                return(this.globalApplicationState.scaleColor('easy_listening'))
+            })
+            .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
+
+            
+            let easy_listeningChart = 
+                d3.select("#wc_easy_listening_group")
+                .select('#wc_easy_listening_line_id')
+                .datum(easy_listening_data)
+                .attr('d', lineGenerator)
+                .attr('opacity',  this.GENRE_LINE_OPACITY)
+                .attr('fill', 'none')
+                .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+        }
+
+        else{
+            d3
+            .select('#wc_easy_listening_group')
+            .remove()
+        }
 
     }
 

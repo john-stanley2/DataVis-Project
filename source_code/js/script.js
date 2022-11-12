@@ -47,6 +47,12 @@ const globalApplicationState = {
     blues_checked: false,
     world_checked: false,
     scaleColor,
+    love_checked: false,
+    dance_checked: false,
+    cool_checked: false,
+    god_checked: false,
+    rock_w_checked: false,
+    swear_checked: false,
   };
 
         
@@ -64,13 +70,12 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
         console.log("main line", data[0]);
         console.log("genre line", data[1]);
         console.log("word frequency", data[2]);
-        console.log("overall word frequency", data[2]);
+        console.log("overall word frequency", data[3]);
 
         line = new Line(data[0], data[1],lineDiv ,globalApplicationState);
 
         word_line = new Word_Line(data[2],data[3],lineWordsDiv,globalApplicationState);
-
-       
+        word_line.draw_main_line();
 
     });
 
@@ -85,7 +90,8 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
      else{
          globalApplicationState.rock_checked = true
      }
-     line.draw_genre_lines()
+     line.draw_genre_lines();
+     word_line.draw_genre_lines();
  });
 
  //POP
@@ -97,7 +103,8 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
      else{
          globalApplicationState.pop_checked = true
      }
-     line.draw_genre_lines()
+     line.draw_genre_lines();
+     word_line.draw_genre_lines();
  });
 
  //HIP HOP
@@ -110,6 +117,7 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
          globalApplicationState.hip_hop_checked = true
      }
      line.draw_genre_lines()
+     word_line.draw_genre_lines();
  });
 
 
@@ -160,7 +168,8 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
       else{
           globalApplicationState.country_checked = true
       }
-      line.draw_genre_lines()
+      line.draw_genre_lines();
+      word_line.draw_genre_lines();
   });
 
   d3.select('#folk_box').on('click', (d) => 
@@ -186,10 +195,133 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
       }
       line.draw_genre_lines()
   });
+
+
+
+  /////Word Count buttons
+
+  d3.select('#love-button').on('click', (d) => 
+  {        
+      if (globalApplicationState.love_checked){
+          //globalApplicationState.love_checked = false
+      }
+      else{
+        globalApplicationState.love_checked = true;
+        globalApplicationState.dance_checked = false;
+        globalApplicationState.cool_checked = false;
+        globalApplicationState.god_checked = false;
+        globalApplicationState.rock_w_checked = false;
+        globalApplicationState.swear_checked = false;
+      }
+      line.draw_genre_lines();
+      word_line.draw_main_line();
+      word_line.draw_genre_lines();
+  });
+
+  d3.select('#cool-button').on('click', (d) => 
+  {        
+      if (globalApplicationState.cool_checked){
+          //globalApplicationState.cool_checked = false
+      }
+      else{
+        globalApplicationState.love_checked = false;
+        globalApplicationState.dance_checked = false;
+        globalApplicationState.cool_checked = true;
+        globalApplicationState.god_checked = false;
+        globalApplicationState.rock_w_checked = false;
+        globalApplicationState.swear_checked = false;
+      }
+      line.draw_genre_lines();
+      word_line.draw_main_line();
+      word_line.draw_genre_lines();
+  });
+
+  d3.select('#dance-button').on('click', (d) => 
+  {        
+      if (globalApplicationState.dance_checked){
+          //globalApplicationState.dance_checked = false
+      }
+      else{
+        globalApplicationState.love_checked = false;
+        globalApplicationState.dance_checked = true;
+        globalApplicationState.cool_checked = false;
+        globalApplicationState.god_checked = false;
+        globalApplicationState.rock_w_checked = false;
+        globalApplicationState.swear_checked = false;
+      }
+      line.draw_genre_lines();
+      word_line.draw_main_line();
+      word_line.draw_genre_lines();
+  });
+
+  d3.select('#god-button').on('click', (d) => 
+  {        
+      if (globalApplicationState.god_checked){
+          //globalApplicationState.god_checked = false
+      }
+      else{
+        globalApplicationState.love_checked = false;
+        globalApplicationState.dance_checked = false;
+        globalApplicationState.cool_checked = false;
+        globalApplicationState.god_checked = true;
+        globalApplicationState.rock_w_checked = false;
+        globalApplicationState.swear_checked = false;
+      }
+      line.draw_genre_lines();
+      word_line.draw_main_line();
+      word_line.draw_genre_lines();
+  });
  
- 
+  d3.select('#rock-button').on('click', (d) => 
+  {        
+      if (globalApplicationState.rock_w_checked){
+          //globalApplicationState.rock_w_checked = false
+      }
+      else{
+        globalApplicationState.love_checked = false;
+        globalApplicationState.dance_checked = false;
+        globalApplicationState.cool_checked = false;
+        globalApplicationState.god_checked = false;
+        globalApplicationState.rock_w_checked = true;
+        globalApplicationState.swear_checked = false;
+      }
+      line.draw_genre_lines();
+      word_line.draw_main_line();
+      word_line.draw_genre_lines();
+  });
+
+  d3.select('#swear-button').on('click', (d) => 
+  {        
+      if (globalApplicationState.swear_checked){
+          //globalApplicationState.swear_checked = false
+      }
+      else{
+        globalApplicationState.love_checked = false;
+        globalApplicationState.dance_checked = false;
+        globalApplicationState.cool_checked = false;
+        globalApplicationState.god_checked = false;
+        globalApplicationState.rock_w_checked = false;
+        globalApplicationState.swear_checked = true;
+      }
+      line.draw_genre_lines();
+      word_line.draw_main_line();
+      word_line.draw_genre_lines();
+  });
+
+ /*
+<input type="checkbox" id="love-button" >Love
+        <input type="checkbox" id="cool-button" >Cool
+        <input type="checkbox" id="dance-button" >Dance
+        <input type="checkbox" id="god-button" >God
+        <input type="checkbox" id="rock-button" >Rock
+        <input type="checkbox" id="swear-button" >Swear Words
+
+        love_checked: true,
+    dance_checked: false,
+    cool_checked: false,
+    god_checked: false,
+    rock_checked: false,
+    swear_checked: false,
 
 
-
-
-
+*/
