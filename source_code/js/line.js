@@ -1,4 +1,4 @@
-class Line{
+class Line {
     constructor(main_data, genre_data, line_div, globalApplicationState){
 
         //**********************************************************************************************

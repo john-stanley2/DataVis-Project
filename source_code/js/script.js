@@ -51,26 +51,26 @@ const globalApplicationState = {
 
         
 
-
 //for the first view
 main_line_data = d3.json("./vis_data/main_line.json");
 genre_lines_data = d3.json('./vis_data/genre_lines.json');
 word_freq_data = d3.json('./vis_data/word_freq.json');
+overall_word_freq_data = d3.json('./vis_data/word_freq_year.json');
 
-Promise.all([main_line_data,genre_lines_data,word_freq_data]).then( data =>
+Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_data]).then( data =>
     {
         //data[0] = main_line_data
         //data[1] = genre_line_data
         console.log("main line", data[0]);
         console.log("genre line", data[1]);
         console.log("word frequency", data[2]);
+        console.log("overall word frequency", data[2]);
 
         line = new Line(data[0], data[1],lineDiv ,globalApplicationState);
 
-        word_line = new Word_Line(data[2],lineWordsDiv,globalApplicationState);
+        word_line = new Word_Line(data[2],data[3],lineWordsDiv,globalApplicationState);
 
        
-
 
     });
 
