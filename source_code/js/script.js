@@ -22,6 +22,10 @@ let popWordsDiv = wrapper.append('div')
 let lineWordsDiv = wrapper.append('div')
                 .attr("id", 'line_words_div')
 ;
+
+let histogramDiv = wrapper.append('div')
+                .attr("id", 'histogram_div')
+;
 let allGenres =  ["pop", 'rock', 'hip hop', 'latin', 'edm', 'r&b', 
 'country', 'folk',  'metal', 'jazz', 'easy listening', 'new age', 'blues', 'world']
 ;
@@ -72,8 +76,8 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
         console.log("word frequency", data[2]);
         console.log("overall word frequency", data[3]);
 
+        // histogram = new Historgram(data[0], data[1],histogramDiv ,globalApplicationState)
         line = new Line(data[0], data[1],lineDiv ,globalApplicationState);
-
         word_line = new Word_Line(data[2],data[3],lineWordsDiv,globalApplicationState);
         word_line.draw_main_line();
 

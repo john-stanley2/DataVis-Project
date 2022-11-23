@@ -59,6 +59,9 @@ class Line {
             .style('stroke', 'grey')
             .style('stroke-width', this.MAIN_LINE_STROKE_WIDTH)
 
+        this.linesLeft = document.getElementById("lineChart").getBoundingClientRect().left
+        this.linesRight = document.getElementById("lineChart").getBoundingClientRect().right
+    
 
         //**********************************************************************************************
         //                                  GET MIN AND MAX
@@ -157,7 +160,46 @@ class Line {
             .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${0})`);
 
    
+        this.lineSvg.on('mousemove', (event) => {
+            console.log(event.clientX)
 
+            console.log("this.linesLeft", this.linesLeft)
+            console.log("this.linesRight", this.linesRight)
+
+            if (event.clientX > this.linesLeft && event.clientX <this.linesRight ){
+                console.log("YE")
+        
+                lineChart
+                .select('#overlay')
+                .select('line')
+                .attr('stroke', 'black')
+                .attr('x1', event.clientX - this.linesLeft)
+                .attr('x2', event.clientX -this.linesLeft)
+                .attr('y1', this.TOTAL_HEIGHT - this.MARGIN_TOP)
+                .attr('y2', 0);
+        
+        
+                // const dateHovered = initial_x_scale.invert(event.clientX - this.linesLeft).toISOString().substring(0,10)//FIXME 
+                // const filteredData = locations //this.grouped_continents
+                // // .filter()//just get cont
+                // .filter((row) => {
+                // return new Date(row.date).toISOString().substring(0,10) === dateHovered}) //include logic
+                // .sort((rowA, rowB) => {
+                // return parseInt(rowB.total_cases_per_million) - parseInt(rowA.total_cases_per_million)})
+                
+        
+                // lineChart.select('#overlay')
+                // .selectAll('text')
+                // .data(filteredData)
+                // .join('text')
+                // .text(d=>`${d.location}, ${Math.floor(d.total_cases_per_million / 1000) + "K"}`)
+                // .attr('x', event.clientX < 1200 ? event.clientX - this.linesLeft: event.clientX - this.linesLeft- 150)
+                // .attr('y', (d, i) => 20*i + 20)
+                // .attr('alignment-baseline', 'hanging')
+                // .attr('fill', (d) => lineColorScale(d.location));
+        
+        }
+        });
 
 
         // //**********************************************************************************************

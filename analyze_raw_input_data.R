@@ -3,15 +3,13 @@ library(dplyr)
 library(jsonlite)
 
 
-setwd("/Users/sam/Desktop/U_of_U/Fall_2022/data_vis/final_project/DataVis-Project/source_code/vis_data")
+setwd("/Users/sam/Desktop/U_of_U/Fall_2022/data_vis/new_final/DataVis-Project/source_code/vis_data")
 
 #read all of the csv's
-raw_csv1 <- read_csv("~/Desktop/U_of_U/Fall_2022/data_vis/final_project/DataVis-Project/input_data/songs_5_500.csv")
-raw_csv2 <- read_csv("~/Desktop/U_of_U/Fall_2022/data_vis/final_project/DataVis-Project/input_data/songs_0_5.csv")
-raw_csv3 <- read_delim("~/Desktop/U_of_U/Fall_2022/data_vis/final_project/DataVis-Project/input_data/songs_131_135.csv", delim = "|")
-
+raw_csv1 <- read_delim("../../input_data/albums_0_96.csv", delim = "|")
+raw_csv2 <- read_delim("../../input_data/albums_97_335.csv", delim = "|")
 #combine all the csv's
-all_songs <- bind_rows(raw_csv1, raw_csv2) %>% 
+all_songs <- bind_rows(raw_csv1,raw_csv2) %>% 
   filter(totalWords < 5000) #Filter because some songs seem to have returned paragraph written about the song, not the lyrics
 
 #Work with the most common words (skip for now)
@@ -26,7 +24,7 @@ all_songs %>% select(genre, year, contains("cw")) %>%
 all_songs %>% 
   mutate(metric = numUnique/totalWords) %>%
   group_by(year) %>%
-  summarise(median_metric = median(metric)) -> main_line_df
+  summarise(median_metric = median(metric, na.rm = T)) -> main_line_df
 
 write_json(main_line_df, "main_line.json",dataframe = 'rows')
 
@@ -34,7 +32,7 @@ write_json(main_line_df, "main_line.json",dataframe = 'rows')
 all_songs %>% 
   mutate(metric = numUnique/totalWords) %>%
   group_by(genre, year) %>%
-  summarise(median_metric = median(metric)) -> genre_lines_df
+  summarise(median_metric = median(metric, na.rm = T)) -> genre_lines_df
 
 write_json(genre_lines_df, "genre_lines.json",dataframe = 'rows')
 
