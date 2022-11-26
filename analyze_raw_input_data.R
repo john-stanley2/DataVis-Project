@@ -8,15 +8,22 @@ setwd("/Users/sam/Desktop/U_of_U/Fall_2022/data_vis/new_final/DataVis-Project/so
 #read all of the csv's
 raw_csv1 <- read_delim("../../input_data/albums_0_96.csv", delim = "|")
 raw_csv2 <- read_delim("../../input_data/albums_97_335.csv", delim = "|")
+raw_csv3 <- read_delim("../../input_data/albums_336_600.csv", delim = "|")
+raw_csv4 <- read_delim("../../input_data/albums_600_ 827.csv", delim = "|")
+raw_csv5 <- read_delim("../../input_data/albums_827_1500.csv", delim = "|")
+
+
+
+
 #combine all the csv's
-all_songs <- bind_rows(raw_csv1,raw_csv2) %>% 
+all_songs <- bind_rows(raw_csv1,raw_csv2,raw_csv3,raw_csv4,raw_csv5) %>% 
   filter(totalWords < 5000) #Filter because some songs seem to have returned paragraph written about the song, not the lyrics
 
 #Work with the most common words (skip for now)
-all_songs %>% select(genre, year, contains("cw")) %>%
-  group_by(cw1, cw2, cw3,cw4,cw5,genre) %>%
-  summarise(sum1 = sum(cwc1),sum2 = sum(cwc2),sum3 = sum(cwc3),sum4 = sum(cwc4),sum5 = sum(cwc5)) %>%
-  View()
+# all_songs %>% select(genre, year, contains("cw")) %>%
+#   group_by(cw1, cw2, cw3,cw4,cw5,genre) %>%
+#   summarise(sum1 = sum(cwc1),sum2 = sum(cwc2),sum3 = sum(cwc3),sum4 = sum(cwc4),sum5 = sum(cwc5)) %>%
+#   View()
 
 #Df for line chart
 

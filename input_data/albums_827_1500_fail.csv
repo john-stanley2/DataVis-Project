@@ -1,0 +1,818 @@
+album|track|artist|year|id|reasonFail
+Heavy Weather|1|Weather Report|1977|2025|too_few_lyrics
+Heavy Weather|2|Weather Report|1977|2025|too_few_lyrics
+Heavy Weather|4|Weather Report|1977|2025|too_few_lyrics
+Heavy Weather|6|Weather Report|1977|2025|too_few_lyrics
+Heavy Weather|7|Weather Report|1977|2025|too_few_lyrics
+Heavy Weather|8|Weather Report|1977|2025|too_few_lyrics
+This Is Hardcore|17|Pulp|1998|1028|too_few_lyrics
+EVOL|6|Sonic Youth|1986|1511|too_few_lyrics
+Fire and Water|8|Free|1970|1131|too_few_lyrics
+Fire and Water|9|Free|1970|1131|too_few_lyrics
+Fire and Water|10|Free|1970|1131|too_few_lyrics
+Fire and Water|11|Free|1970|1131|too_few_lyrics
+Fire and Water|13|Free|1970|1131|too_few_lyrics
+Arrival|10|ABBA|1976|380|too_few_lyrics
+Mr. Fantasy|10|Traffic|1967|109|too_few_lyrics
+The Incredible Jazz Guitar of Wes Montgomery|1|Wes Montgomery|1960|1886|too_few_lyrics
+The Incredible Jazz Guitar of Wes Montgomery|2|Wes Montgomery|1960|1886|too_few_lyrics
+The Incredible Jazz Guitar of Wes Montgomery|3|Wes Montgomery|1960|1886|too_few_lyrics
+The Incredible Jazz Guitar of Wes Montgomery|4|Wes Montgomery|1960|1886|too_few_lyrics
+The Incredible Jazz Guitar of Wes Montgomery|5|Wes Montgomery|1960|1886|too_few_lyrics
+The Incredible Jazz Guitar of Wes Montgomery|6|Wes Montgomery|1960|1886|too_few_lyrics
+The Incredible Jazz Guitar of Wes Montgomery|7|Wes Montgomery|1960|1886|too_few_lyrics
+The Incredible Jazz Guitar of Wes Montgomery|8|Wes Montgomery|1960|1886|too_few_lyrics
+Rhythm Nation 1814|7|Janet Jackson|1989|3261|too_few_lyrics
+Rhythm Nation 1814|9|Janet Jackson|1989|3261|too_few_lyrics
+Rhythm Nation 1814|15|Janet Jackson|1989|3261|too_few_lyrics
+The Sidewinder|1|Lee Morgan|1964|1935|too_few_lyrics
+The Sidewinder|2|Lee Morgan|1964|1935|too_few_lyrics
+The Sidewinder|3|Lee Morgan|1964|1935|too_few_lyrics
+The Sidewinder|4|Lee Morgan|1964|1935|too_few_lyrics
+The Sidewinder|5|Lee Morgan|1964|1935|too_few_lyrics
+Ambient 1: Music for Airports|1|Brian Eno|1978|1163|too_few_lyrics
+Ambient 1: Music for Airports|2|Brian Eno|1978|1163|too_few_lyrics
+Ambient 1: Music for Airports|3|Brian Eno|1978|1163|too_few_lyrics
+Ambient 1: Music for Airports|4|Brian Eno|1978|1163|too_few_lyrics
+Aenima|4|Tool|1996|3618|too_few_lyrics
+Aenima|8|Tool|1996|3618|too_few_lyrics
+Aenima|12|Tool|1996|3618|too_few_lyrics
+Aenima|14|Tool|1996|3618|too_few_lyrics
+The Glow, Pt. 2|6|The Microphones|2001|3883|too_few_lyrics
+The Glow, Pt. 2|8|The Microphones|2001|3883|too_few_lyrics
+The Glow, Pt. 2|9|The Microphones|2001|3883|too_few_lyrics
+The Glow, Pt. 2|17|The Microphones|2001|3883|too_few_lyrics
+Replica|1|Oneohtrix Point Never|2011|5163|too_few_lyrics
+Replica|2|Oneohtrix Point Never|2011|5163|too_few_lyrics
+Replica|3|Oneohtrix Point Never|2011|5163|too_few_lyrics
+Replica|5|Oneohtrix Point Never|2011|5163|too_few_lyrics
+Replica|7|Oneohtrix Point Never|2011|5163|too_few_lyrics
+Replica|10|Oneohtrix Point Never|2011|5163|too_few_lyrics
+Concert by the Sea|1|Erroll Garner|1956|1783|too_few_lyrics
+Concert by the Sea|2|Erroll Garner|1956|1783|too_few_lyrics
+Concert by the Sea|3|Erroll Garner|1956|1783|too_few_lyrics
+Concert by the Sea|4|Erroll Garner|1956|1783|too_few_lyrics
+Concert by the Sea|5|Erroll Garner|1956|1783|too_few_lyrics
+Concert by the Sea|6|Erroll Garner|1956|1783|too_few_lyrics
+Concert by the Sea|7|Erroll Garner|1956|1783|too_few_lyrics
+Concert by the Sea|8|Erroll Garner|1956|1783|too_few_lyrics
+Concert by the Sea|9|Erroll Garner|1956|1783|too_few_lyrics
+Concert by the Sea|10|Erroll Garner|1956|1783|too_few_lyrics
+Selling England by the Pound|6|Genesis|1973|1241|too_few_lyrics
+Song Cycle|8|Van Dyke Parks|1967|1306|too_few_lyrics
+Graduation|16|Kanye West|2007|4250|too_few_lyrics
+Fifth Dimension|9|The Byrds|1966|67|too_few_lyrics
+If I Could Only Remember My Name|3|David Crosby|1971|235|too_few_lyrics
+If I Could Only Remember My Name|7|David Crosby|1971|235|too_few_lyrics
+If I Could Only Remember My Name|9|David Crosby|1971|235|too_few_lyrics
+Sounds of Silence|0|Simon and Garfunkel|1966|77|not_found
+Beatles for Sale/Beatles '65|0|The Beatles|1964|7|not_found
+The Sophtware Slump|9|Grandaddy|2000|1096|too_few_lyrics
+The Sophtware Slump|17|Grandaddy|2000|1096|too_few_lyrics
+The Sophtware Slump|19|Grandaddy|2000|1096|too_few_lyrics
+Song for My Father|2|Horace Silver|1965|1950|too_few_lyrics
+Fleetwood Mac|6|Fleetwood Mac|1975|354|too_few_lyrics
+Nilsson Schmilsson|13|Nilsson|1971|1136|too_few_lyrics
+The Amazing Bud Powell|1|Bud Powell|1951|1762|too_few_lyrics
+The Amazing Bud Powell|2|Bud Powell|1951|1762|too_few_lyrics
+The Amazing Bud Powell|3|Bud Powell|1951|1762|too_few_lyrics
+The Amazing Bud Powell|4|Bud Powell|1951|1762|too_few_lyrics
+The Amazing Bud Powell|5|Bud Powell|1951|1762|too_few_lyrics
+The Amazing Bud Powell|6|Bud Powell|1951|1762|too_few_lyrics
+The Amazing Bud Powell|7|Bud Powell|1951|1762|too_few_lyrics
+The Amazing Bud Powell|8|Bud Powell|1951|1762|too_few_lyrics
+The Amazing Bud Powell|9|Bud Powell|1951|1762|too_few_lyrics
+MASSEDUCTION|11|St. Vincent|2017|5987|too_few_lyrics
+Dance Mania|1|Tito Puente|1958|1849|too_few_lyrics
+Dance Mania|3|Tito Puente|1958|1849|too_few_lyrics
+Dance Mania|4|Tito Puente|1958|1849|too_few_lyrics
+Dance Mania|6|Tito Puente|1958|1849|too_few_lyrics
+Dance Mania|7|Tito Puente|1958|1849|too_few_lyrics
+Dance Mania|8|Tito Puente|1958|1849|too_few_lyrics
+Dance Mania|9|Tito Puente|1958|1849|too_few_lyrics
+Dance Mania|10|Tito Puente|1958|1849|too_few_lyrics
+Dance Mania|12|Tito Puente|1958|1849|too_few_lyrics
+Pithecanthropus Erectus|3|Charles Mingus|1956|1797|too_few_lyrics
+Pithecanthropus Erectus|4|Charles Mingus|1956|1797|too_few_lyrics
+Welcome to the Pleasuredome|16|Frankie Goes to Hollywood|1984|607|too_few_lyrics
+Welcome to the Pleasuredome|17|Frankie Goes to Hollywood|1984|607|too_few_lyrics
+Welcome to the Pleasuredome|19|Frankie Goes to Hollywood|1984|607|too_few_lyrics
+American Dream|11|LCD Soundsystem|2017|5936|too_few_lyrics
+Breakfast in America|11|Supertramp|1979|1681|too_few_lyrics
+Puberty 2|12|Mitski|2016|5777|too_few_lyrics
+Non-Stop Erotic Cabaret|18|Soft Cell|1981|521|too_few_lyrics
+Our Love|5|Caribou|2014|5395|too_few_lyrics
+Our Love|7|Caribou|2014|5395|too_few_lyrics
+Our Love|8|Caribou|2014|5395|too_few_lyrics
+Songs About Fucking|13|Big Black|1987|1519|too_few_lyrics
+Yardbirds/Over Under Sideways Down/Roger the Engineer|0|Yardbirds|1966|75|not_found
+Fragile|2|Yes|1971|238|too_few_lyrics
+Fragile|5|Yes|1971|238|too_few_lyrics
+Fragile|7|Yes|1971|238|too_few_lyrics
+Fragile|8|Yes|1971|238|too_few_lyrics
+Microcastle / Weird Era Cont.|0|Deerhunter|2008|4342|not_found
+It's Blitz!|14|Yeah Yeah Yeahs|2009|4993|too_few_lyrics
+Rounds|1|Four Tet|2003|3925|too_few_lyrics
+Rounds|2|Four Tet|2003|3925|too_few_lyrics
+Rounds|3|Four Tet|2003|3925|too_few_lyrics
+Rounds|4|Four Tet|2003|3925|too_few_lyrics
+Rounds|5|Four Tet|2003|3925|too_few_lyrics
+Rounds|6|Four Tet|2003|3925|too_few_lyrics
+Rounds|7|Four Tet|2003|3925|too_few_lyrics
+Rounds|8|Four Tet|2003|3925|too_few_lyrics
+Rounds|9|Four Tet|2003|3925|too_few_lyrics
+Rounds|10|Four Tet|2003|3925|too_few_lyrics
+Dixie Chicken|10|Little Feat|1973|290|too_few_lyrics
+Rated R|10|Queens of the Stone Age|2000|1091|too_few_lyrics
+Soro|0|Salif Keita|1987|2151|not_found
+Hopelessness|12|ANOHNI|2016|5695|too_few_lyrics
+Magical Mystery Tour|3|The Beatles|1967|119|too_few_lyrics
+Three Imaginary Boys/Boys Don't Cry|0|The Cure|1979|1454|not_found
+Yellow Moon|11|The Neville Brothers|1989|764|too_few_lyrics
+Point of Departure|1|Andrew Hill|1965|1944|too_few_lyrics
+Point of Departure|2|Andrew Hill|1965|1944|too_few_lyrics
+Point of Departure|3|Andrew Hill|1965|1944|too_few_lyrics
+Point of Departure|4|Andrew Hill|1965|1944|too_few_lyrics
+Point of Departure|5|Andrew Hill|1965|1944|too_few_lyrics
+Flower Boy|14|Tyler, the Creator|2017|6010|too_few_lyrics
+Chuck Berry Is On Top|12|Chuck Berry|1959|1268|too_few_lyrics
+Live at the Star Club, Hamburg|6|Jerry Lee Lewis|1964|59|too_few_lyrics
+Meat Puppets II|2|Meat Puppets|1984|599|too_few_lyrics
+Meat Puppets II|5|Meat Puppets|1984|599|too_few_lyrics
+Meat Puppets II|11|Meat Puppets|1984|599|too_few_lyrics
+Meat Puppets II|14|Meat Puppets|1984|599|too_few_lyrics
+Meat Puppets II|16|Meat Puppets|1984|599|too_few_lyrics
+3 Years, 5 Months and 2 Days in the Life of...|11|Arrested Development|1992|842|too_few_lyrics
+Phaedra|1|Tangerine Dream|1974|1184|too_few_lyrics
+Phaedra|2|Tangerine Dream|1974|1184|too_few_lyrics
+Phaedra|3|Tangerine Dream|1974|1184|too_few_lyrics
+Phaedra|4|Tangerine Dream|1974|1184|too_few_lyrics
+Immigres / Bitim Rew|0|Youssou N'Dour|1984|2042|not_found
+Frampton Comes Alive!|8|Peter Frampton|1976|1421|too_few_lyrics
+Figure 8|16|Elliott Smith|2000|1101|too_few_lyrics
+To Be Kind|11|Swans|2014|5394|too_few_lyrics
+Dub Housing|5|Pere Ubu|1978|433|too_few_lyrics
+Far East Suite|1|Duke Ellington|1967|1976|too_few_lyrics
+Far East Suite|2|Duke Ellington|1967|1976|too_few_lyrics
+Far East Suite|3|Duke Ellington|1967|1976|too_few_lyrics
+Far East Suite|4|Duke Ellington|1967|1976|too_few_lyrics
+Far East Suite|5|Duke Ellington|1967|1976|too_few_lyrics
+Far East Suite|6|Duke Ellington|1967|1976|too_few_lyrics
+Far East Suite|7|Duke Ellington|1967|1976|too_few_lyrics
+Far East Suite|8|Duke Ellington|1967|1976|too_few_lyrics
+Far East Suite|9|Duke Ellington|1967|1976|too_few_lyrics
+S.F. Sorrow|10|The Pretty Things|1968|2230|too_few_lyrics
+In Ghost Colors|4|Cut Copy|2008|4349|too_few_lyrics
+In Ghost Colors|8|Cut Copy|2008|4349|too_few_lyrics
+In Ghost Colors|11|Cut Copy|2008|4349|too_few_lyrics
+In Ghost Colors|13|Cut Copy|2008|4349|too_few_lyrics
+In Ghost Colors|15|Cut Copy|2008|4349|too_few_lyrics
+Tindersticks|7|Tindersticks|1993|885|too_few_lyrics
+Tindersticks|10|Tindersticks|1993|885|too_few_lyrics
+Tindersticks|15|Tindersticks|1993|885|too_few_lyrics
+Third|0|The Soft Machine|1970|1128|not_found
+Takk...|1|Sigur Rós|2005|4193|too_few_lyrics
+Takk...|4|Sigur Rós|2005|4193|too_few_lyrics
+Takk...|5|Sigur Rós|2005|4193|too_few_lyrics
+Takk...|7|Sigur Rós|2005|4193|too_few_lyrics
+Takk...|8|Sigur Rós|2005|4193|too_few_lyrics
+Takk...|9|Sigur Rós|2005|4193|too_few_lyrics
+We Insist! Max Roach's Freedom Now Suite|5|Max Roach|1961|1887|too_few_lyrics
+The Last Waltz|0|The Band|1978|449|not_found
+Shaft|2|Isaac Hayes|1971|226|too_few_lyrics
+Shaft|3|Isaac Hayes|1971|226|too_few_lyrics
+Shaft|4|Isaac Hayes|1971|226|too_few_lyrics
+Shaft|5|Isaac Hayes|1971|226|too_few_lyrics
+Shaft|6|Isaac Hayes|1971|226|too_few_lyrics
+Shaft|7|Isaac Hayes|1971|226|too_few_lyrics
+Shaft|8|Isaac Hayes|1971|226|too_few_lyrics
+Shaft|9|Isaac Hayes|1971|226|too_few_lyrics
+Shaft|11|Isaac Hayes|1971|226|too_few_lyrics
+Shaft|12|Isaac Hayes|1971|226|too_few_lyrics
+Shaft|13|Isaac Hayes|1971|226|too_few_lyrics
+Shaft|15|Isaac Hayes|1971|226|too_few_lyrics
+Y|11|The Pop Group|1979|1458|too_few_lyrics
+Miles Ahead|2|Miles Davis|1957|1817|too_few_lyrics
+Miles Ahead|3|Miles Davis|1957|1817|too_few_lyrics
+Miles Ahead|4|Miles Davis|1957|1817|too_few_lyrics
+Miles Ahead|7|Miles Davis|1957|1817|too_few_lyrics
+Miles Ahead|8|Miles Davis|1957|1817|too_few_lyrics
+Miles Ahead|9|Miles Davis|1957|1817|too_few_lyrics
+Miles Ahead|10|Miles Davis|1957|1817|too_few_lyrics
+Miles Ahead|11|Miles Davis|1957|1817|too_few_lyrics
+Miles Ahead|12|Miles Davis|1957|1817|too_few_lyrics
+Miles Ahead|13|Miles Davis|1957|1817|too_few_lyrics
+Miles Ahead|14|Miles Davis|1957|1817|too_few_lyrics
+From a Basement on the Hill|8|Elliott Smith|2004|4065|too_few_lyrics
+Hoodoo Man Blues|0|Junior Wells' Chicago Blues Band|1965|48|not_found
+The Three EP's|3|The Beta Band|1998|1042|too_few_lyrics
+Sometimes I Wish We Were an Eagle|8|Bill Callahan|2009|4998|too_few_lyrics
+Le Mystère des Voix Bulgares|2|Le Mystère des Voix Bulgares|1975|2047|too_few_lyrics
+Le Mystère des Voix Bulgares|3|Le Mystère des Voix Bulgares|1975|2047|too_few_lyrics
+Le Mystère des Voix Bulgares|4|Le Mystère des Voix Bulgares|1975|2047|too_few_lyrics
+Le Mystère des Voix Bulgares|5|Le Mystère des Voix Bulgares|1975|2047|too_few_lyrics
+Le Mystère des Voix Bulgares|7|Le Mystère des Voix Bulgares|1975|2047|too_few_lyrics
+Le Mystère des Voix Bulgares|8|Le Mystère des Voix Bulgares|1975|2047|too_few_lyrics
+Le Mystère des Voix Bulgares|10|Le Mystère des Voix Bulgares|1975|2047|too_few_lyrics
+Le Mystère des Voix Bulgares|11|Le Mystère des Voix Bulgares|1975|2047|too_few_lyrics
+Le Mystère des Voix Bulgares|12|Le Mystère des Voix Bulgares|1975|2047|too_few_lyrics
+Le Mystère des Voix Bulgares|13|Le Mystère des Voix Bulgares|1975|2047|too_few_lyrics
+Le Mystère des Voix Bulgares|14|Le Mystère des Voix Bulgares|1975|2047|too_few_lyrics
+Le Mystère des Voix Bulgares|15|Le Mystère des Voix Bulgares|1975|2047|too_few_lyrics
+Le Mystère des Voix Bulgares|16|Le Mystère des Voix Bulgares|1975|2047|too_few_lyrics
+Blues and Roots|0|Charles Mingus|1960|1867|not_found
+Money Jungle|0|Duke Ellington with Charles Mingus and Max Roach|1963|1911|not_found
+Texas Flood|5|Stevie Ray Vaughan and Double Trouble|1983|598|too_few_lyrics
+Texas Flood|6|Stevie Ray Vaughan and Double Trouble|1983|598|too_few_lyrics
+Texas Flood|10|Stevie Ray Vaughan and Double Trouble|1983|598|too_few_lyrics
+Plastic Beach|1|Gorillaz|2010|5071|too_few_lyrics
+Plastic Beach|17|Gorillaz|2010|5071|too_few_lyrics
+Plastic Beach|18|Gorillaz|2010|5071|too_few_lyrics
+King of America|0|The Costello Show|1986|671|not_found
+Crocodiles|0|Echo and the Bunnymen|1980|494|not_found
+Tarot Sport|1|Fuck Buttons|2009|4995|too_few_lyrics
+Tarot Sport|2|Fuck Buttons|2009|4995|too_few_lyrics
+Tarot Sport|3|Fuck Buttons|2009|4995|too_few_lyrics
+Tarot Sport|4|Fuck Buttons|2009|4995|too_few_lyrics
+Tarot Sport|5|Fuck Buttons|2009|4995|too_few_lyrics
+Tarot Sport|6|Fuck Buttons|2009|4995|too_few_lyrics
+Tarot Sport|7|Fuck Buttons|2009|4995|too_few_lyrics
+Super Ape|3|The Upsetters|1976|2624|too_few_lyrics
+Super Ape|5|The Upsetters|1976|2624|too_few_lyrics
+Super Ape|7|The Upsetters|1976|2624|too_few_lyrics
+Super Ape|8|The Upsetters|1976|2624|too_few_lyrics
+1969: Velvet Underground Live with Lou Reed|0|The Velvet Underground|1974|319|not_found
+Helplessness Blues|7|Fleet Foxes|2011|5143|too_few_lyrics
+Helplessness Blues|13|Fleet Foxes|2011|5143|too_few_lyrics
+Ride the Lightning|8|Metallica|1984|3010|too_few_lyrics
+Source Tags & Codes|1|...And You Will Know Us by the Trail of Dead|2002|1641|too_few_lyrics
+Source Tags & Codes|7|...And You Will Know Us by the Trail of Dead|2002|1641|too_few_lyrics
+Source Tags & Codes|12|...And You Will Know Us by the Trail of Dead|2002|1641|too_few_lyrics
+Going to a Go-Go|0|Smokey Robinson and The Miracles|1965|39|not_found
+Plunge|7|Fever Ray|2017|5893|too_few_lyrics
+Thelonious Monk with John Coltrane|0|Thelonious Monk with John Coltrane|1961|1826|not_found
+Lennie Tristano|1|Lennie Tristano|1956|1805|too_few_lyrics
+Swim|2|Caribou|2010|5060|too_few_lyrics
+Swim|5|Caribou|2010|5060|too_few_lyrics
+Swim|8|Caribou|2010|5060|too_few_lyrics
+A Rainbow in Curved Air|1|Terry Riley|1969|1992|too_few_lyrics
+A Rainbow in Curved Air|2|Terry Riley|1969|1992|too_few_lyrics
+Fisherman's Blues|6|The Waterboys|1988|731|too_few_lyrics
+Fisherman's Blues|11|The Waterboys|1988|731|too_few_lyrics
+This Is the Sea|14|The Waterboys|1985|646|too_few_lyrics
+This Is the Sea|15|The Waterboys|1985|646|too_few_lyrics
+This Is the Sea|16|The Waterboys|1985|646|too_few_lyrics
+Machine Gun|0|Peter Brötzmann|1968|2232|not_found
+Heliocentric Worlds of Sun Ra|1|Sun Ra|1965|1961|too_few_lyrics
+Heliocentric Worlds of Sun Ra|2|Sun Ra|1965|1961|too_few_lyrics
+Heliocentric Worlds of Sun Ra|3|Sun Ra|1965|1961|too_few_lyrics
+Heliocentric Worlds of Sun Ra|4|Sun Ra|1965|1961|too_few_lyrics
+Heliocentric Worlds of Sun Ra|5|Sun Ra|1965|1961|too_few_lyrics
+Heliocentric Worlds of Sun Ra|6|Sun Ra|1965|1961|too_few_lyrics
+Heliocentric Worlds of Sun Ra|7|Sun Ra|1965|1961|too_few_lyrics
+Heliocentric Worlds of Sun Ra|8|Sun Ra|1965|1961|too_few_lyrics
+Heliocentric Worlds of Sun Ra|9|Sun Ra|1965|1961|too_few_lyrics
+Heliocentric Worlds of Sun Ra|10|Sun Ra|1965|1961|too_few_lyrics
+Heliocentric Worlds of Sun Ra|11|Sun Ra|1965|1961|too_few_lyrics
+Heliocentric Worlds of Sun Ra|12|Sun Ra|1965|1961|too_few_lyrics
+Heliocentric Worlds of Sun Ra|13|Sun Ra|1965|1961|too_few_lyrics
+Heliocentric Worlds of Sun Ra|14|Sun Ra|1965|1961|too_few_lyrics
+Heliocentric Worlds of Sun Ra|15|Sun Ra|1965|1961|too_few_lyrics
+Chill Out|2|The KLF|1990|1550|too_few_lyrics
+Chill Out|3|The KLF|1990|1550|too_few_lyrics
+Chill Out|4|The KLF|1990|1550|too_few_lyrics
+Chill Out|11|The KLF|1990|1550|too_few_lyrics
+New Gold Dream (81,82,83,84)|5|Simple Minds|1982|555|too_few_lyrics
+Out of the Cool|1|Gil Evans|1961|1880|too_few_lyrics
+Out of the Cool|2|Gil Evans|1961|1880|too_few_lyrics
+Out of the Cool|3|Gil Evans|1961|1880|too_few_lyrics
+Out of the Cool|4|Gil Evans|1961|1880|too_few_lyrics
+Out of the Cool|5|Gil Evans|1961|1880|too_few_lyrics
+Out of the Cool|6|Gil Evans|1961|1880|too_few_lyrics
+Zenyatta Mondatta|8|The Police|1980|1173|too_few_lyrics
+Zenyatta Mondatta|11|The Police|1980|1173|too_few_lyrics
+Hercules and Love Affair|12|Hercules and Love Affair|2008|4345|too_few_lyrics
+The Grey Album|11|Danger Mouse|2004|4090|too_few_lyrics
+When I Was Born for the 7th Time|3|Cornershop|1997|995|too_few_lyrics
+When I Was Born for the 7th Time|4|Cornershop|1997|995|too_few_lyrics
+When I Was Born for the 7th Time|7|Cornershop|1997|995|too_few_lyrics
+When I Was Born for the 7th Time|9|Cornershop|1997|995|too_few_lyrics
+When I Was Born for the 7th Time|12|Cornershop|1997|995|too_few_lyrics
+When I Was Born for the 7th Time|14|Cornershop|1997|995|too_few_lyrics
+Zombie|0|Fela and Africa 70|1976|2685|not_found
+The Real Thing|9|Faith No More|1989|774|too_few_lyrics
+Soul Revolution/African Herbsman|0|Bob Marley and The Wailers|1971|1137|not_found
+Blizzard of Ozz|4|Ozzy Osbourne|1980|1686|too_few_lyrics
+Blizzard of Ozz|12|Ozzy Osbourne|1980|1686|too_few_lyrics
+The Velvet Rope|12|Janet Jackson|1997|5265|too_few_lyrics
+Black Sheep Boy|14|Okkervil River|2005|4187|too_few_lyrics
+Black Sheep Boy|18|Okkervil River|2005|4187|too_few_lyrics
+Genius of Modern Music, Vol. 2|0|Thelonious Monk|1952|1763|not_found
+Jazz Samba|0|Stan Getz & Charlie Byrd|1962|1913|not_found
+20 Jazz Funk Greats|2|Throbbing Gristle|1979|2777|too_few_lyrics
+20 Jazz Funk Greats|4|Throbbing Gristle|1979|2777|too_few_lyrics
+20 Jazz Funk Greats|6|Throbbing Gristle|1979|2777|too_few_lyrics
+20 Jazz Funk Greats|9|Throbbing Gristle|1979|2777|too_few_lyrics
+Daahoud/Clifford Brown & Max Roach|0|Clifford Brown & Max Roach|1954|1773|not_found
+The Soft Machine|2|The Soft Machine|1968|137|too_few_lyrics
+The Soft Machine|8|The Soft Machine|1968|137|too_few_lyrics
+The Soft Machine|11|The Soft Machine|1968|137|too_few_lyrics
+The Soft Machine|13|The Soft Machine|1968|137|too_few_lyrics
+Diana|23|Diana Ross|1980|2762|too_few_lyrics
+Diana|28|Diana Ross|1980|2762|too_few_lyrics
+Viva La Vida or Death and All His Friends|1|Coldplay|2008|4359|too_few_lyrics
+Heaven Up Here|0|Echo and the Bunnymen|1981|517|not_found
+The Bridge|1|Sonny Rollins|1962|1921|too_few_lyrics
+The Bridge|2|Sonny Rollins|1962|1921|too_few_lyrics
+The Bridge|3|Sonny Rollins|1962|1921|too_few_lyrics
+The Bridge|4|Sonny Rollins|1962|1921|too_few_lyrics
+The Bridge|5|Sonny Rollins|1962|1921|too_few_lyrics
+The Bridge|6|Sonny Rollins|1962|1921|too_few_lyrics
+Milestones|1|Miles Davis|1958|1840|too_few_lyrics
+Milestones|2|Miles Davis|1958|1840|too_few_lyrics
+Milestones|3|Miles Davis|1958|1840|too_few_lyrics
+Milestones|4|Miles Davis|1958|1840|too_few_lyrics
+Milestones|5|Miles Davis|1958|1840|too_few_lyrics
+Milestones|6|Miles Davis|1958|1840|too_few_lyrics
+Embryonic|4|The Flaming Lips|2009|4994|too_few_lyrics
+Embryonic|14|The Flaming Lips|2009|4994|too_few_lyrics
+I Against I|1|Bad Brains|1986|689|too_few_lyrics
+Syro|2|Aphex Twin|2014|5397|too_few_lyrics
+Syro|4|Aphex Twin|2014|5397|too_few_lyrics
+Syro|5|Aphex Twin|2014|5397|too_few_lyrics
+Syro|6|Aphex Twin|2014|5397|too_few_lyrics
+Syro|7|Aphex Twin|2014|5397|too_few_lyrics
+Syro|9|Aphex Twin|2014|5397|too_few_lyrics
+Syro|10|Aphex Twin|2014|5397|too_few_lyrics
+Syro|11|Aphex Twin|2014|5397|too_few_lyrics
+Syro|12|Aphex Twin|2014|5397|too_few_lyrics
+Syro|13|Aphex Twin|2014|5397|too_few_lyrics
+Closing Time|12|Tom Waits|1973|1381|too_few_lyrics
+The Argument|1|Fugazi|2001|1198|too_few_lyrics
+Eat a Peach|2|The Allman Brothers Band|1972|1363|too_few_lyrics
+Eat a Peach|9|The Allman Brothers Band|1972|1363|too_few_lyrics
+Only Built 4 Cuban Linx... Pt II|26|Raekwon|2009|5007|too_few_lyrics
+Only Built 4 Cuban Linx... Pt II|27|Raekwon|2009|5007|too_few_lyrics
+Only Built 4 Cuban Linx... Pt II|28|Raekwon|2009|5007|too_few_lyrics
+Out of Step EP|0|Minor Threat|1983|2964|not_found
+Mad Dogs and Englishmen|0|Joe Cocker|1970|1255|not_found
+Orange|4|Blues Explosion|1994|928|too_few_lyrics
+Orange|13|Blues Explosion|1994|928|too_few_lyrics
+Follow the Leader|4|Eric B. & Rakim|1988|739|too_few_lyrics
+Follow the Leader|11|Eric B. & Rakim|1988|739|too_few_lyrics
+Ruins|1|Grouper|2014|5423|too_few_lyrics
+Ruins|4|Grouper|2014|5423|too_few_lyrics
+Ruins|6|Grouper|2014|5423|too_few_lyrics
+Ruins|8|Grouper|2014|5423|too_few_lyrics
+Talking with the Taxman About Poetry|15|Billy Bragg|1986|681|too_few_lyrics
+Funky Kingston|0|Toots and The Maytals|1973|299|not_found
+Ram|0|Paul and Linda McCartney|1971|1140|not_found
+The Message|0|Grandmaster Flash and The Furious Five|1982|1689|not_found
+Angel Dust|13|Faith No More|1992|1565|too_few_lyrics
+Vol. 4|4|Black Sabbath|1972|262|too_few_lyrics
+Vol. 4|8|Black Sabbath|1972|262|too_few_lyrics
+Out of the Blue|15|Electric Light Orchestra|1977|1159|too_few_lyrics
+Out of the Blue|19|Electric Light Orchestra|1977|1159|too_few_lyrics
+On the Corner|1|Miles Davis|1972|2005|too_few_lyrics
+On the Corner|2|Miles Davis|1972|2005|too_few_lyrics
+On the Corner|3|Miles Davis|1972|2005|too_few_lyrics
+On the Corner|4|Miles Davis|1972|2005|too_few_lyrics
+Hospice|1|The Antlers|2009|5002|too_few_lyrics
+90|2|808 State|1989|3264|too_few_lyrics
+90|3|808 State|1989|3264|too_few_lyrics
+90|4|808 State|1989|3264|too_few_lyrics
+90|5|808 State|1989|3264|too_few_lyrics
+90|6|808 State|1989|3264|too_few_lyrics
+90|7|808 State|1989|3264|too_few_lyrics
+90|8|808 State|1989|3264|too_few_lyrics
+More Specials|9|The Specials|1980|2825|too_few_lyrics
+More Specials|13|The Specials|1980|2825|too_few_lyrics
+Black Monk Time|4|Monks|1966|82|too_few_lyrics
+Black Monk Time|16|Monks|1966|82|too_few_lyrics
+Drum's Not Dead|8|Liars|2006|2087|too_few_lyrics
+13 Songs (Fugazi EP + Margin Walker EP)|0|Fugazi|1989|3272|not_found
+Blues for the Red Sun|3|Kyuss|1992|3419|too_few_lyrics
+Blues for the Red Sun|6|Kyuss|1992|3419|too_few_lyrics
+Blues for the Red Sun|7|Kyuss|1992|3419|too_few_lyrics
+Blues for the Red Sun|9|Kyuss|1992|3419|too_few_lyrics
+Blues for the Red Sun|11|Kyuss|1992|3419|too_few_lyrics
+Blues for the Red Sun|14|Kyuss|1992|3419|too_few_lyrics
+Killing Joke|4|Killing Joke|1980|2829|too_few_lyrics
+The Scream|1|Siouxsie and The Banshees|1978|437|too_few_lyrics
+Bogalusa Boogie|0|Clifton Chenier|1975|2208|not_found
+Neu! 75|1|Neu!|1975|2579|too_few_lyrics
+Neu! 75|2|Neu!|1975|2579|too_few_lyrics
+Neu! 75|5|Neu!|1975|2579|too_few_lyrics
+Way Out West|1|Sonny Rollins|1957|1830|too_few_lyrics
+Way Out West|2|Sonny Rollins|1957|1830|too_few_lyrics
+Way Out West|3|Sonny Rollins|1957|1830|too_few_lyrics
+Way Out West|4|Sonny Rollins|1957|1830|too_few_lyrics
+Way Out West|5|Sonny Rollins|1957|1830|too_few_lyrics
+Way Out West|6|Sonny Rollins|1957|1830|too_few_lyrics
+There Is Love in You|1|Four Tet|2010|5067|too_few_lyrics
+There Is Love in You|3|Four Tet|2010|5067|too_few_lyrics
+There Is Love in You|4|Four Tet|2010|5067|too_few_lyrics
+There Is Love in You|5|Four Tet|2010|5067|too_few_lyrics
+There Is Love in You|6|Four Tet|2010|5067|too_few_lyrics
+There Is Love in You|7|Four Tet|2010|5067|too_few_lyrics
+There Is Love in You|8|Four Tet|2010|5067|too_few_lyrics
+There Is Love in You|9|Four Tet|2010|5067|too_few_lyrics
+Fresh Cream|10|Cream|1966|71|too_few_lyrics
+At Action Park|2|Shellac|1994|3538|too_few_lyrics
+The Black Light|1|Calexico|1998|3724|too_few_lyrics
+The Black Light|2|Calexico|1998|3724|too_few_lyrics
+The Black Light|4|Calexico|1998|3724|too_few_lyrics
+The Black Light|6|Calexico|1998|3724|too_few_lyrics
+The Black Light|7|Calexico|1998|3724|too_few_lyrics
+The Black Light|9|Calexico|1998|3724|too_few_lyrics
+The Black Light|10|Calexico|1998|3724|too_few_lyrics
+The Black Light|11|Calexico|1998|3724|too_few_lyrics
+The Black Light|13|Calexico|1998|3724|too_few_lyrics
+The Black Light|15|Calexico|1998|3724|too_few_lyrics
+The Black Light|17|Calexico|1998|3724|too_few_lyrics
+Felt Mountain|6|Goldfrapp|2000|1106|too_few_lyrics
+Felt Mountain|7|Goldfrapp|2000|1106|too_few_lyrics
+The Hour of Bewilderbeast|3|Badly Drawn Boy|2000|1085|too_few_lyrics
+The Hour of Bewilderbeast|8|Badly Drawn Boy|2000|1085|too_few_lyrics
+The Hour of Bewilderbeast|11|Badly Drawn Boy|2000|1085|too_few_lyrics
+The Hour of Bewilderbeast|15|Badly Drawn Boy|2000|1085|too_few_lyrics
+A Night at the "Village Vanguard"|0|Sonny Rollins|1958|1829|not_found
+Melody A.M.|2|Röyksopp|2001|1736|too_few_lyrics
+Melody A.M.|4|Röyksopp|2001|1736|too_few_lyrics
+Melody A.M.|7|Röyksopp|2001|1736|too_few_lyrics
+Melody A.M.|9|Röyksopp|2001|1736|too_few_lyrics
+Melody A.M.|10|Röyksopp|2001|1736|too_few_lyrics
+Atrocity Exhibition|16|Danny Brown|2016|5713|too_few_lyrics
+Radio-Aktivität/Radio-Activity|0|Kraftwerk|1975|2564|not_found
+Songs from the Big Chair|11|Tears for Fears|1985|3060|too_few_lyrics
+Strictly Business|9|EPMD|1988|749|too_few_lyrics
+Strictly Business|11|EPMD|1988|749|too_few_lyrics
+Strictly Business|12|EPMD|1988|749|too_few_lyrics
+Strictly Business|13|EPMD|1988|749|too_few_lyrics
+Strictly Business|14|EPMD|1988|749|too_few_lyrics
+Strictly Business|15|EPMD|1988|749|too_few_lyrics
+Phrenology|6|The Roots|2002|1651|too_few_lyrics
+Messe Pour Le Temps Present|1|Pierre Henry & Michel Colombier|1967|4463|too_few_lyrics
+Ella Fitzgerald Sings the George and Ira Gershwin Songbook|2|Ella Fitzgerald|1959|1865|too_few_lyrics
+Bizarre Ride II The Pharcyde|1|The Pharcyde|1992|1576|too_few_lyrics
+De-Loused in the Comatorium|4|The Mars Volta|2003|3935|too_few_lyrics
+Brothers|6|The Black Keys|2010|5103|too_few_lyrics
+Brothers|17|The Black Keys|2010|5103|too_few_lyrics
+New Amerykah Part One (4th World War)|0|Erykah Badu|2008|4351|not_found
+Welcome to Sky Valley|2|Kyuss|1994|3524|too_few_lyrics
+Basket of Light|0|The Pentangle|1969|1322|not_found
+Psalm 69: The Way to Succeed & the Way to Suck Eggs|8|Ministry|1992|869|too_few_lyrics
+Psalm 69: The Way to Succeed & the Way to Suck Eggs|9|Ministry|1992|869|too_few_lyrics
+The Paul Butterfield Blues Band|4|The Paul Butterfield Blues Band|1965|49|too_few_lyrics
+The Paul Butterfield Blues Band|7|The Paul Butterfield Blues Band|1965|49|too_few_lyrics
+Shields|3|Grizzly Bear|2012|5219|too_few_lyrics
+Tri Repetae|1|Autechre|1995|3567|too_few_lyrics
+Tri Repetae|2|Autechre|1995|3567|too_few_lyrics
+Tri Repetae|3|Autechre|1995|3567|too_few_lyrics
+Tri Repetae|4|Autechre|1995|3567|too_few_lyrics
+Tri Repetae|5|Autechre|1995|3567|too_few_lyrics
+Tri Repetae|6|Autechre|1995|3567|too_few_lyrics
+Tri Repetae|7|Autechre|1995|3567|too_few_lyrics
+Tri Repetae|8|Autechre|1995|3567|too_few_lyrics
+Tri Repetae|9|Autechre|1995|3567|too_few_lyrics
+Tri Repetae|10|Autechre|1995|3567|too_few_lyrics
+Unit Structures|0|Cecil Taylor|1966|1974|not_found
+Saturdays = Youth|5|M83|2008|4355|too_few_lyrics
+Saturdays = Youth|11|M83|2008|4355|too_few_lyrics
+Good News for People Who Love Bad News|1|Modest Mouse|2004|4044|too_few_lyrics
+Good News for People Who Love Bad News|12|Modest Mouse|2004|4044|too_few_lyrics
+Foxtrot|5|Genesis|1972|1145|too_few_lyrics
+Ascension|1|John Coltrane|1966|1952|too_few_lyrics
+Ascension|2|John Coltrane|1966|1952|too_few_lyrics
+Ascension|3|John Coltrane|1966|1952|too_few_lyrics
+Ascension|4|John Coltrane|1966|1952|too_few_lyrics
+In C|0|Terry Riley|1968|1986|not_found
+Santana|8|Santana|1969|1230|too_few_lyrics
+Santana|14|Santana|1969|1230|too_few_lyrics
+John Coltrane and Johnny Hartman|4|John Coltrane|1963|1926|too_few_lyrics
+Blood, Sweat & Tears|1|Blood, Sweat & Tears|1969|1117|too_few_lyrics
+Burial|2|Burial|2006|3146|too_few_lyrics
+Burial|4|Burial|2006|3146|too_few_lyrics
+Burial|5|Burial|2006|3146|too_few_lyrics
+Burial|6|Burial|2006|3146|too_few_lyrics
+Burial|9|Burial|2006|3146|too_few_lyrics
+Burial|10|Burial|2006|3146|too_few_lyrics
+Burial|11|Burial|2006|3146|too_few_lyrics
+Burial|12|Burial|2006|3146|too_few_lyrics
+Overkill|14|Motörhead|1979|2773|too_few_lyrics
+Before Today|10|Ariel Pink's Haunted Graffiti|2010|5054|too_few_lyrics
+Unplugged|1|Eric Clapton|1992|862|too_few_lyrics
+A Northern Soul|12|The Verve|1995|954|too_few_lyrics
+Girls Can Tell|10|Spoon|2001|3877|too_few_lyrics
+Escalator Over the Hill|0|Carla Bley & Paul Haines|1971|2002|not_found
+In It for the Money|21|Supergrass|1997|1003|too_few_lyrics
+Everything Is Wrong|1|Moby|1995|953|too_few_lyrics
+Everything Is Wrong|8|Moby|1995|953|too_few_lyrics
+Everything Is Wrong|10|Moby|1995|953|too_few_lyrics
+Everything Is Wrong|11|Moby|1995|953|too_few_lyrics
+Everything Is Wrong|12|Moby|1995|953|too_few_lyrics
+Down by the Jetty|12|Dr. Feelgood|1975|1154|too_few_lyrics
+Birds of Fire|1|Mahavishnu Orchestra|1973|2008|too_few_lyrics
+Birds of Fire|2|Mahavishnu Orchestra|1973|2008|too_few_lyrics
+Birds of Fire|3|Mahavishnu Orchestra|1973|2008|too_few_lyrics
+Birds of Fire|4|Mahavishnu Orchestra|1973|2008|too_few_lyrics
+Birds of Fire|5|Mahavishnu Orchestra|1973|2008|too_few_lyrics
+Birds of Fire|6|Mahavishnu Orchestra|1973|2008|too_few_lyrics
+Birds of Fire|7|Mahavishnu Orchestra|1973|2008|too_few_lyrics
+Birds of Fire|8|Mahavishnu Orchestra|1973|2008|too_few_lyrics
+Birds of Fire|9|Mahavishnu Orchestra|1973|2008|too_few_lyrics
+Birds of Fire|10|Mahavishnu Orchestra|1973|2008|too_few_lyrics
+Innovator: Soundtrack for the Tenth Planet / Innovator [1997]|0|Derrick May|1991|4857|not_found
+Too-Rye-Ay|12|Dexys Midnight Runners|1982|551|too_few_lyrics
+Charles Mingus Presents Charles Mingus|0|Charles Mingus|1960|1883|not_found
+Two Sevens Clash|2|Culture|1977|409|too_few_lyrics
+Two Sevens Clash|6|Culture|1977|409|too_few_lyrics
+Street Songs|10|Rick James|1981|534|too_few_lyrics
+Street Songs|12|Rick James|1981|534|too_few_lyrics
+Street Songs|13|Rick James|1981|534|too_few_lyrics
+Nefertiti|1|Miles Davis|1968|1983|too_few_lyrics
+Nefertiti|2|Miles Davis|1968|1983|too_few_lyrics
+Nefertiti|3|Miles Davis|1968|1983|too_few_lyrics
+Nefertiti|4|Miles Davis|1968|1983|too_few_lyrics
+Nefertiti|5|Miles Davis|1968|1983|too_few_lyrics
+Nefertiti|6|Miles Davis|1968|1983|too_few_lyrics
+Return to Forever|1|Chick Corea|1972|2004|too_few_lyrics
+Return to Forever|2|Chick Corea|1972|2004|too_few_lyrics
+Clube da esquina|18|Milton Nascimento & Lô Borges|1972|2444|too_few_lyrics
+Clube da esquina|22|Milton Nascimento & Lô Borges|1972|2444|too_few_lyrics
+Our Man in Paris|1|Dexter Gordon|1963|1931|too_few_lyrics
+Our Man in Paris|2|Dexter Gordon|1963|1931|too_few_lyrics
+Our Man in Paris|3|Dexter Gordon|1963|1931|too_few_lyrics
+Our Man in Paris|4|Dexter Gordon|1963|1931|too_few_lyrics
+Our Man in Paris|5|Dexter Gordon|1963|1931|too_few_lyrics
+A Night at Birdland Vol. 1|0|Art Blakey Quintet|1954|1771|not_found
+Reflektor|1|Arcade Fire|2013|5270|too_few_lyrics
+Reflektor|22|Arcade Fire|2013|5270|too_few_lyrics
+Change of the Century|1|Ornette Coleman|1960|1876|too_few_lyrics
+Change of the Century|2|Ornette Coleman|1960|1876|too_few_lyrics
+Change of the Century|3|Ornette Coleman|1960|1876|too_few_lyrics
+Change of the Century|4|Ornette Coleman|1960|1876|too_few_lyrics
+Change of the Century|5|Ornette Coleman|1960|1876|too_few_lyrics
+Change of the Century|6|Ornette Coleman|1960|1876|too_few_lyrics
+Change of the Century|7|Ornette Coleman|1960|1876|too_few_lyrics
+Uncle Meat|1|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|3|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|4|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|8|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|15|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|21|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|23|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|24|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|25|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|26|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|27|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|29|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|30|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|32|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|33|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|35|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|36|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|37|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|39|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|40|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|41|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|47|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|50|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|51|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|53|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|57|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|61|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|62|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|64|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|65|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|70|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|71|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|72|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|74|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|75|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|76|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|78|Frank Zappa|1969|1123|too_few_lyrics
+Uncle Meat|79|Frank Zappa|1969|1123|too_few_lyrics
+New Adventures in Hi-Fi|11|R.E.M.|1996|965|too_few_lyrics
+Tin Drum|4|Japan|1981|522|too_few_lyrics
+Oxygène|1|Jean Michel Jarre|1976|2623|too_few_lyrics
+Oxygène|2|Jean Michel Jarre|1976|2623|too_few_lyrics
+Oxygène|3|Jean Michel Jarre|1976|2623|too_few_lyrics
+Oxygène|4|Jean Michel Jarre|1976|2623|too_few_lyrics
+Oxygène|5|Jean Michel Jarre|1976|2623|too_few_lyrics
+Oxygène|6|Jean Michel Jarre|1976|2623|too_few_lyrics
+Discreet Music|1|Eno|1975|2701|too_few_lyrics
+Discreet Music|2|Eno|1975|2701|too_few_lyrics
+Discreet Music|3|Eno|1975|2701|too_few_lyrics
+Discreet Music|4|Eno|1975|2701|too_few_lyrics
+The Stranglers IV - Rattus Norvegicus|0|The Stranglers|1977|410|not_found
+Lola versus Powerman and The Moneygoround, Part One|18|The Kinks|1970|1662|too_few_lyrics
+'Live' at the Apollo, Volume II|0|James Brown|1968|1311|not_found
+Scum|12|Napalm Death|1987|1524|too_few_lyrics
+Fontessa|0|The Modern Jazz Quartet|1956|1799|not_found
+Beck-Ola|3|Jeff Beck|1969|1119|too_few_lyrics
+Beck-Ola|7|Jeff Beck|1969|1119|too_few_lyrics
+Modern Life Is Rubbish|8|Blur|1993|876|too_few_lyrics
+Modern Life Is Rubbish|16|Blur|1993|876|too_few_lyrics
+Michigan|6|Sufjan Stevens|2003|3913|too_few_lyrics
+Michigan|10|Sufjan Stevens|2003|3913|too_few_lyrics
+Michigan|14|Sufjan Stevens|2003|3913|too_few_lyrics
+Michigan|16|Sufjan Stevens|2003|3913|too_few_lyrics
+Divers|12|Joanna Newsom|2015|5551|too_few_lyrics
+Selected Ambient Works Volume II|1|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|2|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|3|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|4|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|5|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|6|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|7|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|8|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|9|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|10|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|11|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|12|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|13|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|14|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|15|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|16|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|17|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|18|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|19|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|20|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|21|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|22|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|23|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|24|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|25|Aphex Twin|1994|1591|too_few_lyrics
+Selected Ambient Works Volume II|26|Aphex Twin|1994|1591|too_few_lyrics
+Mustt Mustt|2|Nusrat Fateh Ali Khan|1990|2154|too_few_lyrics
+The Marble Index|1|Nico|1968|1661|too_few_lyrics
+Live 1975-1985|0|Bruce Springsteen|1986|688|not_found
+Blackboard Jungle Dub|2|Upsetters|1973|2495|too_few_lyrics
+Blackboard Jungle Dub|4|Upsetters|1973|2495|too_few_lyrics
+Blackboard Jungle Dub|5|Upsetters|1973|2495|too_few_lyrics
+Blackboard Jungle Dub|6|Upsetters|1973|2495|too_few_lyrics
+Blackboard Jungle Dub|7|Upsetters|1973|2495|too_few_lyrics
+Blackboard Jungle Dub|8|Upsetters|1973|2495|too_few_lyrics
+Blackboard Jungle Dub|9|Upsetters|1973|2495|too_few_lyrics
+Blackboard Jungle Dub|10|Upsetters|1973|2495|too_few_lyrics
+Blackboard Jungle Dub|11|Upsetters|1973|2495|too_few_lyrics
+Blackboard Jungle Dub|12|Upsetters|1973|2495|too_few_lyrics
+Black Sunday|7|Cypress Hill|1993|886|too_few_lyrics
+Desperado|7|Eagles|1973|295|too_few_lyrics
+The Yes Album|2|Yes|1971|232|too_few_lyrics
+Weld|0|Neil Young and Crazy Horse|1991|818|not_found
+Soul Station|1|Hank Mobley|1960|1885|too_few_lyrics
+Soul Station|2|Hank Mobley|1960|1885|too_few_lyrics
+Soul Station|3|Hank Mobley|1960|1885|too_few_lyrics
+Soul Station|4|Hank Mobley|1960|1885|too_few_lyrics
+Soul Station|5|Hank Mobley|1960|1885|too_few_lyrics
+Soul Station|6|Hank Mobley|1960|1885|too_few_lyrics
+Go|1|Dexter Gordon|1962|1915|too_few_lyrics
+Go|2|Dexter Gordon|1962|1915|too_few_lyrics
+Go|3|Dexter Gordon|1962|1915|too_few_lyrics
+Go|4|Dexter Gordon|1962|1915|too_few_lyrics
+Go|5|Dexter Gordon|1962|1915|too_few_lyrics
+Go|6|Dexter Gordon|1962|1915|too_few_lyrics
+Kollaps|4|Einstürzende Neubauten|1981|2875|too_few_lyrics
+Kollaps|7|Einstürzende Neubauten|1981|2875|too_few_lyrics
+Kollaps|10|Einstürzende Neubauten|1981|2875|too_few_lyrics
+Kollaps|13|Einstürzende Neubauten|1981|2875|too_few_lyrics
+Space Ritual|8|Hawkwind|1973|2490|too_few_lyrics
+The Dream of the Blue Turtles|8|Sting|1985|649|too_few_lyrics
+Hello Nasty|8|Beastie Boys|1998|1027|too_few_lyrics
+Album|11|Girls|2009|4999|too_few_lyrics
+The Fragile|3|Nine Inch Nails|1999|1068|too_few_lyrics
+The Fragile|7|Nine Inch Nails|1999|1068|too_few_lyrics
+The Fragile|9|Nine Inch Nails|1999|1068|too_few_lyrics
+The Fragile|16|Nine Inch Nails|1999|1068|too_few_lyrics
+The Fragile|19|Nine Inch Nails|1999|1068|too_few_lyrics
+The Fragile|23|Nine Inch Nails|1999|1068|too_few_lyrics
+Rings Around the World|6|Super Furry Animals|2001|1207|too_few_lyrics
+Rings Around the World|8|Super Furry Animals|2001|1207|too_few_lyrics
+Electric Music for the Mind and Body|5|Country Joe & The Fish|1967|118|too_few_lyrics
+Radiator|1|Super Furry Animals|1997|1013|too_few_lyrics
+Radiator|5|Super Furry Animals|1997|1013|too_few_lyrics
+Tango: Zero Hour / Nuevo Tango: Hora Zero|0|Astor Piazzolla|1986|3128|not_found
+Jackson Browne (Saturate Before Using)|0|Jackson Browne|1972|1364|not_found
+Playing with Fire|8|Spacemen 3|1989|1700|too_few_lyrics
+Art Pepper Meets the Rhythm Section|1|Art Pepper|1957|1828|too_few_lyrics
+Art Pepper Meets the Rhythm Section|2|Art Pepper|1957|1828|too_few_lyrics
+Art Pepper Meets the Rhythm Section|3|Art Pepper|1957|1828|too_few_lyrics
+Art Pepper Meets the Rhythm Section|4|Art Pepper|1957|1828|too_few_lyrics
+Art Pepper Meets the Rhythm Section|5|Art Pepper|1957|1828|too_few_lyrics
+Art Pepper Meets the Rhythm Section|6|Art Pepper|1957|1828|too_few_lyrics
+Art Pepper Meets the Rhythm Section|7|Art Pepper|1957|1828|too_few_lyrics
+Art Pepper Meets the Rhythm Section|9|Art Pepper|1957|1828|too_few_lyrics
+Lateralus|2|Tool|2001|1218|too_few_lyrics
+Lateralus|4|Tool|2001|1218|too_few_lyrics
+Lateralus|12|Tool|2001|1218|too_few_lyrics
+Bad Brains|6|Bad Brains|1982|2910|too_few_lyrics
+Bad Brains|15|Bad Brains|1982|2910|too_few_lyrics
+Howlin' Wind|13|Graham Parker & The Rumour|1976|371|too_few_lyrics
+Trust|0|Elvis Costello and The Attractions|1981|519|not_found
+Fly Like an Eagle|1|Steve Miller Band|1976|384|too_few_lyrics
+Fly Like an Eagle|10|Steve Miller Band|1976|384|too_few_lyrics
+Liberation Music Orchestra|0|Charlie Haden|1970|2350|not_found
+From Here We Go Sublime|1|The Field|2007|4268|too_few_lyrics
+From Here We Go Sublime|2|The Field|2007|4268|too_few_lyrics
+From Here We Go Sublime|3|The Field|2007|4268|too_few_lyrics
+From Here We Go Sublime|4|The Field|2007|4268|too_few_lyrics
+From Here We Go Sublime|5|The Field|2007|4268|too_few_lyrics
+From Here We Go Sublime|6|The Field|2007|4268|too_few_lyrics
+From Here We Go Sublime|7|The Field|2007|4268|too_few_lyrics
+From Here We Go Sublime|8|The Field|2007|4268|too_few_lyrics
+From Here We Go Sublime|9|The Field|2007|4268|too_few_lyrics
+From Here We Go Sublime|10|The Field|2007|4268|too_few_lyrics
+Swing Lo Magellan|13|Dirty Projectors|2012|5207|too_few_lyrics
+Discipline|6|King Crimson|1981|1472|too_few_lyrics
+Discipline|7|King Crimson|1981|1472|too_few_lyrics
+Round About Midnight|1|Miles Davis|1957|1819|too_few_lyrics
+Round About Midnight|2|Miles Davis|1957|1819|too_few_lyrics
+Round About Midnight|3|Miles Davis|1957|1819|too_few_lyrics
+Round About Midnight|4|Miles Davis|1957|1819|too_few_lyrics
+Round About Midnight|5|Miles Davis|1957|1819|too_few_lyrics
+Round About Midnight|6|Miles Davis|1957|1819|too_few_lyrics
+It'll End in Tears|4|This Mortal Coil|1984|3016|too_few_lyrics
+It'll End in Tears|6|This Mortal Coil|1984|3016|too_few_lyrics
+It'll End in Tears|9|This Mortal Coil|1984|3016|too_few_lyrics
+It'll End in Tears|10|This Mortal Coil|1984|3016|too_few_lyrics
+99.9%|1|Kaytranada|2016|5756|too_few_lyrics
+99.9%|2|Kaytranada|2016|5756|too_few_lyrics
+99.9%|6|Kaytranada|2016|5756|too_few_lyrics
+99.9%|10|Kaytranada|2016|5756|too_few_lyrics
+99.9%|16|Kaytranada|2016|5756|too_few_lyrics
+Miles Smiles|1|Miles Davis|1967|1967|too_few_lyrics
+Miles Smiles|2|Miles Davis|1967|1967|too_few_lyrics
+Miles Smiles|3|Miles Davis|1967|1967|too_few_lyrics
+Miles Smiles|4|Miles Davis|1967|1967|too_few_lyrics
+Miles Smiles|5|Miles Davis|1967|1967|too_few_lyrics
+The Only Ones|14|The Only Ones|1978|2731|too_few_lyrics
+Rejoicing in the Hands|9|Devendra Banhart|2004|4053|too_few_lyrics
+Medulla|11|Björk|2004|4058|too_few_lyrics
+Medulla|13|Björk|2004|4058|too_few_lyrics
+Medulla|15|Björk|2004|4058|too_few_lyrics
+Child Is Father to the Man|1|Blood, Sweat & Tears|1968|146|too_few_lyrics
+Light Up Gold|7|Parquet Courts|2012|5352|too_few_lyrics
+Smiley Smile|3|The Beach Boys|1967|112|too_few_lyrics
+Einstein on the Beach|2|Philip Glass|1979|2029|too_few_lyrics
+Einstein on the Beach|3|Philip Glass|1979|2029|too_few_lyrics
+Einstein on the Beach|5|Philip Glass|1979|2029|too_few_lyrics
+Einstein on the Beach|6|Philip Glass|1979|2029|too_few_lyrics
+Einstein on the Beach|7|Philip Glass|1979|2029|too_few_lyrics
+Einstein on the Beach|8|Philip Glass|1979|2029|too_few_lyrics
+Einstein on the Beach|9|Philip Glass|1979|2029|too_few_lyrics
+Einstein on the Beach|10|Philip Glass|1979|2029|too_few_lyrics
+Einstein on the Beach|11|Philip Glass|1979|2029|too_few_lyrics
+Einstein on the Beach|12|Philip Glass|1979|2029|too_few_lyrics
+Einstein on the Beach|13|Philip Glass|1979|2029|too_few_lyrics
+Talking Timbuktu|0|Ali Farka Touré with Ry Cooder|1994|2203|not_found
+Sleeps with Angels|0|Neil Young and Crazy Horse|1994|908|not_found
+In On the Kill Taker|7|Fugazi|1993|3473|too_few_lyrics
+Iron Maiden|5|Iron Maiden|1980|2816|too_few_lyrics
+Los Angeles|1|Flying Lotus|2008|4365|too_few_lyrics
+Los Angeles|2|Flying Lotus|2008|4365|too_few_lyrics
+Los Angeles|3|Flying Lotus|2008|4365|too_few_lyrics
+Los Angeles|4|Flying Lotus|2008|4365|too_few_lyrics
+Los Angeles|5|Flying Lotus|2008|4365|too_few_lyrics
+Los Angeles|7|Flying Lotus|2008|4365|too_few_lyrics
+Los Angeles|8|Flying Lotus|2008|4365|too_few_lyrics
+Los Angeles|9|Flying Lotus|2008|4365|too_few_lyrics
+Los Angeles|10|Flying Lotus|2008|4365|too_few_lyrics
+Los Angeles|11|Flying Lotus|2008|4365|too_few_lyrics
+Los Angeles|12|Flying Lotus|2008|4365|too_few_lyrics
+Los Angeles|14|Flying Lotus|2008|4365|too_few_lyrics
+Los Angeles|15|Flying Lotus|2008|4365|too_few_lyrics
+Los Angeles|16|Flying Lotus|2008|4365|too_few_lyrics
+It's Album Time|2|Todd Terje|2014|5408|too_few_lyrics
+It's Album Time|3|Todd Terje|2014|5408|too_few_lyrics
+It's Album Time|4|Todd Terje|2014|5408|too_few_lyrics
+It's Album Time|5|Todd Terje|2014|5408|too_few_lyrics
+It's Album Time|6|Todd Terje|2014|5408|too_few_lyrics
+It's Album Time|8|Todd Terje|2014|5408|too_few_lyrics
+It's Album Time|9|Todd Terje|2014|5408|too_few_lyrics
+It's Album Time|10|Todd Terje|2014|5408|too_few_lyrics
+It's Album Time|11|Todd Terje|2014|5408|too_few_lyrics
+It's Album Time|12|Todd Terje|2014|5408|too_few_lyrics
+April in Paris|2|Count Basie|1957|1810|too_few_lyrics
+April in Paris|3|Count Basie|1957|1810|too_few_lyrics
+April in Paris|4|Count Basie|1957|1810|too_few_lyrics
+April in Paris|5|Count Basie|1957|1810|too_few_lyrics
+April in Paris|7|Count Basie|1957|1810|too_few_lyrics
+April in Paris|8|Count Basie|1957|1810|too_few_lyrics
+April in Paris|9|Count Basie|1957|1810|too_few_lyrics
+April in Paris|10|Count Basie|1957|1810|too_few_lyrics
+So Far|2|Faust|1972|2439|too_few_lyrics
+So Far|3|Faust|1972|2439|too_few_lyrics
+So Far|4|Faust|1972|2439|too_few_lyrics
+So Far|7|Faust|1972|2439|too_few_lyrics
+Blow by Blow|1|Jeff Beck|1975|356|too_few_lyrics
+Blow by Blow|3|Jeff Beck|1975|356|too_few_lyrics
+Blow by Blow|4|Jeff Beck|1975|356|too_few_lyrics
+Blow by Blow|5|Jeff Beck|1975|356|too_few_lyrics
+Blow by Blow|6|Jeff Beck|1975|356|too_few_lyrics
+Blow by Blow|7|Jeff Beck|1975|356|too_few_lyrics
+Blow by Blow|8|Jeff Beck|1975|356|too_few_lyrics
+Blow by Blow|9|Jeff Beck|1975|356|too_few_lyrics
+The Disintegration Loops|1|William Basinski|2002|4947|too_few_lyrics
+The Disintegration Loops|2|William Basinski|2002|4947|too_few_lyrics

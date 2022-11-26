@@ -57,6 +57,7 @@ const globalApplicationState = {
     god_checked: false,
     rock_w_checked: false,
     swear_checked: false,
+    year_hovered: null //For the histogram
   };
 
         
@@ -76,7 +77,7 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
         console.log("word frequency", data[2]);
         console.log("overall word frequency", data[3]);
 
-        // histogram = new Historgram(data[0], data[1],histogramDiv ,globalApplicationState)
+        histogram = new Histogram(data[0], data[1],histogramDiv ,globalApplicationState)
         line = new Line(data[0], data[1],lineDiv ,globalApplicationState);
         word_line = new Word_Line(data[2],data[3],lineWordsDiv,globalApplicationState);
         word_line.draw_main_line();

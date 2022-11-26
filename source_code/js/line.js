@@ -59,8 +59,8 @@ class Line {
             .style('stroke', 'grey')
             .style('stroke-width', this.MAIN_LINE_STROKE_WIDTH)
 
-        this.linesLeft = document.getElementById("lineChart").getBoundingClientRect().left
-        this.linesRight = document.getElementById("lineChart").getBoundingClientRect().right
+        this.linesLeft = document.getElementById("line_svg").getBoundingClientRect().left
+        this.linesRight = document.getElementById("line_svg").getBoundingClientRect().right
     
 
         //**********************************************************************************************
@@ -89,12 +89,12 @@ class Line {
             .range([0 , this.TOTAL_WIDTH - this.MARGIN_RIGHT ]) 
             .domain([this.min_year, this.max_year + 3]);
 
-        let legend_data = ['1940', '1950', '1960', '1970', '1980','1990', '2000', '2010', '2020']
+        let legend_data = [1940, 1950, 1960, 1970, 1980,1990, 2000, 2010, 2020]
         let xAxisGenerator = d3.axisBottom(this.scale_year);
     
         xAxisGenerator.ticks(9);
         xAxisGenerator.tickValues(['1940', '1950', '1960', '1970', '1980','1990', '2000', '2010', '2020'])
-        xAxisGenerator.tickSize(0)
+        xAxisGenerator.tickSize(1)
 
 
             let xAxis =  d3.select('#x_axis')
@@ -159,24 +159,36 @@ class Line {
             .attr('fill', 'none')
             .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${0})`);
 
+        let overlay = this.lineSvg
+        .append("g")
+        .attr('id', 'overlay')
+        .append('line')
+
    
         this.lineSvg.on('mousemove', (event) => {
-            console.log(event.clientX)
+            // console.log(event.clientX)
 
-            console.log("this.linesLeft", this.linesLeft)
-            console.log("this.linesRight", this.linesRight)
+            // console.log("this.linesLeft", this.linesLeft)
+            // console.log("this.linesRight", this.linesRight)
 
-            if (event.clientX > this.linesLeft && event.clientX <this.linesRight ){
+            if (event.clientX > this.linesLeft + this.PUSH_AXIS_RIGHT && event.clientX <this.linesRight ){
                 console.log("YE")
         
-                lineChart
-                .select('#overlay')
+                overlay
                 .select('line')
                 .attr('stroke', 'black')
                 .attr('x1', event.clientX - this.linesLeft)
                 .attr('x2', event.clientX -this.linesLeft)
                 .attr('y1', this.TOTAL_HEIGHT - this.MARGIN_TOP)
                 .attr('y2', 0);
+
+                let year_hovered = this.scale_year.invert(event.clientX - this.linesLeft)//.toISOString().substring(0,10)//FIXME 
+                year_hovered = Math.floor(year_hovered)
+                //TODO the hovered year is off by about 4 or 5
+                console.log(year_hovered)
+
+
+
         
         
                 // const dateHovered = initial_x_scale.invert(event.clientX - this.linesLeft).toISOString().substring(0,10)//FIXME 
