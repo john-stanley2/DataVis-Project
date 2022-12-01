@@ -1,0 +1,491 @@
+song|artist|year|genre|numUnique|totalWords|love_words|god_words|dance_words|cool_words|rock_words|swear_words|family_words|baby_words|money_words|funky_words|chill_words|cw1|cwc1|cw2|cwc2|cw3|cwc3|cw4|cwc4|cw5|cwc5|cw6|cwc6|cw7|cwc7|cw8|cwc8|cw9|cwc9|cw10|cwc10
+Magic|Bruce Springsteen|2007|rock|83|286|0|0|1|0|0|0|0|0|0|0|0|hear|12|anybody|11|alive|11|rhythm|11|radio|8|nowhere|8|trying|2|searching|2|find|1|way|1
+Magic|Bruce Springsteen|2007|rock|129|278|0|0|0|0|0|0|0|4|1|0|0|coming|12|around|8|pretty|4|baby|4|goes|4|comes|4|blue|3|grey|2|skies|2|gone|2
+Magic|Bruce Springsteen|2007|rock|140|399|0|0|0|0|0|0|0|6|0|0|0|none|10|happened|10|yet|10|worry|6|darling|6|baby|6|fret|6|living|6|future|6|away|3
+Magic|Bruce Springsteen|2007|rock|99|218|0|0|0|0|0|0|1|1|0|0|0|worst|10|enemy|10|ah|9|town|7|everything|3|dream|2|round|2|falling|2|sleep|1|night|1
+Magic|Bruce Springsteen|2007|rock|149|272|1|0|0|0|0|0|2|0|1|0|0|home|5|gypsy|4|biker|4|coming|4|pulled|2|nobody|2|talking|2|back|2|gone|2|old|2
+Magic|Bruce Springsteen|2007|rock|141|349|1|0|1|4|0|4|0|0|1|0|0|girls|8|summer|8|clothes|8|evening|5|light|5|cool|4|pass|4|lights|3|street|2|two|2
+Magic|Bruce Springsteen|2007|rock|120|291|11|0|0|0|0|0|0|0|0|0|0|work|11|love|11|others|5|may|5|free|5|watch|3|dear|3|dust|2|bones|2|like|2
+Magic|Bruce Springsteen|2007|rock|101|236|0|0|0|0|0|0|0|0|1|0|0|got|5|ear|3|see|3|slip|3|gone|3|trust|2|none|2|hear|2|cut|2|half|2
+Magic|Bruce Springsteen|2007|rock|119|285|0|0|0|0|0|1|0|0|0|0|0|last|12|mistake|11|whose|6|blood|4|heart|4|spill|3|break|3|voice|2|city|2|faces|2
+Magic|Bruce Springsteen|2007|rock|132|357|0|0|0|0|0|1|2|0|0|0|0|long|16|walk|16|home|16|gon|15|hey|7|pretty|7|darling|7|wait|7|town|3|everybody|3
+Magic|Bruce Springsteen|2007|rock|140|280|0|0|0|1|0|0|0|0|0|0|0|beat|8|heart|8|morning|3|devil|3|heroes|3|sun|2|get|2|arcade|2|made|2|somebody|2
+Magic|Bruce Springsteen|2007|rock|136|261|1|1|0|0|0|0|6|0|0|0|0|built|9|brother|6|broke|5|mold|5|know|3|death|3|many|2|something|2|gone|2|cold|2
+Talk Talk Talk|The Psychedelic Furs|1981|rock|86|188|0|0|0|0|0|0|1|0|0|0|0|give|5|paper|4|got|4|mean|4|yeah|3|honestly|3|tell|3|something|2|coming|2|get|2
+Talk Talk Talk|The Psychedelic Furs|1981|rock|108|224|2|0|0|0|0|0|0|0|0|0|0|pretty|7|pink|7|lives|2|nothing|2|says|2|joke|2|lovers|2|loves|1|girls|1|place|1
+Talk Talk Talk|The Psychedelic Furs|1981|rock|95|199|0|1|0|0|0|0|0|0|0|0|0|sleep|9|wan|3|got|3|like|2|go|2|goes|1|flats|1|know|1|making|1|see|1
+Talk Talk Talk|The Psychedelic Furs|1981|rock|55|124|0|0|0|0|0|0|0|0|0|0|0|conversation|4|talk|4|anything|3|tears|3|colours|3|listen|2|weathermen|2|saying|2|point|2|view|2
+Talk Talk Talk|The Psychedelic Furs|1981|rock|99|207|0|0|3|0|0|1|0|0|0|0|0|turn|6|far|4|mr|4|jones|4|good|3|slow|3|movie|3|stars|3|ads|3|radio|3
+Talk Talk Talk|The Psychedelic Furs|1981|rock|74|253|5|0|0|0|0|0|0|0|0|0|0|like|17|train|13|love|5|anyone|5|fall|4|believe|4|within|4|song|4|wan|3|make|3
+Talk Talk Talk|The Psychedelic Furs|1981|rock|100|225|1|1|0|0|0|0|2|0|0|0|0|goes|15|time|3|calls|3|around|3|rains|2|go|2|laugh|1|cars|1|easily|1|confused|1
+Talk Talk Talk|The Psychedelic Furs|1981|rock|81|194|3|0|0|0|0|0|0|0|0|0|0|day|7|run|5|get|4|talk|4|think|3|stand|3|oh|3|hand|3|coming|3|sells|3
+Talk Talk Talk|The Psychedelic Furs|1981|rock|102|280|0|0|0|0|0|0|0|0|0|0|0|leave|6|anything|6|understand|6|hey|5|never|5|meant|5|stuff|5|turn|5|full|4|round|3
+Talk Talk Talk|The Psychedelic Furs|1981|rock|108|281|1|0|1|0|0|0|0|0|0|0|0|making|5|stay|4|get|4|use|4|crazy|3|place|3|called|3|tunes|2|away|2|pay|2
+It's a Wonderful Life|Sparklehorse|2001|rock|39|82|0|0|0|0|0|0|1|0|0|0|0|wonderful|7|life|7|ride|1|horse|1|th|1|yonder|1|full|1|bees|1|died|1|wore|1
+It's a Wonderful Life|Sparklehorse|2001|rock|65|183|0|0|0|0|0|0|0|0|0|0|0|child|8|may|6|days|6|gold|6|sun|3|keep|3|crows|3|away|3|hold|3|skinny|3
+It's a Wonderful Life|Sparklehorse|2001|rock|60|110|0|0|0|0|0|0|0|0|0|0|0|feel|4|seem|3|got|2|sunburnt|2|waiting|2|jets|2|see|2|solid|2|marble|2|eyes|2
+It's a Wonderful Life|Sparklehorse|2001|rock|42|76|0|0|0|0|0|0|0|0|0|0|0|feel|2|taste|2|stars|2|always|2|hang|2|summer|2|bleeding|2|fang|2|forever|2|boil|2
+It's a Wonderful Life|Sparklehorse|2001|rock|58|100|0|0|0|0|0|0|0|0|0|0|0|please|4|feel|3|sun|3|doctor|2|would|1|heed|1|advice|1|burdened|1|limbs|1|weight|1
+It's a Wonderful Life|Sparklehorse|2001|rock|66|180|0|0|0|0|0|0|0|0|0|0|0|nails|6|sink|4|shine|4|sun|3|toothless|2|kiss|2|skeletons|2|summer|2|hail|2|king|2
+It's a Wonderful Life|Sparklehorse|2001|rock|65|132|0|0|0|0|0|0|0|0|0|0|0|return|2|day|2|bones|2|clay|2|buried|2|nails|2|hair|2|old|2|tooth|2|believe|2
+It's a Wonderful Life|Sparklehorse|2001|rock|81|205|0|0|0|0|0|0|0|0|0|0|0|got|11|coming|8|pitchfork|6|crowbar|6|hot|6|tar|6|clawhammer|4|get|3|ought|2|claw|2
+It's a Wonderful Life|Sparklehorse|2001|rock|110|159|0|0|0|0|0|1|1|0|0|0|0|left|2|pony|2|river|2|coast|1|rushed|1|brine|1|rings|1|shoreline|1|lose|1|swimming|1
+It's a Wonderful Life|Sparklehorse|2001|rock|36|94|0|0|0|0|0|1|0|3|0|0|0|got|3|dragged|3|donkey|3|myrtle|3|little|3|fat|3|baby|3|burn|2|christmas|2|tree|2
+It's a Wonderful Life|Sparklehorse|2001|rock|27|66|0|0|0|0|0|0|0|0|0|0|0|mountain|4|high|4|would|3|devil|3|new|3|pulled|1|heart|1|left|1|sun|1|spy|1
+It's a Wonderful Life|Sparklehorse|2001|rock|56|155|0|0|0|0|1|0|1|0|0|0|0|comfort|12|dreamed|2|rocks|1|dress|1|smoke|1|hair|1|walked|1|lake|1|get|1|sleep|1
+It's a Wonderful Life|Sparklehorse|2001|rock|32|85|0|0|0|0|0|0|0|6|0|0|0|sun|11|babies|6|sound|1|voice|1|rose|1|graves|1|cats|1|pounding|1|steps|1|woke|1
+It's a Wonderful Life|Sparklehorse|2001|rock|60|96|0|0|0|0|0|0|0|0|0|0|0|get|2|room|2|run|2|fields|2|anymore|2|trembling|1|getting|1|old|1|smelling|1|burnt|1
+It's a Wonderful Life|Sparklehorse|2001|rock|61|207|0|0|2|0|0|0|0|0|0|0|0|ghost|21|sky|21|see|2|blind|2|behold|2|saviour|2|dance|2|death|2|lame|2|morning|2
+Bakesale|Sebadoh|1994|rock|96|204|0|0|0|0|0|0|0|0|0|0|0|license|6|got|5|confuse|5|help|3|break|2|fall|2|lose|2|took|2|another|2|day|2
+Bakesale|Sebadoh|1994|rock|70|134|0|1|0|0|0|1|0|0|0|0|0|time|4|never|4|careful|3|soldier|3|strong|3|show|2|prove|2|right|2|beside|2|twice|2
+Bakesale|Sebadoh|1994|rock|93|162|0|0|0|0|0|2|0|0|0|0|0|mind|4|really|2|lose|2|say|2|another|2|wound|1|tighter|1|magnet|1|coil|1|longer|1
+Bakesale|Sebadoh|1994|rock|77|176|0|0|0|0|0|0|0|0|0|0|0|never|4|trust|4|forgive|4|break|4|stride|4|far|3|friend|3|day|2|somehow|2|may|2
+Bakesale|Sebadoh|1994|rock|73|123|0|0|0|0|0|1|0|0|0|0|0|make|2|way|2|go|2|like|2|feel|2|sense|1|see|1|almost|1|tired|1|listening|1
+Bakesale|Sebadoh|1994|rock|67|94|0|0|1|0|0|0|0|0|0|0|0|twisted|2|something|2|wrong|2|someone|2|died|2|opened|2|eyes|2|learn|1|humility|1|planes|1
+Bakesale|Sebadoh|1994|rock|79|152|0|0|0|0|0|0|0|0|0|0|0|gently|4|skull|4|ride|4|go|4|know|3|dragons|2|strong|2|hide|2|never|2|let|2
+Bakesale|Sebadoh|1994|rock|58|142|0|0|0|0|0|1|0|0|0|0|0|day|6|nothing|4|else|4|goes|4|way|4|quite|2|get|2|know|2|got|2|taking|2
+Bakesale|Sebadoh|1994|rock|68|205|0|0|0|0|0|3|0|0|0|0|0|crazy|6|people|6|right|6|sleep|4|eat|4|days|4|need|2|smoke|2|thousand|2|cigarettes|2
+Bakesale|Sebadoh|1994|rock|61|85|0|0|0|0|0|0|0|0|5|0|0|money|5|find|2|helpless|2|slob|2|dead|2|day|2|job|2|burn|1|typically|1|bitter|1
+Bakesale|Sebadoh|1994|rock|79|137|3|0|0|0|0|0|0|0|0|0|0|rebound|5|turns|4|say|3|love|3|beware|2|would|2|listen|2|confusion|2|upside|2|lost|2
+Bakesale|Sebadoh|1994|rock|105|161|3|0|0|0|0|0|0|1|0|0|0|little|2|nothing|2|need|2|love|2|cause|2|earnest|1|lover|1|mystery|1|thrills|1|like|1
+Bakesale|Sebadoh|1994|rock|75|123|0|0|0|0|0|0|0|0|0|0|0|tide|6|hard|3|stem|2|heart|2|test|2|water|2|fill|2|stay|2|temptation|2|feel|1
+Bakesale|Sebadoh|1994|rock|55|100|0|0|0|0|0|0|0|0|0|0|0|dream|4|crazy|4|seems|3|pretty|3|say|2|know|2|like|2|wasting|2|everything|2|someone|2
+Bakesale|Sebadoh|1994|rock|84|135|0|0|0|0|0|0|0|0|0|0|0|could|3|know|2|feel|2|never|2|afraid|2|confusion|2|wears|2|alone|2|blindly|1|feed|1
+Music in a Doll's House|Family|1968|pop|61|85|1|0|0|0|0|0|0|2|0|0|0|aaaah|2|see|2|babe|2|aaaaah|2|aaaaaaah|2|tally|2|aaah|1|something|1|feel|1|like|1
+Music in a Doll's House|Family|1968|pop|53|92|2|0|0|0|0|0|1|0|0|0|0|dream|3|mellowing|2|grey|2|day|2|blue|2|born|2|dawn|2|things|2|within|2|world|2
+Music in a Doll's House|Family|1968|pop|109|187|0|0|0|0|2|0|1|0|0|0|0|never|4|like|3|girl|3|look|3|find|2|mother|2|dad|2|bright|2|colored|2|blocks|2
+Music in a Doll's House|Family|1968|pop|50|118|2|0|0|0|0|0|0|0|0|0|0|friend|10|many|7|wish|2|could|2|whole|2|seen|1|lands|1|far|1|wide|1|sailed|1
+Music in a Doll's House|Family|1968|pop|70|122|0|0|0|0|0|0|0|0|0|0|0|winter|4|time|4|brings|4|cold|3|wind|3|round|3|slowly|3|ice|2|snow|2|ground|2
+Music in a Doll's House|Family|1968|pop|90|140|0|0|0|0|0|0|1|0|0|0|0|songs|4|new|3|girl|2|well|2|old|2|keep|2|singing|2|bring|2|gon|2|best|2
+Music in a Doll's House|Family|1968|pop|47|122|0|0|0|0|0|0|0|0|0|0|0|woman|9|time|6|see|5|last|5|cared|4|hey|3|give|2|mr|1|policeman|1|minute|1
+Music in a Doll's House|Family|1968|pop|61|85|0|0|0|0|0|1|0|0|0|0|0|see|4|life|4|windows|3|eyes|3|meaning|3|look|2|things|2|sunlight|1|shadows|1|paws|1
+Music in a Doll's House|Family|1968|pop|53|106|0|0|0|0|0|0|0|0|0|0|0|aaaaah|6|mind|5|things|5|peace|5|aaaaaah|4|aaaah|4|stopping|2|throbbing|2|still|2|find|2
+Music in a Doll's House|Family|1968|pop|66|121|0|0|0|0|0|0|1|0|0|0|0|look|2|proof|2|ask|2|say|2|sail|2|voyage|2|truth|2|show|2|sing|2|red|2
+Music in a Doll's House|Family|1968|pop|57|85|0|0|0|0|0|0|0|0|0|0|0|nobody|6|knows|3|sees|3|breeze|3|miles|2|cooling|2|blowing|1|stores|1|skirts|1|trousers|1
+Music in a Doll's House|Family|1968|pop|56|78|0|0|0|0|0|0|0|0|0|0|0|time|2|past|2|passed|1|goes|1|fast|1|enact|1|gone|1|always|1|near|1|memories|1
+ATLiens|OutKast|1996|hip hop|44|70|0|0|0|0|0|0|0|0|0|0|0|may|3|novo|2|senhor|2|vida|2|keep|2|trying|2|summer|2|city|2|sol|1|tudo|1
+ATLiens|OutKast|1996|hip hop|276|600|1|0|0|1|0|5|0|0|0|0|1|like|7|niggas|7|boys|7|side|6|cause|5|nigga|4|looking|4|every|4|two|4|dope|4
+ATLiens|OutKast|1996|hip hop|277|745|0|1|0|1|0|11|3|0|0|0|0|like|21|everybody|8|say|8|shit|7|hands|7|let|7|throw|6|air|6|wave|6|fish|6
+ATLiens|OutKast|1996|hip hop|237|486|0|0|0|0|0|2|2|1|0|0|0|like|7|touched|6|wheelz|6|steel|6|feel|6|show|5|times|5|time|4|got|4|cause|3
+ATLiens|OutKast|1996|hip hop|327|647|1|0|0|0|0|7|1|1|0|0|2|like|13|got|12|tricks|8|hollin|8|rank|8|see|5|cause|5|nigga|4|get|4|yeah|3
+ATLiens|OutKast|1996|hip hop|292|726|0|0|0|0|2|6|9|0|1|0|0|like|14|momma|11|cadillac|9|cousin|8|rolling|8|strip|8|vogues|8|coming|8|slamming|8|doors|8
+ATLiens|OutKast|1996|hip hop|293|613|0|0|0|0|0|5|1|0|1|0|0|like|10|power|8|tha|8|swats|8|southern|6|let|6|got|4|get|4|tell|4|back|4
+ATLiens|OutKast|1996|hip hop|247|638|0|0|0|0|0|4|0|0|0|0|0|faith|17|keep|11|ooooh|10|hoping|8|like|6|wishing|6|praying|6|fear|5|battle|5|begun|5
+ATLiens|OutKast|1996|hip hop|215|386|0|0|0|0|0|7|0|0|0|0|0|mmm|12|like|6|yeah|4|go|3|gift|3|cause|3|zone|2|got|2|fucking|2|head|2
+ATLiens|OutKast|1996|hip hop|382|982|0|0|0|0|0|4|3|0|0|0|0|mainstream|10|floating|9|get|8|know|7|think|7|peaches|7|cream|7|found|7|like|7|thinking|4
+ATLiens|OutKast|1996|hip hop|275|600|0|0|0|0|0|12|1|2|3|0|0|know|8|big|7|bout|6|get|6|like|6|time|4|got|4|shit|4|tell|4|see|4
+ATLiens|OutKast|1996|hip hop|233|593|0|0|0|0|0|5|0|0|0|0|0|uh|138|like|9|planets|5|stars|5|earth|5|jupiter|5|mars|5|clothes|5|hoes|5|cars|5
+ATLiens|OutKast|1996|hip hop|208|413|0|1|0|0|1|5|0|0|0|0|0|world|10|like|9|alien|6|niggas|5|cause|4|taking|3|shit|3|life|2|got|2|thinking|2
+ATLiens|OutKast|1996|hip hop|447|1081|2|1|0|0|0|9|3|0|0|0|0|like|18|turn|12|get|9|old|9|see|8|must|8|fall|7|leaves|7|got|6|teardrops|6
+ATLiens|OutKast|1996|hip hop|300|685|0|0|0|0|2|6|7|0|1|0|0|like|14|cadillac|7|momma|6|cousin|6|rollin|6|strip|6|vogues|6|comin|6|slammin|6|doors|6
+All Directions|The Temptations|1972|r&b|87|246|0|0|0|0|0|0|0|0|0|11|0|funky|11|music|11|like|10|sound|6|people|6|boom|6|sing|4|cause|3|sho|3|nuff|3
+All Directions|The Temptations|1972|r&b|122|360|0|1|0|0|0|1|3|0|0|0|0|run|38|niggers|20|coming|20|charlie|17|look|10|well|10|oh|3|try|3|better|3|keep|3
+All Directions|The Temptations|1972|r&b|140|444|0|0|0|0|0|0|5|0|1|0|0|papa|15|huh|10|momma|9|died|8|rolling|8|stone|8|wherever|8|laid|8|home|8|alone|8
+All Directions|The Temptations|1972|r&b|69|141|4|0|0|0|0|0|0|1|0|0|0|oh|4|love|4|woke|3|morning|3|yes|3|heartache|2|today|2|little|2|tears|2|gone|2
+All Directions|The Temptations|1972|r&b|76|245|2|0|0|0|0|0|0|0|0|0|0|got|17|nothing|14|shoo|12|wop|12|every|12|oh|7|everybody|6|something|3|across|2|love|2
+All Directions|The Temptations|1972|r&b|61|115|3|0|0|0|0|0|0|0|0|0|0|love|3|time|3|thought|2|dark|2|empty|2|skies|2|first|2|ever|2|felt|2|heart|2
+All Directions|The Temptations|1972|r&b|87|176|0|0|0|0|0|0|0|0|0|0|0|hey|10|oh|5|mother|5|wan|4|nature|4|leave|3|go|2|course|2|livin|2|let|2
+All Directions|The Temptations|1972|r&b|60|238|4|0|0|0|0|0|1|0|0|0|0|hmm|20|thing|17|yeah|8|wan|7|right|7|cause|4|feel|4|love|4|oh|4|like|3
+The K & D Sessions|Kruder & Dorfmeister|1998|edm|154|362|1|0|0|0|0|1|0|0|0|0|0|wrong|8|going|8|raindrops|4|see|4|city|3|calling|3|night|3|oh|3|right|3|keep|3
+The K & D Sessions|Kruder & Dorfmeister|1998|edm|324|789|0|0|0|0|1|10|8|0|1|0|0|like|20|got|8|mugwump|7|jism|7|dust|7|bug|7|powder|7|interzone|7|trippin|7|boys|7
+The K & D Sessions|Kruder & Dorfmeister|1998|edm|46|86|0|0|0|0|0|0|0|0|0|0|0|time|22|echoing|3|mind|3|well|1|beginning|1|hurt|1|made|1|worth|1|watch|1|clock|1
+The K & D Sessions|Kruder & Dorfmeister|1998|edm|51|126|2|0|0|0|0|0|0|0|0|0|0|weather|12|know|5|rain|4|snow|4|storm|4|would|2|cause|2|love|2|strong|2|enough|2
+The K & D Sessions|Kruder & Dorfmeister|1998|edm|17|17|0|0|0|0|0|0|0|0|0|0|0|even|1|know|1|gon|1|run|1|away|1|never|1|go|1|anymore|1|NA|0|NA|0
+Stranger in the Alps|Phoebe Bridgers|2017|pop|168|305|0|0|0|0|0|1|0|0|0|0|0|looking|4|must|3|sending|3|smoke|3|signals|3|pelicans|3|circling|3|burning|3|trash|3|beach|3
+Stranger in the Alps|Phoebe Bridgers|2017|pop|127|270|0|0|0|0|1|1|0|0|0|0|0|let|3|emotional|3|motion|3|sickness|3|english|3|drown|3|like|2|time|2|hardly|2|feel|2
+Stranger in the Alps|Phoebe Bridgers|2017|pop|113|219|0|4|0|0|0|0|0|0|0|0|0|always|8|kid|2|think|2|jesus|2|christ|2|blue|2|time|2|feel|2|someone|2|singing|1
+Stranger in the Alps|Phoebe Bridgers|2017|pop|66|139|0|0|0|0|0|0|0|1|0|0|0|wan|7|alone|4|sleep|3|anymore|3|got|3|tell|2|breathe|2|stoned|2|good|2|feeling|2
+Stranger in the Alps|Phoebe Bridgers|2017|pop|94|162|0|0|0|0|0|1|1|0|1|0|0|said|4|stranger|3|feel|3|open|2|got|2|ashamed|2|hear|2|asked|2|anyway|2|walking|1
+Stranger in the Alps|Phoebe Bridgers|2017|pop|92|195|2|0|0|0|0|0|0|0|0|0|0|nothing|4|killer|3|sick|3|scared|2|even|2|sleep|2|tame|2|fire|2|us|2|chase|2
+Stranger in the Alps|Phoebe Bridgers|2017|pop|92|182|1|0|0|0|0|1|1|0|0|0|0|georgia|4|fall|4|might|2|sometimes|2|back|2|know|2|new|2|young|2|clean|2|dreamt|2
+Stranger in the Alps|Phoebe Bridgers|2017|pop|145|318|1|0|0|0|0|1|3|3|0|0|0|home|7|spit|4|blood|4|back|4|long|4|tonight|4|stay|3|baby|3|make|3|oh|3
+Stranger in the Alps|Phoebe Bridgers|2017|pop|89|209|0|0|0|0|0|0|3|0|0|0|0|find|3|string|3|found|3|way|3|suicide|3|pact|3|family|3|friends|3|say|2|background|2
+Stranger in the Alps|Phoebe Bridgers|2017|pop|217|512|0|0|0|0|0|0|6|0|0|0|0|missed|19|heart|15|prison|6|said|5|downriver|5|moundsville|5|graveyard|5|got|4|list|4|quite|3
+Medicine Show|The Dream Syndicate|1984|rock|77|210|0|0|0|0|0|0|0|2|0|0|0|still|13|holding|11|know|3|yeah|3|oh|3|true|2|really|2|lot|2|baby|2|say|2
+Medicine Show|The Dream Syndicate|1984|rock|78|203|3|1|0|0|0|0|0|6|0|0|0|daddy|7|girl|7|yeah|7|baby|6|wants|5|else|5|love|3|well|3|ah|3|first|2
+Medicine Show|The Dream Syndicate|1984|rock|79|159|0|0|0|0|0|1|0|0|0|0|0|know|4|feel|4|morning|2|done|2|looked|2|around|2|things|2|sure|2|turned|1|think|1
+Medicine Show|The Dream Syndicate|1984|rock|98|217|0|0|0|0|0|0|0|2|0|0|0|gun|13|armed|9|empty|9|oh|8|yeah|4|said|3|way|2|baby|2|think|2|call|1
+Medicine Show|The Dream Syndicate|1984|rock|72|186|0|0|0|0|0|0|0|0|0|0|0|got|13|run|11|bullet|7|away|7|ah|6|something|3|last|2|guitars|2|walking|1|around|1
+Medicine Show|The Dream Syndicate|1984|rock|77|156|0|0|1|0|0|0|1|0|0|0|0|medicine|7|show|7|going|4|got|3|gypsy|3|stop|2|gon|2|go|2|troubled|1|mind|1
+Medicine Show|The Dream Syndicate|1984|rock|104|375|1|0|0|0|0|0|0|5|0|0|0|gon|18|right|15|yeah|10|got|8|feel|6|hold|6|tight|6|said|5|baby|5|oh|4
+Medicine Show|The Dream Syndicate|1984|rock|111|197|0|0|0|0|0|0|1|0|0|0|0|said|5|merrittville|4|left|3|sally|3|william|3|matthew|2|game|2|play|2|way|2|caught|1
+Medicine Show|The Dream Syndicate|1984|rock|53|142|0|0|0|0|0|0|0|0|0|0|0|know|10|really|6|yeah|5|tell|4|aw|3|oh|3|cause|3|wan|3|show|2|let|2
+The Flying Club Cup|Beirut|2007|rock|73|182|0|0|0|0|0|0|0|0|0|0|0|time|10|long|8|well|4|since|4|seen|4|smile|4|gamble|4|away|4|year|4|fright|2
+The Flying Club Cup|Beirut|2007|rock|52|145|0|0|0|0|0|0|0|0|0|0|0|sunday|6|smile|6|wore|4|cemetery|4|mile|4|paused|4|sang|4|felt|2|true|2|burnt|2
+The Flying Club Cup|Beirut|2007|rock|42|104|0|0|0|0|0|0|0|0|0|0|0|wanted|8|prayers|2|church|2|stairs|2|wind|2|hair|2|fled|2|night|2|air|2|right|2
+The Flying Club Cup|Beirut|2007|rock|24|25|0|0|0|0|0|0|0|0|0|0|0|services|1|unclaimed|1|items|1|removed|1|may|1|destroyed|1|see|1|anything|1|suspicious|1|please|1
+The Flying Club Cup|Beirut|2007|rock|82|159|3|0|0|0|0|0|0|0|0|0|0|melody|4|oh|3|sing|3|plague|2|beat|2|drum|2|lead|2|lover|2|bed|2|see|2
+The Flying Club Cup|Beirut|2007|rock|59|86|0|0|0|0|0|0|4|0|0|0|0|lights|3|day|2|let|2|left|2|always|2|season|2|may|2|like|1|ancient|1|trial|1
+The Flying Club Cup|Beirut|2007|rock|69|96|0|0|0|0|0|0|0|0|0|0|0|uptown|2|way|2|bed|2|street|1|calming|1|outside|1|warm|1|maid|1|find|1|waves|1
+The Flying Club Cup|Beirut|2007|rock|25|28|0|0|0|0|0|0|0|0|0|0|0|time|1|travels|1|learn|1|secret|1|life|1|mausoleum|1|berlin|1|ugly|1|morning|1|light|1
+The Flying Club Cup|Beirut|2007|rock|63|89|0|0|0|0|0|3|0|0|0|0|0|eye|2|learned|2|glass|2|table|1|october|1|able|1|skies|1|seen|1|known|1|pass|1
+The Flying Club Cup|Beirut|2007|rock|63|153|0|0|0|0|0|0|0|0|0|0|0|way|9|long|4|know|4|away|4|lead|4|oh|4|morning|3|fall|2|better|2|well|2
+The Flying Club Cup|Beirut|2007|rock|18|34|0|0|0|0|0|0|0|0|0|0|0|without|6|lose|3|saints|2|move|2|vain|1|moved|1|well|1|places|1|NA|0|NA|0
+The Flying Club Cup|Beirut|2007|rock|60|108|0|0|0|0|0|0|1|0|0|0|0|oh|20|upon|2|san|2|denise|2|lights|2|built|1|house|1|marsh|1|elise|1|father|1
+Old Nobody|Blumfeld|1999|pop|489|962|0|0|0|0|0|0|1|0|0|0|0|welt|6|siehst|5|dunkel|5|bild|4|zeit|4|tages|3|trittst|3|schatten|3|innere|3|schreibt|3
+Old Nobody|Blumfeld|1999|pop|83|150|0|0|0|0|0|0|0|0|0|0|0|lied|3|tag|3|nacht|3|tausend|2|tränen|2|tief|2|erklingt|2|altes|2|bedeuten|2|komm|2
+Old Nobody|Blumfeld|1999|pop|69|122|0|0|0|0|0|0|0|0|0|0|0|reden|3|tür|2|gespenster|2|fenster|2|steht|2|singen|2|chor|2|songs|2|handeln|2|kommst|2
+Old Nobody|Blumfeld|1999|pop|62|176|0|0|0|0|0|2|0|0|0|0|0|zeit|6|ewigkeit|6|leben|6|braucht|6|quo|5|vadis|5|halbe|3|status|3|stets|3|hüten|3
+Old Nobody|Blumfeld|1999|pop|121|183|0|0|0|0|0|1|0|0|0|0|0|wellen|3|sah|2|ließ|2|licht|2|schreit|1|tat|1|sounds|1|spur|1|schweben|1|komme|1
+Old Nobody|Blumfeld|1999|pop|84|179|0|0|0|0|0|0|0|0|0|0|0|leben|7|fragt|6|weißt|3|kommst|3|alltag|3|ganz|3|gar|2|tief|2|weiß|2|verläßt|1
+Old Nobody|Blumfeld|1999|pop|81|202|0|0|0|0|0|0|0|0|0|0|0|worte|3|dafür|3|zusammen|3|manchmal|3|kommt|3|beide|3|trennen|3|stehst|3|ewig|3|kennen|3
+Old Nobody|Blumfeld|1999|pop|111|192|0|0|0|0|0|0|0|0|0|0|0|geschichte|3|horizont|3|müde|2|erledigt|2|dachte|2|geht|2|ähnlich|2|haufen|2|kommt|2|entgegen|2
+Old Nobody|Blumfeld|1999|pop|199|410|0|0|0|0|0|0|0|0|0|0|0|schlägt|12|stunde|9|einzelfall|6|lebe|6|vielen|5|herz|4|sekunde|4|neuer|3|schmerz|2|punkt|2
+Old Nobody|Blumfeld|1999|pop|109|208|0|0|0|0|0|0|0|0|0|0|0|zeit|10|unnennbarer|4|dorthin|4|bald|4|old|4|nobody|4|ewiges|3|komme|3|zieht|3|formen|2
+Old Nobody|Blumfeld|1999|pop|31|84|0|0|0|0|0|0|0|0|0|0|0|traum|3|kuß|3|glück|3|allein|3|lang|3|liebe|3|gibt|3|tage|2|enger|2|führt|2
+IV|Toto|1982|rock|83|282|0|0|0|0|0|0|0|0|0|0|0|rosanna|21|meet|16|way|16|yeah|11|could|4|ever|4|see|3|never|3|quite|3|year|3
+IV|Toto|1982|rock|100|301|3|0|0|0|0|0|3|0|0|0|0|make|9|believe|9|go|6|love|3|said|3|crimson|3|moon|3|shine|3|people|3|lookin|3
+IV|Toto|1982|rock|69|243|7|0|0|0|0|0|0|1|0|0|0|know|8|hold|8|back|8|time|7|love|7|found|5|gives|4|erase|3|realize|3|things|2
+IV|Toto|1982|rock|60|175|0|0|0|0|0|0|1|0|0|0|0|could|16|good|16|yeah|4|give|2|know|2|sun|1|rise|1|never|1|lost|1|deep|1
+IV|Toto|1982|rock|54|157|0|0|0|0|0|0|0|0|0|0|0|feeling|4|look|4|see|4|belong|2|outside|2|looking|2|wonderin|2|whose|2|old|2|armchair|2
+IV|Toto|1982|rock|99|238|4|0|0|0|0|0|0|0|0|0|0|never|10|girl|6|afraid|6|get|5|away|5|way|4|love|4|cos|3|got|3|thought|2
+IV|Toto|1982|rock|51|248|0|0|0|0|0|0|0|0|0|0|0|know|21|gon|10|make|10|ooh|10|lovers|9|night|9|cry|6|soul|3|matters|3|try|3
+IV|Toto|1982|rock|77|282|0|0|0|0|0|0|1|0|0|0|0|made|24|make|12|know|10|clever|3|put|3|together|3|may|3|forever|3|enough|2|keep|2
+IV|Toto|1982|rock|127|364|8|0|0|0|0|0|1|0|0|0|0|love|8|cause|7|time|7|right|7|front|7|heart|4|sitting|4|waiting|4|words|3|gentle|3
+IV|Toto|1982|rock|118|301|0|0|0|0|0|0|0|0|0|0|0|bless|9|rains|9|gon|7|africa|7|time|4|lot|3|drag|3|away|3|nothing|3|hundred|3
+Easter Everywhere|The 13th Floor Elevators|1967|rock|259|565|0|1|1|0|0|15|5|0|0|0|0|house|14|pass|14|inside|13|slip|12|always|4|given|3|seven|3|eyed|3|within|2|river|2
+Easter Everywhere|The 13th Floor Elevators|1967|rock|69|199|0|2|0|0|0|0|0|0|0|0|0|tryin|24|get|8|back|8|slide|3|machine|3|use|2|gods|2|gold|2|heard|2|seldom|2
+Easter Everywhere|The 13th Floor Elevators|1967|rock|86|218|2|0|0|0|0|0|0|0|0|0|0|time|10|lives|7|always|4|every|4|heard|2|speaking|2|ear|2|voice|2|sounds|2|tone|2
+Easter Everywhere|The 13th Floor Elevators|1967|rock|79|181|9|0|0|0|0|0|0|0|0|0|0|nobody|10|love|9|would|6|knew|5|us|4|day|4|sun|3|words|2|shining|2|shine|2
+Easter Everywhere|The 13th Floor Elevators|1967|rock|83|141|1|0|0|0|0|0|0|3|0|0|0|baby|3|blue|3|home|2|standing|2|clothes|2|wore|2|whatever|1|wish|1|keep|1|better|1
+Easter Everywhere|The 13th Floor Elevators|1967|rock|104|326|7|0|0|1|0|0|0|0|0|0|0|two|7|make|6|head|6|love|6|pull|6|earthquake|5|never|5|us|5|rhythms|4|right|4
+Easter Everywhere|The 13th Floor Elevators|1967|rock|132|226|8|0|0|0|0|0|0|0|0|0|0|love|7|never|2|every|2|safe|2|say|2|hang|2|way|2|us|2|filled|2|still|2
+Easter Everywhere|The 13th Floor Elevators|1967|rock|80|177|0|0|0|0|0|0|0|0|0|0|0|got|12|levitation|12|need|2|wings|2|guide|2|hardly|2|ever|2|inside|2|makes|2|feel|2
+Easter Everywhere|The 13th Floor Elevators|1967|rock|57|117|0|0|0|0|0|0|0|0|0|0|0|voice|4|hear|3|every|2|echoing|2|softly|2|feel|2|strength|2|reinforcing|2|fear|2|lose|2
+Easter Everywhere|The 13th Floor Elevators|1967|rock|181|475|7|0|0|0|0|0|0|0|0|0|0|leave|23|remember|17|keep|8|climbing|7|body|7|behind|6|yes|6|love|6|move|6|energy|6
+Mark Hollis|Mark Hollis|1998|rock|45|65|1|0|0|0|0|0|0|0|0|0|0|soar|2|bridges|2|burnt|2|song|2|among|2|us|2|forget|1|fate|1|peddler|1|sings|1
+Mark Hollis|Mark Hollis|1998|rock|44|91|4|0|0|0|0|0|0|0|0|0|0|love|4|song|3|asale|3|said|3|much|3|makes|3|harder|3|good|2|bled|2|dust|2
+Mark Hollis|Mark Hollis|1998|rock|22|32|0|0|0|0|0|0|1|0|0|0|0|feel|2|left|2|life|2|turn|2|skin|1|lord|1|luck|1|tumbling|1|seasons|1|lived|1
+Mark Hollis|Mark Hollis|1998|rock|38|59|0|0|0|0|0|0|0|0|0|0|0|sun|3|shade|2|eclipsed|2|shame|2|purest|2|sold|1|dear|1|earth|1|live|1|clown|1
+Mark Hollis|Mark Hollis|1998|rock|19|31|0|0|0|0|0|0|0|0|0|0|0|lay|5|lord|2|ohh|2|uniform|1|dream|1|cites|1|freedom|1|avow|1|relent|1|suffering|1
+Mark Hollis|Mark Hollis|1998|rock|48|60|0|0|0|0|0|0|0|0|2|0|0|upon|2|sown|2|money|2|opaline|1|hair|1|born|1|april|1|tide|1|glowing|1|wonder|1
+Mark Hollis|Mark Hollis|1998|rock|46|84|0|0|0|0|0|0|0|0|0|0|0|shall|3|grow|3|bound|3|far|2|compared|2|first|2|enough|2|pain|2|scoop|1|life|1
+Mark Hollis|Mark Hollis|1998|rock|50|72|1|0|0|0|0|0|0|0|0|0|0|home|2|child|2|see|2|words|2|alone|1|emptiness|1|remains|1|among|1|five|1|dead|1
+...If I Die, I Die|Virgin Prunes|1982|rock|71|165|0|0|0|0|0|0|0|0|0|0|0|fly|8|away|7|wait|5|dream|4|far|3|cry|2|dead|2|call|2|see|2|crawl|2
+...If I Die, I Die|Virgin Prunes|1982|rock|50|149|0|0|0|0|0|0|0|0|0|0|0|white|10|sweethome|7|home|6|heart|6|clouds|5|slept|4|happily|4|ever|4|says|2|picture|1
+...If I Die, I Die|Virgin Prunes|1982|rock|78|223|0|0|0|0|0|0|0|0|0|0|0|wait|5|eyes|4|wake|4|something|4|shall|3|never|3|nothing|3|hard|3|black|3|heart|3
+...If I Die, I Die|Virgin Prunes|1982|rock|78|161|3|0|0|0|0|0|1|0|0|0|0|heart|5|weird|4|dream|4|touch|4|never|3|love|3|within|2|see|2|watch|2|taking|2
+...If I Die, I Die|Virgin Prunes|1982|rock|92|282|0|0|0|0|0|0|0|3|2|0|0|oh|10|feel|10|give|6|heaven|4|baby|3|turns|3|blue|3|put|2|box|2|send|2
+...If I Die, I Die|Virgin Prunes|1982|rock|70|123|0|0|0|0|0|0|0|0|1|0|0|day|5|go|2|river|2|satisfied|2|live|2|spanish|2|johnny|2|looking|2|gang|2|bank|2
+...If I Die, I Die|Virgin Prunes|1982|rock|54|114|0|0|0|0|0|0|0|0|0|0|0|see|5|live|5|day|2|walls|2|jericho|2|nailed|2|cross|2|way|1|save|1|us|1
+...If I Die, I Die|Virgin Prunes|1982|rock|119|482|0|0|0|0|0|1|2|0|0|0|0|lost|20|words|19|like|16|crazy|16|singer|16|band|16|caucasian|10|nothing|9|walk|5|talk|5
+...If I Die, I Die|Virgin Prunes|1982|rock|110|261|1|0|0|0|0|2|0|0|0|0|0|see|9|thing|7|way|5|like|4|nothing|4|ever|4|say|3|talk|3|look|3|whore|2
+...If I Die, I Die|Virgin Prunes|1982|rock|23|33|0|0|0|0|0|0|0|0|0|0|0|chance|3|lifetime|3|far|1|alone|1|told|1|go|1|eyes|1|everywhere|1|NA|0|NA|0
+...If I Die, I Die|Virgin Prunes|1982|rock|81|169|0|0|0|0|0|0|0|0|0|0|0|leave|11|oh|6|day|4|grey|4|believe|3|old|3|glory|2|today|2|get|2|tomorrow|2
+A Walk Across the Rooftops|The Blue Nile|1984|rock|54|164|12|0|0|0|0|0|0|0|0|0|0|love|12|walk|7|across|7|rooftops|7|white|3|lights|2|changing|2|black|2|horizon|2|leave|2
+A Walk Across the Rooftops|The Blue Nile|1984|rock|74|282|10|0|0|0|0|0|0|0|0|0|0|yeah|20|tinseltown|15|rain|14|love|10|women|4|caught|4|big|4|rhythm|4|yes|4|go|4
+A Walk Across the Rooftops|The Blue Nile|1984|rock|68|159|2|0|0|0|0|0|1|0|0|0|0|rags|7|riches|7|go|6|wild|4|sticks|3|stones|3|broken|3|promises|3|wait|3|love|2
+A Walk Across the Rooftops|The Blue Nile|1984|rock|70|142|4|0|0|0|0|0|0|0|0|0|0|stay|15|understand|6|new|3|love|3|theme|3|yeah|3|situation|2|write|2|book|2|everyday|2
+A Walk Across the Rooftops|The Blue Nile|1984|rock|59|87|1|0|0|0|0|0|0|0|0|0|0|air|3|easter|3|parade|3|morning|2|every|2|people|2|love|1|king|1|find|1|place|1
+A Walk Across the Rooftops|The Blue Nile|1984|rock|62|171|1|0|0|0|0|0|0|0|0|0|0|heatwave|20|rolling|4|young|4|foolish|4|rich|4|poor|4|matter|4|anymore|4|tell|2|pretending|1
+A Walk Across the Rooftops|The Blue Nile|1984|rock|64|143|0|0|0|0|0|0|0|0|1|0|0|automobile|6|noise|6|walk|6|exit|3|signs|3|subway|3|trains|3|twenty|3|four|3|hours|3
+Steppenwolf|Steppenwolf|1968|rock|56|170|0|0|0|0|0|0|0|12|0|0|0|sookie|24|hang|15|baby|12|let|10|everybody|2|work|2|step|2|baltimore|1|jig|1|boomerang|1
+Steppenwolf|Steppenwolf|1968|rock|88|218|0|0|0|0|0|0|0|0|0|0|0|next|4|gon|4|gone|3|right|3|things|3|wrong|3|guy|2|day|2|wonder|2|know|2
+Steppenwolf|Steppenwolf|1968|rock|111|264|0|0|1|0|1|0|3|0|0|0|0|used|8|never|5|went|5|know|4|brother|3|could|3|hold|3|bolder|3|left|3|mornin|3
+Steppenwolf|Steppenwolf|1968|rock|93|236|0|0|0|0|0|0|1|2|0|0|0|gon|8|oh|6|everybody|6|got|5|lord|5|know|5|knows|5|hoochie|3|coochie|3|seventh|3
+Steppenwolf|Steppenwolf|1968|rock|69|188|3|0|0|0|0|0|0|0|0|0|0|born|8|wild|6|yeah|3|darlin|3|go|3|make|3|happen|3|world|3|love|3|embrace|3
+Steppenwolf|Steppenwolf|1968|rock|115|204|0|0|0|0|1|0|0|0|0|0|0|go|5|ah|3|outside|3|reach|2|follow|2|sound|2|help|2|wall|2|ground|2|sometimes|2
+Steppenwolf|Steppenwolf|1968|rock|109|176|0|0|0|0|0|0|0|0|0|0|0|ever|3|tell|2|way|2|step|2|look|2|back|2|ah|1|think|1|useless|1|feel|1
+Steppenwolf|Steppenwolf|1968|rock|94|229|1|15|0|0|0|15|0|0|0|0|0|god|15|pusher|13|damn|13|know|4|lot|3|lord|3|said|3|dealer|3|grass|2|kill|2
+Steppenwolf|Steppenwolf|1968|rock|57|118|0|0|1|0|0|0|0|0|0|0|0|used|4|night|3|endless|2|flight|2|head|2|lost|2|laughter|2|girl|2|knew|2|someone|2
+Steppenwolf|Steppenwolf|1968|rock|80|222|4|0|0|0|0|0|0|0|0|0|0|need|8|love|4|empty|4|store|4|cause|4|got|4|much|4|place|3|darlin|3|way|3
+Steppenwolf|Steppenwolf|1968|rock|133|262|0|0|0|0|0|0|0|0|0|0|0|hard|3|years|2|free|2|nothing|2|two|2|right|2|wrong|2|say|2|forget|2|today|2
+The Great Escape|Blur|1995|rock|95|272|0|0|0|0|0|0|4|0|0|0|0|dreaming|9|life|9|time|8|know|6|yes|5|stereotypes|5|must|5|stop|4|another|4|bender|4
+The Great Escape|Blur|1995|rock|135|490|0|0|0|0|0|0|0|0|4|0|0|country|19|blow|16|house|8|sad|8|know|8|oh|5|got|4|lot|4|life|4|lives|4
+The Great Escape|Blur|1995|rock|103|265|0|0|0|0|0|0|0|0|0|0|0|lives|10|people|8|said|8|best|8|days|8|turn|4|around|4|laugh|4|like|3|hear|3
+The Great Escape|Blur|1995|rock|115|348|0|0|0|0|0|0|2|0|0|0|0|charmless|5|educated|3|put|3|together|3|model|3|go|2|began|2|way|2|knows|2|like|2
+The Great Escape|Blur|1995|rock|83|252|0|0|0|0|0|0|1|0|0|0|0|fade|14|away|14|making|4|plans|4|cause|4|understands|2|understand|2|stumbled|1|lives|1|vague|1
+The Great Escape|Blur|1995|rock|94|367|9|0|0|0|0|0|0|0|0|0|0|p|23|shooting|9|guns|9|high|9|street|9|love|9|naughty|3|nature|3|doubles|3|chasers|3
+The Great Escape|Blur|1995|rock|68|165|0|0|0|0|0|0|0|0|0|0|0|really|18|could|6|happen|6|yes|5|well|5|let|5|go|5|every|3|days|3|seem|3
+The Great Escape|Blur|1995|rock|111|266|0|0|0|0|0|0|6|0|0|0|0|naughty|20|boy|18|ooh|10|got|6|oh|4|mr|2|robinson|2|quango|2|self|2|professed|2
+The Great Escape|Blur|1995|rock|84|231|0|0|0|0|0|0|0|0|0|0|0|drive|4|thought|3|gone|2|cars|2|year|2|fly|2|moscow|1|still|1|red|1|young|1
+The Great Escape|Blur|1995|rock|86|238|0|0|0|0|0|0|3|0|0|0|1|could|17|oh|9|happy|6|ch|3|homes|3|like|3|families|3|beach|3|world|3|feet|3
+The Great Escape|Blur|1995|rock|58|116|0|0|0|0|0|0|0|0|0|0|0|ernold|5|old|3|way|2|poor|2|tomorrow|2|awoke|1|dream|1|bed|1|time|1|looked|1
+The Great Escape|Blur|1995|rock|82|228|3|0|0|0|0|0|0|0|0|0|0|wants|6|globe|5|gets|4|alone|4|saw|3|commercial|3|break|3|get|3|headache|3|needs|3
+The Great Escape|Blur|1995|rock|98|302|0|0|0|0|0|0|0|0|0|0|0|tv|12|fault|8|made|6|abnormal|5|normal|4|way|4|imitate|4|try|4|ape|4|meanie|3
+The Great Escape|Blur|1995|rock|74|196|0|0|0|0|0|0|0|0|0|0|0|entertain|20|hip|6|weekend|4|car|3|house|3|street|3|boredom|3|sober|3|week|3|hooray|3
+The Great Escape|Blur|1995|rock|71|181|5|0|0|0|0|0|0|0|0|0|0|never|14|together|10|see|7|work|5|love|5|forever|5|yuko|2|hiro|2|drink|2|wareware|2
+Paris sous les bombes|Suprême NTM|1995|hip hop|258|753|0|0|0|0|0|0|2|0|0|0|0|tous|21|retour|20|schéma|20|ah|7|ça|5|cette|4|plus|4|là|4|fois|3|jamais|3
+Paris sous les bombes|Suprême NTM|1995|hip hop|282|799|1|0|0|0|0|0|0|0|0|0|0|tout|50|facile|23|tient|21|fil|21|hip|3|hop|3|heures|3|ouais|3|ensemble|3|ans|2
+Paris sous les bombes|Suprême NTM|1995|hip hop|249|569|0|0|0|0|1|0|0|0|0|35|0|funk|31|ça|16|sampler|15|sonne|14|laisse|14|comme|4|funky|4|quoi|4|tout|3|plus|3
+Paris sous les bombes|Suprême NTM|1995|hip hop|255|864|0|0|0|0|0|0|1|0|0|0|0|attend|24|feu|24|foutre|23|plus|7|tout|6|temps|4|déjà|4|place|3|donc|3|encore|3
+Paris sous les bombes|Suprême NTM|1995|hip hop|308|754|0|0|0|1|0|0|1|0|0|1|0|peace|25|signin|25|check|25|nouvelle|24|école|23|bien|4|mission|4|big|3|school|3|kool|3
+Paris sous les bombes|Suprême NTM|1995|hip hop|212|678|0|0|0|0|0|0|1|0|0|0|0|rêve|53|tout|33|ceci|22|ouais|13|ça|4|correct|4|changé|3|vrai|3|plus|3|prend|3
+Paris sous les bombes|Suprême NTM|1995|hip hop|109|274|0|0|0|0|0|0|1|0|0|0|0|old|16|school|16|retreat|10|surrender|10|plus|6|dix|6|ans|6|roule|6|adepte|3|intellect|3
+Paris sous les bombes|Suprême NTM|1995|hip hop|198|735|0|0|0|0|0|0|2|0|0|1|0|paris|86|bombes|85|sous|82|big|5|autres|4|quand|3|prendre|3|où|3|époque|2|comme|2
+Paris sous les bombes|Suprême NTM|1995|hip hop|210|523|0|0|0|0|0|54|1|0|1|0|0|pass|53|oinj|26|monde|8|corde|7|linge|7|spliff|5|ça|5|tout|5|plus|4|quand|3
+Paris sous les bombes|Suprême NTM|1995|hip hop|302|562|0|0|0|0|0|0|3|0|0|0|0|comme|4|ça|4|prends|4|cités|3|état|3|car|3|dégâts|3|oublie|2|jamais|2|jeunes|2
+Paris sous les bombes|Suprême NTM|1995|hip hop|35|55|2|0|1|0|0|0|0|0|0|0|0|runnin|2|x2|2|sista|2|b|2|love|2|weed|2|yah|2|oh|1|flex|1|oui|1
+Paris sous les bombes|Suprême NTM|1995|hip hop|276|640|0|0|0|0|0|0|0|0|0|0|0|vie|14|ça|7|plus|6|trop|5|décidé|5|comme|4|faire|4|rien|4|gérer|3|tout|3
+Paris sous les bombes|Suprême NTM|1995|hip hop|269|640|0|0|0|0|1|0|0|0|0|0|0|heures|15|pendant|11|fièvre|10|ça|6|tout|5|plus|5|faut|5|où|4|temps|4|quand|3
+Paris sous les bombes|Suprême NTM|1995|hip hop|215|494|0|0|0|0|1|1|2|0|0|0|0|popopopop|21|place|15|suprême|8|fait|8|psycho|5|ah|4|tout|4|monde|4|air|4|ça|3
+Paris sous les bombes|Suprême NTM|1995|hip hop|76|253|0|0|0|0|0|1|0|0|0|0|0|flow|35|check|34|big|9|spéciale|4|toutes|4|banlieues|4|tous|3|frère|3|dédicace|2|gens|2
+Paris sous les bombes|Suprême NTM|1995|hip hop|11|11|0|0|0|0|0|0|0|0|0|0|0|rimes|1|fraiches|1|nouveau|1|maxi|1|toujours|1|NA|0|NA|0|NA|0|NA|0|NA|0
+Paris sous les bombes|Suprême NTM|1995|hip hop|391|677|0|1|0|0|0|4|4|5|2|0|0|firm|9|chacun|8|got|6|baby|5|ça|5|mafia|4|ntm|3|escobar|3|fa|3|nigga|3
+Bayou Country|Creedence Clearwater Revival|1969|rock|78|204|0|0|0|0|0|0|1|0|0|0|0|bayou|10|born|9|oh|6|get|4|chasin|4|hoodoo|4|mm|3|boy|2|remember|2|fourth|2
+Bayou Country|Creedence Clearwater Revival|1969|rock|58|114|0|0|0|0|0|1|0|0|0|0|0|bootleg|24|howl|8|water|2|honey|2|know|2|glass|1|make|1|law|1|see|1|good|1
+Bayou Country|Creedence Clearwater Revival|1969|rock|64|127|0|0|0|0|0|0|0|0|0|0|0|thirty|6|highway|3|people|3|graveyard|3|rosie|2|moonlight|2|see|2|greyhound|2|rolling|2|boxes|2
+Bayou Country|Creedence Clearwater Revival|1969|rock|64|190|0|0|0|0|6|0|1|0|0|0|0|miss|8|molly|8|good|7|golly|7|sure|7|like|7|ball|7|momma|7|rocking|6|rolling|5
+Bayou Country|Creedence Clearwater Revival|1969|rock|94|203|0|0|0|0|0|0|0|2|0|0|0|lord|6|got|4|anything|3|would|3|oh|3|penthouse|3|nothing|3|player|2|play|2|baby|2
+Bayou Country|Creedence Clearwater Revival|1969|rock|78|183|0|0|0|0|0|0|0|0|1|0|0|rollin|24|river|11|keep|6|big|3|wheel|3|turnin|3|proud|3|mary|3|burnin|3|good|2
+Bayou Country|Creedence Clearwater Revival|1969|rock|67|148|0|0|0|0|0|0|0|0|0|0|0|chooglin|26|keep|12|tonight|4|choogle|3|got|2|comes|2|going|2|go|2|ahhhh|2|maybe|1
+Let's Get Killed|David Holmes|1997|pop|40|73|0|0|0|0|0|3|0|0|0|0|0|got|8|new|2|york|2|shit|2|best|2|anything|2|good|2|bomb|1|saying|1|place|1
+Let's Get Killed|David Holmes|1997|pop|170|440|0|1|0|0|0|32|0|1|2|0|0|fucking|26|guy|10|got|10|yeah|7|right|7|years|6|back|5|seven|4|walked|4|wrong|4
+Let's Get Killed|David Holmes|1997|pop|343|673|4|2|0|0|0|2|0|0|0|0|0|another|3|home|3|back|3|make|3|last|3|like|3|used|3|love|3|going|3|know|3
+Let's Get Killed|David Holmes|1997|pop|149|225|0|0|0|0|1|2|0|0|0|0|0|like|3|stab|3|check|2|feel|2|new|2|york|2|fill|2|rhyme|2|cause|2|catch|2
+Let's Get Killed|David Holmes|1997|pop|12|12|0|0|0|0|0|0|0|0|0|0|0|check|1|bronx|1|elements|1|dj|1|emcee|1|graffiti|1|NA|0|NA|0|NA|0|NA|0
+Let's Get Killed|David Holmes|1997|pop|95|189|0|0|5|0|1|1|0|0|1|0|0|know|6|dance|3|continental|2|club|2|mecca|2|punk|2|dancin|2|band|2|see|2|quit|2
+Let's Get Killed|David Holmes|1997|pop|16|17|0|0|0|0|0|0|0|0|0|0|0|dreams|2|hold|1|fast|1|life|1|broken|1|winged|1|bird|1|fly|1|NA|0|NA|0
+Let's Get Killed|David Holmes|1997|pop|26|27|0|0|0|0|0|0|0|0|0|0|0|please|1|remember|1|belongings|1|leaving|1|taxi|1|ask|1|driver|1|receipt|1|thank|1|riding|1
+From Here to Eternity|Giorgio Moroder|1977|r&b|41|237|23|0|0|0|0|0|0|15|0|0|0|love|20|eternity|16|baby|15|takes|5|leads|3|loving|2|nothing|2|need|2|dying|2|makes|2
+From Here to Eternity|Giorgio Moroder|1977|r&b|6|84|14|0|0|0|0|0|0|0|0|0|0|faster|14|speed|14|love|14|NA|0|NA|0|NA|0|NA|0|NA|0|NA|0|NA|0
+From Here to Eternity|Giorgio Moroder|1977|r&b|10|71|0|0|0|0|0|0|0|0|0|0|0|lost|18|angeles|9|flyer|8|stars|6|fly|5|sky|3|farce|3|mexico|1|NA|0|NA|0
+From Here to Eternity|Giorgio Moroder|1977|r&b|13|24|3|0|0|0|0|0|0|8|0|0|0|baby|8|love|3|takes|1|eternity|1|NA|0|NA|0|NA|0|NA|0|NA|0|NA|0
+From Here to Eternity|Giorgio Moroder|1977|r&b|64|214|8|0|0|0|0|0|0|0|0|0|0|hand|18|said|8|first|8|experience|8|second|8|love|8|need|6|gypsy|4|read|4|must|4
+From Here to Eternity|Giorgio Moroder|1977|r&b|76|489|4|0|0|0|0|0|0|0|0|0|0|gone|38|left|34|right|32|took|6|time|4|gave|3|loving|3|life|3|hook|3|line|3
+From Here to Eternity|Giorgio Moroder|1977|r&b|60|221|1|0|0|0|0|0|0|0|0|0|0|gon|12|hot|8|handle|8|gamble|8|lady|5|lose|5|close|4|comfort|4|wan|4|get|4
+Koyaanisqatsi|Philip Glass|1983|classical|1|15|0|0|0|0|0|0|0|0|0|0|0|koyaanisqatsi|15|NA|0|NA|0|NA|0|NA|0|NA|0|NA|0|NA|0|NA|0|NA|0
+Koyaanisqatsi|Philip Glass|1983|classical|30|51|0|0|0|0|0|0|0|0|0|0|0|koyaanisqatsi|16|yaw|5|hiita|3|awk|1|haykyanayawk|1|oova|1|iwiskövi|1|naanahoy|1|lanatini|1|naap|1
+Central Reservation|Beth Orton|1999|folk|135|341|3|0|0|0|0|0|0|0|0|0|0|every|7|better|5|wrong|5|like|4|known|4|abuse|4|old|4|enough|4|line|4|never|4
+Central Reservation|Beth Orton|1999|folk|71|175|0|0|0|0|0|0|2|0|0|0|0|day|4|yet|4|sweetest|4|decline|4|regrets|4|like|3|catching|3|snow|3|tongue|3|deep|2
+Central Reservation|Beth Orton|1999|folk|88|203|0|0|0|0|0|0|0|0|0|0|0|alright|8|know|6|right|3|gon|3|see|2|telling|2|truth|2|feel|2|heart|2|especially|2
+Central Reservation|Beth Orton|1999|folk|79|202|0|0|0|0|0|0|0|0|0|0|0|know|9|alive|5|live|5|cold|3|please|3|excuse|3|much|3|air|3|breathe|3|another|2
+Central Reservation|Beth Orton|1999|folk|98|386|2|0|0|0|0|17|0|0|0|0|0|pass|17|time|9|child|8|gon|7|mother|4|strong|3|tears|3|much|2|stays|2|unknown|2
+Central Reservation|Beth Orton|1999|folk|87|217|0|0|0|0|0|0|0|0|0|0|0|yeah|18|time|9|everything|4|colour|3|bring|3|sacred|3|real|3|stepping|2|brilliant|2|shades|2
+Central Reservation|Beth Orton|1999|folk|86|218|3|0|0|0|0|0|0|0|0|0|0|hunger|5|much|5|things|4|without|4|love|3|leaves|3|empty|3|think|3|never|3|livin|3
+Central Reservation|Beth Orton|1999|folk|67|209|1|0|0|0|0|0|0|0|0|0|0|heart|12|open|9|running|7|short|5|loop|5|round|5|mind|5|like|3|something|3|telling|3
+Central Reservation|Beth Orton|1999|folk|77|230|0|0|0|0|0|0|0|0|0|0|0|away|9|dream|6|never|5|must|5|people|5|always|5|found|3|blood|3|red|3|river|3
+Central Reservation|Beth Orton|1999|folk|123|295|0|0|0|0|0|0|0|0|0|0|0|angel|9|devil|5|trying|4|sure|4|back|3|always|3|know|2|trouble|2|better|2|precious|2
+Central Reservation|Beth Orton|1999|folk|91|339|1|0|0|0|0|2|3|0|0|0|0|believe|8|time|6|right|5|day|5|truth|5|leads|5|single|5|watch|4|waste|4|another|4
+Central Reservation|Beth Orton|1999|folk|76|231|0|0|0|0|0|0|0|0|0|0|0|whatever|10|mean|10|time|9|today|9|colour|3|bring|3|fine|3|like|3|last|2|brilliant|2
+Central Reservation|Beth Orton|1999|folk|72|269|0|0|0|0|0|1|0|0|0|0|0|used|10|seemed|9|best|9|part|9|never|8|life|6|seem|5|quite|4|found|3|dream|3
+Central Reservation|Beth Orton|1999|folk|49|133|0|0|0|0|0|0|0|9|0|0|0|baby|9|maybe|7|precious|4|set|3|free|3|get|3|oh|2|sometimes|2|ooh|2|could|1
+East of the River Nile|Augustus Pablo|1977|rock|4|126|0|0|0|0|0|0|0|0|0|0|0|shoop|63|shoo|21|doo|21|woo|21|NA|0|NA|0|NA|0|NA|0|NA|0|NA|0
+Blueberry Boat|The Fiery Furnaces|2004|rock|311|663|0|0|0|0|0|4|0|0|0|0|0|never|18|safe|7|feel|6|like|6|canyglow|6|us|4|get|3|comes|3|mast|3|nails|3
+Blueberry Boat|The Fiery Furnaces|2004|rock|212|497|0|0|0|0|0|0|1|1|0|0|0|street|6|call|6|straight|6|cause|6|got|6|walked|5|length|5|cursing|5|late|5|looking|3
+Blueberry Boat|The Fiery Furnaces|2004|rock|219|422|0|0|0|1|0|0|0|0|0|0|0|never|7|nothing|5|said|5|go|5|side|4|home|4|see|3|came|3|day|2|coming|2
+Blueberry Boat|The Fiery Furnaces|2004|rock|307|711|4|0|0|0|0|2|1|9|0|0|0|go|11|baby|9|got|8|said|8|know|6|bloom|6|wan|5|gon|5|bee|5|bad|4
+Blueberry Boat|The Fiery Furnaces|2004|rock|78|129|0|0|0|0|0|0|0|0|0|0|0|paw|6|tree|4|sitting|3|wait|3|make|3|mango|3|mush|3|outta|3|tied|2|bottom|1
+Blueberry Boat|The Fiery Furnaces|2004|rock|121|389|0|0|0|0|0|0|0|0|0|0|0|lost|17|found|17|went|12|really|3|see|2|said|2|put|2|cause|2|seen|2|bark|2
+Blueberry Boat|The Fiery Furnaces|2004|rock|192|273|0|1|0|0|0|0|2|0|0|0|0|make|3|read|2|life|2|agreed|2|write|2|still|2|comes|2|get|2|go|2|forwarder|1
+Blueberry Boat|The Fiery Furnaces|2004|rock|288|639|0|0|0|0|0|1|8|0|0|0|0|get|4|room|4|little|4|well|4|said|4|jenny|4|late|3|good|3|told|3|head|3
+Blueberry Boat|The Fiery Furnaces|2004|rock|75|117|0|0|0|0|0|0|1|0|0|0|0|pain|4|old|2|wish|2|spain|2|falls|2|mainly|2|walked|1|home|1|tcby|1|night|1
+Blueberry Boat|The Fiery Furnaces|2004|rock|146|219|0|0|0|0|0|0|0|0|0|0|0|ever|4|win|4|got|2|back|2|getting|2|ask|2|dad|2|downed|1|pils|1|south|1
+Blueberry Boat|The Fiery Furnaces|2004|rock|99|239|0|0|0|0|0|0|0|0|0|0|0|stop|8|riding|4|side|4|saddle|4|clickity|4|clattle|4|jump|4|undertow|4|penguin|4|paddle|4
+Blueberry Boat|The Fiery Furnaces|2004|rock|34|43|0|0|0|0|0|0|0|0|0|0|0|sweet|2|tan|1|sun|1|sailing|1|day|1|sleep|1|car|1|throw|1|cushions|1|floor|1
+Blueberry Boat|The Fiery Furnaces|2004|rock|135|196|0|0|0|0|0|0|0|0|0|0|0|today|4|pick|2|tune|2|away|2|open|2|trills|2|bow|2|string|2|plastic|1|pretend|1
+Come Fly with Me|Frank Sinatra|1958|easy listening|81|242|2|0|0|0|0|0|0|0|0|0|0|fly|15|let|11|away|4|get|4|say|4|air|2|rarefied|2|glide|2|starry|2|eyed|2
+Come Fly with Me|Frank Sinatra|1958|easy listening|56|104|0|0|0|0|0|0|0|0|0|0|0|world|4|might|2|county|2|new|2|york|2|gay|2|paree|2|even|2|london|2|town|2
+Come Fly with Me|Frank Sinatra|1958|easy listening|90|196|3|0|0|0|0|0|0|0|0|0|0|capri|6|isle|5|twas|4|goodbye|4|see|3|still|2|sweet|2|summertime|2|nearly|2|blue|2
+Come Fly with Me|Frank Sinatra|1958|easy listening|45|100|2|0|0|0|0|0|0|0|0|0|0|vermont|6|moonlight|5|telegraph|2|cables|2|sing|2|highway|2|travel|2|bend|2|road|2|people|2
+Come Fly with Me|Frank Sinatra|1958|easy listening|70|122|1|0|0|0|0|0|0|0|0|0|0|new|8|autumn|7|york|7|good|2|live|2|seem|1|inviting|1|spells|1|thrill|1|first|1
+Come Fly with Me|Frank Sinatra|1958|easy listening|87|187|0|0|0|0|0|0|0|0|0|0|0|mandalay|8|back|5|looking|3|old|3|like|3|bells|2|flotilla|2|lay|2|hear|2|paddles|2
+Come Fly with Me|Frank Sinatra|1958|easy listening|60|170|2|0|0|0|0|0|0|0|0|0|0|let|12|get|6|away|4|town|4|dear|4|travel|2|round|2|visit|2|every|2|state|2
+Come Fly with Me|Frank Sinatra|1958|easy listening|44|91|0|0|0|0|0|0|0|0|0|0|0|never|7|heart|4|knew|3|april|3|paris|3|could|2|sing|2|missed|2|warm|2|embrace|2
+Come Fly with Me|Frank Sinatra|1958|easy listening|86|121|3|0|0|0|0|0|0|0|0|0|0|love|3|moon|2|london|2|magic|1|abroad|1|air|1|often|1|told|1|streets|1|turn|1
+Come Fly with Me|Frank Sinatra|1958|easy listening|59|116|2|0|0|0|0|0|0|0|0|0|0|brazil|6|old|4|tomorrow|2|another|2|day|2|morning|2|found|2|miles|2|away|2|still|2
+Come Fly with Me|Frank Sinatra|1958|easy listening|37|60|2|0|0|0|0|0|0|0|0|0|0|night|3|blue|2|hawaii|2|true|2|heavenly|1|heaven|1|lovely|1|loveliness|1|love|1|moon|1
+Come Fly with Me|Frank Sinatra|1958|easy listening|123|283|0|0|0|0|0|0|2|0|0|0|0|nice|10|oh|6|home|4|go|3|trav|3|ling|3|much|3|nicer|3|wander|3|yes|2
+Come Fly with Me|Frank Sinatra|1958|easy listening|59|156|2|0|0|0|0|0|2|0|0|0|0|chicago|15|street|4|time|4|town|3|say|3|show|2|around|2|love|2|bet|2|bottom|2
+Come Fly with Me|Frank Sinatra|1958|easy listening|85|181|1|0|0|0|0|0|0|0|0|0|0|aye|32|south|5|border|5|mexico|4|way|4|stay|3|came|2|cause|2|whispered|2|mañana|2
+Come Fly with Me|Frank Sinatra|1958|easy listening|29|85|11|0|0|0|0|0|0|0|0|0|0|love|11|paris|9|every|4|moment|4|year|2|oh|2|fall|1|winter|1|drizzles|1|summer|1
+Absolutely Free|The Mothers of Invention|1967|rock|149|276|2|0|0|0|0|0|1|5|0|0|0|plastic|11|people|8|fz|6|baby|5|drag|5|oh|4|blah|3|rc|2|think|2|know|2
+Absolutely Free|The Mothers of Invention|1967|rock|59|133|6|0|0|0|0|0|0|0|0|0|0|prune|4|love|4|real|3|grow|3|reveals|2|chest|2|see|2|lovely|2|beans|2|magic|2
+Absolutely Free|The Mothers of Invention|1967|rock|44|91|1|0|0|0|0|0|0|0|0|0|0|prunes|9|duke|6|chunka|3|darling|3|oh|2|forget|2|ooooooooh|1|lala|1|mean|1|much|1
+Absolutely Free|The Mothers of Invention|1967|rock|82|191|7|0|0|0|0|0|0|9|0|0|0|baby|9|cheesy|7|love|6|prune|5|chunka|5|prunes|4|cheese|4|fat|4|know|3|see|2
+Absolutely Free|The Mothers of Invention|1967|rock|93|177|0|0|0|0|0|0|0|0|0|0|0|vegetable|10|call|7|know|4|rutabaga|4|good|3|vegetables|2|chances|2|respond|2|song|1|keep|1
+Absolutely Free|The Mothers of Invention|1967|rock|87|136|0|0|0|0|0|0|5|0|0|0|0|call|5|vegetable|4|oh|4|together|3|ah|2|say|2|green|2|new|2|pumpkin|2|huffa|2
+Absolutely Free|The Mothers of Invention|1967|rock|32|159|0|0|0|0|0|0|0|0|0|0|0|big|11|emma|8|leg|6|uh|6|huh|6|oh|6|yeah|6|dilemma|5|used|2|knock|2
+Absolutely Free|The Mothers of Invention|1967|rock|45|203|2|0|0|0|0|0|1|3|0|0|0|tcha|12|right|12|tryin|8|got|5|wreck|4|life|4|beggin|3|knees|3|baby|3|know|3
+Absolutely Free|The Mothers of Invention|1967|rock|75|116|0|0|0|0|0|2|0|0|0|0|0|doop|13|doopy|5|like|3|oh|2|could|2|class|2|ring|2|doo|1|diddly|1|etc|1
+Absolutely Free|The Mothers of Invention|1967|rock|91|170|0|0|1|0|0|0|0|4|0|0|0|status|6|school|5|back|5|baby|4|painted|3|used|2|think|2|oh|2|posters|2|pom|2
+Absolutely Free|The Mothers of Invention|1967|rock|158|299|0|0|0|0|0|1|2|1|1|0|0|got|8|plastic|7|doll|3|little|3|fz|3|bomb|2|mommy|2|daddy|2|looks|2|like|2
+Absolutely Free|The Mothers of Invention|1967|rock|70|192|0|0|0|0|0|0|0|3|0|0|0|yeah|48|suzy|9|got|8|creamcheese|8|oh|6|baby|3|mama|3|sweetie|1|blew|1|mind|1
+Absolutely Free|The Mothers of Invention|1967|rock|206|479|3|0|0|0|1|0|7|6|0|0|0|nasty|11|go|6|baby|6|daughter|5|make|4|jerk|4|work|4|shoes|3|school|3|tv|3
+Absolutely Free|The Mothers of Invention|1967|rock|154|268|0|0|1|0|0|1|0|0|1|0|0|like|5|night|4|dah|4|hope|3|fun|3|wonderful|3|nice|3|see|3|oh|3|yeah|3
+Coming Up|Suede|1996|no genre|52|251|0|0|0|0|0|0|0|0|0|0|0|maybe|12|trash|9|everything|8|lovers|5|litter|4|breeze|4|streets|4|oh|2|clothes|1|wear|1
+Coming Up|Suede|1996|no genre|40|196|0|0|0|0|0|2|0|0|0|0|0|filmstar|23|yeah|18|believe|6|propping|4|bar|4|driving|4|car|4|looks|4|easy|4|tonight|4
+Coming Up|Suede|1996|no genre|77|197|2|0|0|0|0|0|2|0|1|0|0|lazy|8|mums|2|reminding|2|us|2|things|2|done|2|getting|2|really|2|make|1|lovely|1
+Coming Up|Suede|1996|no genre|72|229|0|0|0|0|0|0|1|0|0|0|0|anytime|7|walk|6|touch|6|ground|6|life|4|breed|4|bleed|4|start|3|new|3|gon|3
+Coming Up|Suede|1996|no genre|37|108|0|0|0|0|0|0|0|0|0|0|0|nowhere|6|places|3|faces|3|wants|3|see|3|bad|3|bored|3|bony|3|another|2|education|2
+Coming Up|Suede|1996|no genre|88|361|1|0|0|0|0|0|0|3|0|0|0|oh|15|beautiful|9|ones|8|psycho|3|shaking|3|yeah|3|baby|3|going|3|crazy|3|made|3
+Coming Up|Suede|1996|no genre|66|224|2|0|0|0|0|0|0|0|0|0|0|got|11|say|10|feel|9|way|9|education|5|nothing|5|imagination|5|oh|4|star|3|starcrazy|3
+Coming Up|Suede|1996|no genre|76|277|15|0|1|0|0|0|0|0|0|0|0|lovely|15|day|10|could|8|looking|7|lovers|7|lay|7|go|7|hey|5|fun|5|sorry|4
+Coming Up|Suede|1996|no genre|52|191|1|0|0|0|0|12|0|0|0|0|0|oh|15|class|12|maybe|6|young|6|b|6|chemistry|6|kids|4|tired|3|easily|3|lead|3
+Coming Up|Suede|1996|no genre|67|254|0|0|1|0|0|0|0|0|0|0|0|oh|18|whatever|12|makes|12|alright|8|go|8|happy|8|tonight|6|saturday|4|night|4|today|2
+Platform|Holly Herndon|2015|pop|20|43|0|0|0|0|0|0|0|0|0|0|0|seed|6|everywhere|4|nowhere|3|always|2|forced|2|wait|2|without|2|names|2|thrive|1|new|1
+Platform|Holly Herndon|2015|pop|43|86|0|0|0|0|0|0|0|0|0|0|0|unequal|6|honesty|4|fight|4|dignity|2|sing|1|prayer|1|save|1|human|1|form|1|broken|1
+Platform|Holly Herndon|2015|pop|25|305|0|0|0|0|0|0|0|0|0|0|0|skin|92|emptiness|15|belong|7|morning|6|sun|6|wake|4|begin|4|fall|4|gone|4|remain|2
+Platform|Holly Herndon|2015|pop|108|227|0|0|0|0|0|17|0|0|3|0|0|lasts|17|glass|15|pressed|5|molds|5|longest|4|wet|3|bar|3|wax|3|add|3|dripping|3
+Platform|Holly Herndon|2015|pop|40|214|0|0|0|0|0|0|0|0|0|0|0|nothing|21|would|13|way|11|go|8|lose|7|knew|6|sail|6|away|6|know|5|gain|4
+Platform|Holly Herndon|2015|pop|161|435|0|0|0|0|0|0|1|0|0|0|0|know|10|great|9|yeah|8|yes|6|okay|5|many|5|feel|4|people|4|us|3|seem|3
+Platform|Holly Herndon|2015|pop|51|222|0|0|0|0|0|0|0|0|0|0|0|know|22|around|12|still|8|feel|5|room|4|better|4|something|4|like|3|assigned|2|part|2
+Platform|Holly Herndon|2015|pop|28|96|8|0|0|0|0|0|0|0|0|0|0|hand|8|new|8|ways|8|love|8|hold|7|law|2|see|2|understand|1|stand|1|next|1
+Wounded Rhymes|Lykke Li|2011|pop|68|248|0|0|0|0|0|0|0|0|0|0|0|youth|11|get|10|knows|9|pain|9|honey|8|make|4|blow|4|pieces|4|give|4|completely|4
+Wounded Rhymes|Lykke Li|2011|pop|40|253|0|0|0|0|0|0|1|4|0|0|0|oh|82|follow|25|deep|7|run|6|baby|4|dark|4|doom|4|honey|4|river|3|running|3
+Wounded Rhymes|Lykke Li|2011|pop|70|287|12|0|11|0|0|0|0|2|0|0|0|love|12|lust|12|dance|11|better|8|live|6|waiting|4|longer|4|cross|4|rivers|4|rather|3
+Wounded Rhymes|Lykke Li|2011|pop|64|134|10|0|0|0|0|0|0|0|0|0|0|oh|11|love|10|unrequited|8|back|3|get|2|know|2|well|2|another|2|twice|1|pain|1
+Wounded Rhymes|Lykke Li|2011|pop|65|295|6|0|0|0|0|0|0|0|0|0|0|go|34|ahead|16|like|11|way|9|low|9|gon|6|lonely|6|lover|6|charm|6|get|5
+Wounded Rhymes|Lykke Li|2011|pop|68|206|0|0|0|0|0|0|0|2|0|0|0|got|14|mama|8|rich|8|kids|8|blues|8|nothing|5|wild|3|eyed|3|sure|3|pulling|3
+Wounded Rhymes|Lykke Li|2011|pop|65|192|3|0|0|0|0|0|0|0|0|0|0|sadness|16|oh|6|girl|6|boyfriend|4|wounded|3|rhymes|3|make|3|tonight|3|beg|3|go|3
+Wounded Rhymes|Lykke Li|2011|pop|43|162|0|0|0|0|0|0|0|16|0|0|0|babe|16|know|7|places|7|go|7|high|4|ask|4|hurt|3|coming|3|home|3|unfold|3
+Wounded Rhymes|Lykke Li|2011|pop|58|205|0|0|0|0|0|0|0|0|0|0|0|oh|12|jerome|12|nothing|6|know|4|hear|4|mind|3|feel|3|swear|3|never|3|leave|3
+Wounded Rhymes|Lykke Li|2011|pop|77|183|1|0|0|0|0|0|0|0|0|0|0|silent|18|song|10|fist|6|needed|6|pull|6|oh|4|wicked|2|like|2|call|2|eyes|1
+Wounded Rhymes|Lykke Li|2011|pop|36|114|0|0|0|0|0|0|0|0|0|0|0|made|14|move|10|woman|4|fall|3|ray|2|light|2|fast|2|steep|2|low|2|run|1
+Wounded Rhymes|Lykke Li|2011|pop|66|334|0|0|0|0|0|0|1|0|0|0|0|let|28|know|12|go|11|alone|5|walk|5|us|5|ever|4|leave|4|wound|2|chase|2
+Zooropa|U2|1993|rock|108|264|0|0|0|0|0|1|2|5|0|0|0|zooropa|18|baby|5|get|4|gon|4|dream|4|got|3|let|3|go|3|overground|3|mud|3
+Zooropa|U2|1993|rock|96|201|2|0|0|0|0|0|0|0|0|0|0|babyface|18|slow|4|child|4|let|4|lace|4|like|3|untie|3|could|3|beauty|3|kind|3
+Zooropa|U2|1993|rock|159|472|0|0|1|0|0|1|0|1|0|0|0|feel|21|numb|19|gim|8|much|5|enough|4|project|4|connect|4|protect|4|expect|4|suggest|4
+Zooropa|U2|1993|rock|117|368|0|0|0|0|0|0|0|0|2|0|0|midnight|11|day|11|begins|11|lemon|6|see|6|light|5|gon|4|feel|4|like|4|picture|4
+Zooropa|U2|1993|rock|138|285|0|0|0|0|0|0|0|0|0|0|0|stay|9|would|6|night|4|ground|3|could|3|talk|3|hits|2|feel|2|morning|2|around|2
+Zooropa|U2|1993|rock|90|226|0|0|0|0|0|0|0|1|0|0|0|daddy|14|aha|6|sha|6|car|6|gon|5|pay|5|crashed|5|sunday|4|monday|4|tuesday|4
+Zooropa|U2|1993|rock|101|276|0|1|0|0|0|0|1|1|0|0|0|days|37|better|7|others|7|got|2|wake|2|hear|2|voice|2|taking|2|another|2|place|2
+Zooropa|U2|1993|rock|77|157|3|0|0|0|0|0|2|0|0|0|0|time|6|first|5|soul|4|feel|4|love|3|see|2|brother|2|running|2|rich|2|gave|2
+Zooropa|U2|1993|rock|114|278|3|0|0|0|1|0|2|0|0|0|0|days|24|run|8|away|8|like|8|horses|8|hill|8|love|3|last|3|kissin|3|time|3
+Zooropa|U2|1993|rock|135|272|0|4|0|0|0|0|1|0|0|0|0|went|11|nothing|6|yeah|4|thought|4|looking|4|walking|2|turn|2|like|2|wandering|2|god|2
+The Great Adventures of Slick Rick|Slick Rick|1988|hip hop|260|642|2|0|0|0|0|2|5|0|0|0|0|treat|10|like|6|girlie|6|well|6|mailman|5|hurt|4|prostitute|4|sure|4|scoop|4|cause|4
+The Great Adventures of Slick Rick|Slick Rick|1988|hip hop|234|456|0|1|0|1|0|0|0|0|0|0|0|ruler|7|back|5|mission|4|well|3|scratches|3|get|3|folks|3|go|3|let|3|trumpets|3
+The Great Adventures of Slick Rick|Slick Rick|1988|hip hop|297|628|0|0|0|0|0|0|5|0|2|0|0|little|6|boy|6|another|6|good|5|said|5|cop|5|huh|4|know|4|ran|4|cops|4
+The Great Adventures of Slick Rick|Slick Rick|1988|hip hop|331|863|0|0|0|0|0|7|2|0|1|0|0|went|8|said|8|moment|6|feared|6|real|4|rich|4|day|3|boy|3|big|3|put|3
+The Great Adventures of Slick Rick|Slick Rick|1988|hip hop|219|519|0|1|0|0|1|1|1|0|0|0|0|get|25|let|10|crazy|7|rick|5|go|5|scratches|5|stupid|5|like|4|jam|4|lil|4
+The Great Adventures of Slick Rick|Slick Rick|1988|hip hop|279|633|2|0|0|0|0|2|0|0|0|0|0|said|15|heya|10|davy|7|hey|7|started|5|sex|4|dave|4|like|4|mood|4|stop|4
+The Great Adventures of Slick Rick|Slick Rick|1988|hip hop|240|883|39|0|0|0|0|0|2|0|0|0|0|hurt|38|love|36|teenage|32|go|4|feelings|3|like|3|heart|3|back|3|around|3|know|3
+The Great Adventures of Slick Rick|Slick Rick|1988|hip hop|286|617|0|0|0|0|0|1|1|0|2|0|0|said|10|mona|7|know|5|like|5|uh|5|huh|5|well|4|slice|4|got|4|ricky|3
+The Great Adventures of Slick Rick|Slick Rick|1988|hip hop|302|696|0|0|0|0|0|1|2|0|1|0|0|rick|10|kit|7|get|6|go|5|cause|5|know|5|let|5|ricky|4|michael|3|crowd|3
+The Great Adventures of Slick Rick|Slick Rick|1988|hip hop|270|766|2|1|0|1|1|0|2|0|1|0|0|know|22|hey|15|world|15|like|13|young|10|party|9|cause|5|little|4|go|4|true|4
+The Great Adventures of Slick Rick|Slick Rick|1988|hip hop|245|703|0|0|0|0|0|2|2|0|0|0|2|teacher|14|style|10|ricky|10|tell|8|easy|7|creator|7|looks|6|like|6|nothing|6|understand|6
+The Great Adventures of Slick Rick|Slick Rick|1988|hip hop|247|545|1|0|0|0|0|8|1|0|1|0|0|dj|5|trying|4|stands|4|falls|4|crowds|4|halls|4|calls|4|lick|4|balls|4|rick|4
+Colour by Numbers|Culture Club|1983|rock|73|317|10|0|0|0|0|0|0|0|0|0|0|karma|30|go|15|red|10|gold|10|green|10|like|7|loving|6|would|6|chameleon|6|easy|5
+Colour by Numbers|Culture Club|1983|rock|67|351|0|0|1|0|0|0|0|4|0|0|0|miracle|36|ooh|21|emotion|8|made|7|dreams|6|oh|5|meet|4|cry|4|baby|4|disguise|3
+Colour by Numbers|Culture Club|1983|rock|74|443|18|0|0|0|0|0|0|0|41|0|0|money|41|black|37|deal|27|yeah|23|love|18|someone|8|wooah|5|waste|5|time|5|return|4
+Colour by Numbers|Culture Club|1983|rock|65|156|0|0|0|0|0|0|0|0|0|0|0|changing|24|every|24|day|24|said|3|life|2|sometimes|2|get|2|focus|2|someone|1|says|1
+Colour by Numbers|Culture Club|1983|rock|72|165|0|0|0|0|0|0|0|2|0|0|0|morning|4|way|4|tears|3|say|3|hear|3|us|3|calling|3|sorry|3|shut|3|tell|2
+Colour by Numbers|Culture Club|1983|rock|74|367|5|2|0|0|0|0|29|0|0|0|0|church|29|poison|29|mind|28|ah|8|eyes|4|life|4|step|4|would|3|fool|3|maybe|3
+Colour by Numbers|Culture Club|1983|rock|80|504|1|0|0|0|0|0|0|0|0|0|0|miss|43|know|42|blind|14|need|6|bet|4|say|4|never|4|sure|4|rich|4|poor|4
+Colour by Numbers|Culture Club|1983|rock|77|327|5|0|0|0|0|0|0|0|0|0|0|mister|27|full|10|hate|6|love|5|got|5|heart|5|trigger|5|pulled|5|late|5|street|4
+Colour by Numbers|Culture Club|1983|rock|76|216|5|0|0|0|0|0|1|0|0|0|0|stormkeeper|10|keeping|6|warm|6|love|5|puts|4|waves|4|sand|4|liven|4|life|4|need|4
+Colour by Numbers|Culture Club|1983|rock|106|274|3|0|0|0|0|0|0|0|0|0|0|well|6|like|5|things|5|never|4|tell|3|places|3|always|3|keep|3|pull|3|strings|3
+Colour by Numbers|Culture Club|1983|rock|66|115|0|0|0|0|0|0|0|0|0|0|0|shake|12|camera|2|see|2|got|1|nasty|1|snap|1|stole|1|soul|1|left|1|feeling|1
+Colour by Numbers|Culture Club|1983|rock|51|168|4|0|0|0|0|0|0|0|0|0|0|boy|15|mystery|13|ooh|9|sad|4|told|4|look|4|love|4|say|3|see|3|would|3
+Colour by Numbers|Culture Club|1983|rock|108|228|0|1|0|0|0|0|0|0|0|0|0|know|6|enough|6|coffee|5|coloured|5|people|5|got|4|big|4|oh|3|score|3|little|2
+Colour by Numbers|Culture Club|1983|rock|51|104|1|0|0|0|0|0|0|0|0|0|0|us|4|colours|3|chose|3|felt|2|spirit|2|demanding|2|took|2|chance|2|speaking|2|tongues|2
+Absolution|Muse|2003|rock|35|105|0|0|0|0|0|0|0|0|0|0|0|pull|6|us|6|world|3|time|2|declare|1|emergency|1|spread|1|sense|1|urgency|1|saw|1
+Absolution|Muse|2003|rock|76|296|0|0|0|0|0|0|0|0|0|0|0|yeah|32|oo|12|let|9|bury|6|time|6|running|6|ooh|6|smother|3|murder|3|push|3
+Absolution|Muse|2003|rock|59|122|0|0|0|0|0|0|0|0|0|0|0|dream|3|sing|3|absolution|3|singing|3|falling|3|grace|3|lips|2|turning|2|blue|2|kiss|2
+Absolution|Muse|2003|rock|52|166|1|0|0|0|0|0|0|0|0|0|0|last|6|time|6|wish|4|could|4|let|3|abandon|3|forget|3|burn|2|recall|2|avail|2
+Absolution|Muse|2003|rock|86|202|4|0|0|0|0|0|0|0|0|0|0|away|7|feel|6|crumbling|6|love|4|falling|4|watching|3|memories|3|never|3|find|3|left|2
+Absolution|Muse|2003|rock|50|128|0|0|0|0|0|0|0|0|0|0|0|breaking|5|heart|3|yeah|2|endlessly|2|cause|2|give|2|soul|2|last|2|chance|2|lose|2
+Absolution|Muse|2003|rock|31|71|1|0|0|0|0|0|0|0|0|0|0|last|3|kid|2|fool|2|good|2|life|2|young|2|love|1|old|1|dream|1|grow|1
+Absolution|Muse|2003|rock|44|159|0|0|0|0|0|0|0|0|0|0|0|best|6|got|6|time|6|change|5|everything|4|chance|4|world|3|use|3|heard|3|number|2
+Absolution|Muse|2003|rock|67|221|0|3|0|0|0|0|0|0|0|0|0|sell|4|say|3|make|3|insane|3|bending|3|truth|3|blame|3|life|3|lose|3|watch|3
+Absolution|Muse|2003|rock|43|142|3|0|0|0|0|0|0|0|0|0|0|hopelessly|6|give|6|never|3|love|3|endlessly|3|everything|3|let|3|leave|3|falling|3|moment|3
+Absolution|Muse|2003|rock|61|175|0|0|0|0|0|6|0|0|0|0|0|yeah|18|scares|6|hell|6|see|6|whoa|3|know|2|eerie|1|whispers|1|trapped|1|beneath|1
+Absolution|Muse|2003|rock|43|90|0|0|0|0|0|0|0|0|0|0|0|change|3|air|3|hide|3|everywhere|3|knows|3|control|3|repress|1|restrain|1|steal|1|pressure|1
+Absolution|Muse|2003|rock|55|111|1|3|0|0|0|0|0|0|0|0|0|breathe|3|deep|3|cleanse|3|away|3|sins|3|pray|3|god|3|punish|3|us|3|make|3
+Absolution|Muse|2003|rock|40|211|0|0|0|0|0|3|0|0|0|0|0|resist|12|making|8|feel|8|change|6|real|4|feels|4|eternally|4|missed|4|chase|3|dreams|3
+If You're Reading This It's Too Late|Drake|2015|hip hop|142|444|0|12|1|0|0|7|0|0|1|0|0|nigga|12|oh|12|god|12|know|9|legend|9|back|6|yeah|3|pull|3|tell|3|good|3
+If You're Reading This It's Too Late|Drake|2015|hip hop|183|522|0|0|0|0|0|14|1|0|1|0|0|got|29|tryna|11|enemies|10|lot|9|nigga|9|niggas|8|see|6|people|5|wave|5|fuckin|5
+If You're Reading This It's Too Late|Drake|2015|hip hop|206|512|1|2|0|0|0|7|0|0|0|0|0|let|13|bands|12|sleep|8|trippin|8|like|8|fuck|5|even|5|got|5|10|4|50|4
+If You're Reading This It's Too Late|Drake|2015|hip hop|220|590|0|0|0|0|0|21|0|0|2|0|0|know|22|shit|19|go|16|6|8|runnin|7|woes|7|hol|6|yeah|6|like|5|yuh|5
+If You're Reading This It's Too Late|Drake|2015|hip hop|268|788|0|0|0|0|0|12|3|0|1|0|0|yeah|26|tellin|26|got|11|get|9|comin|6|check|6|help|6|niggas|6|never|5|let|4
+If You're Reading This It's Too Late|Drake|2015|hip hop|147|425|0|0|0|0|0|10|0|0|0|0|0|know|11|damn|9|girl|9|get|7|ride|6|oh|4|see|4|breathe|3|pilled|3|filled|3
+If You're Reading This It's Too Late|Drake|2015|hip hop|190|546|0|1|0|0|0|18|0|0|1|0|0|boy|16|admit|12|6|8|yeah|7|get|6|know|6|shit|6|hot|6|old|5|things|5
+If You're Reading This It's Too Late|Drake|2015|hip hop|266|647|0|0|0|0|0|9|0|0|0|0|0|yeah|14|blowin|10|know|9|need|8|thing|7|whole|6|like|5|got|4|go|4|niggas|4
+If You're Reading This It's Too Late|Drake|2015|hip hop|176|442|1|0|0|0|0|0|0|1|2|0|0|preach|73|young|8|nigga|8|know|6|got|6|way|6|yeah|4|preaching|4|blow|3|going|3
+If You're Reading This It's Too Late|Drake|2015|hip hop|104|231|1|0|0|0|0|5|0|1|0|0|0|lonely|13|ring|7|girl|4|woman|4|fuck|3|together|2|everything|2|shit|2|cause|2|another|2
+If You're Reading This It's Too Late|Drake|2015|hip hop|288|892|7|0|3|0|0|14|1|0|1|0|0|like|19|used|17|say|14|got|11|gon|9|love|7|getting|7|yeah|6|get|6|never|6
+If You're Reading This It's Too Late|Drake|2015|hip hop|156|399|1|0|0|0|0|12|1|2|0|0|0|work|10|night|8|shift|8|like|7|shit|6|lou|5|young|5|know|5|yeah|4|got|4
+If You're Reading This It's Too Late|Drake|2015|hip hop|100|539|0|1|0|0|0|2|2|0|0|0|0|let|17|leaving|16|home|13|got|12|bring|12|go|10|gone|9|know|9|yeah|7|back|7
+If You're Reading This It's Too Late|Drake|2015|hip hop|206|627|3|0|0|0|0|10|0|9|0|0|0|right|15|city|12|mo|11|trip|11|baby|9|need|8|shit|7|girl|7|heat|7|oh|6
+If You're Reading This It's Too Late|Drake|2015|hip hop|295|784|2|1|0|0|0|8|2|0|0|0|0|momma|25|life|8|got|8|know|7|shit|6|always|5|yeah|5|least|5|hate|5|phone|4
+If You're Reading This It's Too Late|Drake|2015|hip hop|160|456|2|1|0|0|4|5|1|4|0|0|0|still|12|everything|9|good|8|like|6|things|6|rock|4|real|4|slowly|4|put|4|bib|4
+If You're Reading This It's Too Late|Drake|2015|hip hop|411|972|10|0|0|0|0|13|2|0|1|0|0|got|17|like|11|oh|10|love|10|yeah|8|fuck|5|get|4|back|4|shit|4|rappin|4
+If You're Reading This It's Too Late|Drake|2015|hip hop|178|558|0|0|0|0|0|9|0|0|1|0|0|right|16|bout|13|like|12|yeah|11|girl|11|stuck|8|shit|6|even|5|back|5|crazy|4
+If You're Reading This It's Too Late|Drake|2015|hip hop|154|383|0|0|0|0|0|3|0|0|0|0|0|much|7|know|7|aw|6|stay|5|girl|4|relationship|4|start|4|shit|3|make|3|things|3
+Sabbath Bloody Sabbath|Black Sabbath|1973|metal|114|232|0|1|0|0|0|2|2|0|0|0|0|know|4|lies|3|tell|3|mind|2|turn|2|run|2|nobody|2|ever|2|let|2|ask|2
+Sabbath Bloody Sabbath|Black Sabbath|1973|metal|143|260|2|0|0|0|0|0|1|0|0|0|0|life|7|never|4|know|3|secret|2|time|2|lived|2|child|2|well|2|believe|2|let|2
+Sabbath Bloody Sabbath|Black Sabbath|1973|metal|85|208|12|0|0|0|0|0|0|1|0|0|0|love|7|never|6|feel|5|lady|5|leave|5|said|5|know|4|lovely|4|yeah|4|good|3
+Sabbath Bloody Sabbath|Black Sabbath|1973|metal|107|199|0|0|0|0|0|0|0|1|0|0|0|killing|5|live|5|think|4|know|3|well|2|people|2|look|2|life|2|away|2|give|2
+Sabbath Bloody Sabbath|Black Sabbath|1973|metal|70|154|0|0|0|0|0|2|1|0|0|0|0|think|3|dust|2|thought|2|would|2|easy|2|start|2|found|2|smart|2|question|2|time|2
+Sabbath Bloody Sabbath|Black Sabbath|1973|metal|118|281|0|0|0|0|0|0|0|0|0|0|0|today|18|looking|17|yeah|10|top|3|quick|3|even|2|date|2|another|2|everyone|2|gets|2
+Sabbath Bloody Sabbath|Black Sabbath|1973|metal|95|185|1|1|0|0|0|0|0|0|0|0|0|know|9|things|3|value|3|good|3|give|3|time|2|look|2|see|2|watching|2|spiral|2
+Comicopera|Robert Wyatt|2007|rock|48|122|0|0|0|0|0|0|0|0|0|0|0|somewhere|6|get|4|back|4|stay|3|tuned|3|oh|3|searching|3|hear|2|still|2|stop|2
+Comicopera|Robert Wyatt|2007|rock|72|247|8|0|0|0|0|0|0|0|0|0|0|never|8|change|8|thing|8|love|5|try|4|always|4|tried|4|going|3|loved|3|look|2
+Comicopera|Robert Wyatt|2007|rock|54|128|1|0|0|0|0|0|0|0|1|0|0|time|3|comes|3|like|2|night|2|light|1|dark|1|descends|1|mind|1|cause|1|see|1
+Comicopera|Robert Wyatt|2007|rock|56|108|0|0|0|0|0|0|0|0|0|0|0|waving|4|trains|4|harry|2|hatty|2|tick|2|tock|2|damnable|2|clock|2|world|2|knows|2
+Comicopera|Robert Wyatt|2007|rock|80|133|0|0|0|0|0|0|0|0|0|0|0|away|3|methodist|3|hall|3|chips|2|walking|2|rest|2|day|2|gutter|1|oh|1|polystyrene|1
+Comicopera|Robert Wyatt|2007|rock|104|361|0|1|0|0|0|1|0|0|0|0|0|us|30|favour|30|serious|9|said|6|self|4|express|4|envy|3|muslims|2|must|2|great|2
+Comicopera|Robert Wyatt|2007|rock|64|75|0|0|1|0|0|0|0|0|0|0|0|must|3|advisors|2|expert|2|press|1|informed|1|residents|1|muttered|1|doubts|1|fears|1|meetings|1
+Comicopera|Robert Wyatt|2007|rock|52|136|0|0|0|0|0|0|0|0|0|0|0|day|10|beautiful|9|free|5|see|4|prey|2|open|2|hatch|2|drop|2|first|2|batch|2
+Comicopera|Robert Wyatt|2007|rock|60|244|0|0|0|0|0|0|0|0|0|0|0|planted|11|everlasting|11|hatred|11|heart|11|set|6|free|6|something|4|unbelievable|4|happened|3|floor|3
+Comicopera|Robert Wyatt|2007|rock|69|86|0|0|0|0|0|0|1|0|0|0|0|sangue|2|mondo|2|glorifichi|2|vita|2|gloria|2|odorante|1|fertile|1|rigoglioso|1|lotte|1|moltitudini|1
+Comicopera|Robert Wyatt|2007|rock|35|55|0|0|0|0|0|0|0|0|0|0|0|oh|3|cola|2|tiempo|2|tierra|1|blanca|1|arcos|1|vacios|1|cielo|1|mares|1|algas|1
+Comicopera|Robert Wyatt|2007|rock|11|12|1|0|0|0|0|0|0|0|0|0|0|never|1|ever|1|going|1|change|1|thing|1|try|1|love|1|repeat|1|NA|0|NA|0
+Comicopera|Robert Wyatt|2007|rock|69|148|0|0|0|0|0|0|0|0|0|0|0|comandante|7|querida|6|presencia|6|guevara|6|clara|4|aquí|3|queda|3|entrañable|3|transparencia|3|histórica|1
+Spirit in the Dark|Aretha Franklin|1970|r&b|77|327|7|0|0|0|0|0|0|3|0|0|0|lied|24|darling|13|play|12|oh|7|love|7|know|7|hey|3|stand|3|baby|3|need|3
+Spirit in the Dark|Aretha Franklin|1970|r&b|60|179|0|0|0|0|0|0|0|0|0|0|0|going|6|slow|6|lord|4|early|4|morning|4|home|4|health|3|failing|3|tell|3|fun|2
+Spirit in the Dark|Aretha Franklin|1970|r&b|86|341|0|0|0|0|0|0|0|2|0|0|0|pulling|50|moving|41|higher|33|harder|32|oh|8|yeah|8|cause|3|everyone|2|gone|2|baby|2
+Spirit in the Dark|Aretha Franklin|1970|r&b|70|216|4|0|0|0|0|0|0|1|0|0|0|together|9|always|8|joined|8|eternity|8|us|6|got|5|gon|5|love|4|know|3|strong|3
+Spirit in the Dark|Aretha Franklin|1970|r&b|37|146|8|0|0|0|0|0|0|7|0|0|0|love|8|honest|7|baby|7|yeah|7|oh|6|know|5|never|4|place|3|tell|2|sweetest|2
+Spirit in the Dark|Aretha Franklin|1970|r&b|89|540|0|2|2|0|0|0|6|0|0|0|0|spirit|55|move|50|yeah|16|getting|13|doot|11|dark|9|oh|8|hum|6|feel|6|groove|6
+Spirit in the Dark|Aretha Franklin|1970|r&b|75|230|0|0|0|0|0|0|1|0|0|0|0|battle|7|crown|7|wear|6|believe|4|tell|4|yeah|3|time|2|got|2|get|2|soul|2
+Spirit in the Dark|Aretha Franklin|1970|r&b|63|222|18|0|0|0|0|0|0|5|0|0|0|ticket|14|way|13|love|10|loved|8|oh|7|like|6|baby|5|yeah|5|maybe|3|remember|2
+Spirit in the Dark|Aretha Franklin|1970|r&b|78|235|1|0|0|0|0|0|0|0|1|0|0|matty|20|try|14|morning|8|going|6|gon|3|go|3|got|3|way|2|people|2|everywhere|2
+Spirit in the Dark|Aretha Franklin|1970|r&b|59|276|3|0|0|0|0|0|0|3|0|0|0|slowly|11|grows|6|may|6|let|4|little|3|love|3|comes|3|goes|3|baby|3|still|2
+Spirit in the Dark|Aretha Franklin|1970|r&b|86|195|0|0|0|0|0|0|0|9|0|0|0|oh|9|baby|9|sweet|5|like|4|kept|3|saying|3|told|2|guys|2|lead|2|tell|2
+Spirit in the Dark|Aretha Franklin|1970|r&b|124|243|0|1|0|0|0|0|1|0|0|0|0|blues|6|yeah|6|know|4|around|4|dues|4|singing|4|everybody|3|yes|3|wants|2|sing|2
+Irish Tour '74|Rory Gallagher|1974|blues|75|221|0|0|0|0|3|0|0|4|0|0|0|let|6|see|4|baby|4|would|3|rock|3|pony|2|trot|2|atom|2|split|2|three|2
+Irish Tour '74|Rory Gallagher|1974|blues|75|247|5|0|0|0|0|0|0|1|0|0|0|gon|11|wonder|7|carry|7|sweet|6|gone|6|business|6|love|5|yeah|4|every|3|going|3
+Irish Tour '74|Rory Gallagher|1974|blues|131|292|0|0|0|0|0|0|1|3|0|0|0|could|4|town|4|baby|3|say|3|hear|3|yeah|3|lonely|2|something|2|told|2|always|2
+Irish Tour '74|Rory Gallagher|1974|blues|98|341|0|0|0|0|0|0|0|3|0|0|0|put|10|well|9|ninety|9|cent|8|went|7|street|7|pick|6|alcohol|6|31st|5|jug|5
+Irish Tour '74|Rory Gallagher|1974|blues|70|178|0|0|0|0|0|0|0|5|0|0|0|baby|5|get|5|home|5|break|4|day|4|crow|3|flies|3|well|3|yeah|3|far|2
+Irish Tour '74|Rory Gallagher|1974|blues|117|308|0|0|0|0|0|0|0|0|0|0|0|million|13|miles|13|away|10|sailing|6|like|6|driftwood|6|windy|6|bay|6|well|3|piano|2
+Irish Tour '74|Rory Gallagher|1974|blues|95|262|0|0|0|0|0|0|0|1|0|0|0|well|8|walk|6|lost|3|way|3|spent|3|hot|3|coals|3|sleep|3|bed|3|nails|3
+Irish Tour '74|Rory Gallagher|1974|blues|85|191|0|0|0|2|0|0|0|0|0|0|0|well|5|make|5|start|4|could|3|tell|3|always|3|walking|2|running|2|cool|2|mountain|2
+Irish Tour '74|Rory Gallagher|1974|blues|106|230|0|0|0|0|0|1|0|0|0|0|0|well|11|stompin|6|ground|6|almost|3|back|3|old|3|lord|2|stung|2|many|2|folks|2
+Irish Tour '74|Rory Gallagher|1974|blues|23|197|5|0|0|0|0|0|0|0|0|0|0|bit|25|weeny|16|eeny|11|little|8|well|6|teeny|5|love|5|turn|2|low|2|yeah|2
+The Man Who Sold the World|David Bowie|1970|rock|170|309|1|3|0|0|0|0|0|0|0|0|0|said|6|back|4|go|4|turn|3|around|3|breathe|3|monster|2|well|2|hello|2|asked|2
+The Man Who Sold the World|David Bowie|1970|rock|129|317|0|0|0|0|0|0|0|0|0|0|0|day|6|zane|6|tell|4|quite|4|free|4|rather|4|madmen|4|far|3|side|3|town|3
+The Man Who Sold the World|David Bowie|1970|rock|45|196|0|0|0|0|8|0|0|0|0|0|0|pack|8|black|8|country|8|rock|8|view|6|horse|4|rest|4|never|4|know|4|might|4
+The Man Who Sold the World|David Bowie|1970|rock|112|190|0|0|0|0|0|0|0|0|0|0|0|oh|6|jingo|6|children|3|please|2|trip|1|gently|1|like|1|fall|1|room|1|anger|1
+The Man Who Sold the World|David Bowie|1970|rock|88|194|0|0|0|0|0|0|0|0|0|0|0|running|5|cold|3|dead|3|gooks|3|heads|3|got|3|gun|3|blues|3|left|2|better|2
+The Man Who Sold the World|David Bowie|1970|rock|100|184|0|0|0|0|0|0|1|0|0|0|0|let|4|stay|4|saviour|3|machine|3|logic|3|gave|2|please|2|says|2|burn|2|send|2
+The Man Who Sold the World|David Bowie|1970|rock|93|159|1|3|0|1|0|0|0|0|0|0|0|god|3|upon|2|hill|2|mother|2|blew|2|brain|2|go|2|back|2|shook|2|cold|2
+The Man Who Sold the World|David Bowie|1970|rock|73|146|0|0|0|0|0|0|0|0|0|0|0|long|4|never|3|lost|3|control|3|sold|3|world|3|spoke|2|died|2|alone|2|time|2
+The Man Who Sold the World|David Bowie|1970|rock|108|164|0|3|0|0|0|0|1|0|0|0|0|far|4|would|3|strange|3|softly|3|supergod|3|sad|3|could|2|life|2|cries|2|red|2
+Cookin' with the Miles Davis Quintet|Miles Davis|1957|jazz|47|88|0|0|0|0|0|0|0|0|0|0|0|stay|4|valentine|4|day|4|little|3|change|2|hair|2|make|1|smile|1|heart|1|looks|1
+Cookin' with the Miles Davis Quintet|Miles Davis|1957|jazz|45|95|4|0|0|1|0|0|0|0|0|0|0|love|4|feel|4|fall|3|never|2|give|2|heart|2|moment|2|way|2|forever|1|restless|1
+Steamin' with the Miles Davis Quintet|Miles Davis|1961|jazz|45|95|4|0|0|1|0|0|0|0|0|0|0|love|4|feel|4|fall|3|never|2|give|2|heart|2|moment|2|way|2|forever|1|restless|1
+The Wonderful and Frightening World of...The Fall|The Fall|1984|rock|133|261|0|0|0|0|0|0|10|0|0|0|0|land|10|lay|6|lie|4|people|3|give|2|sound|2|ordinary|2|waves|2|realms|2|armageddon|1
+The Wonderful and Frightening World of...The Fall|The Fall|1984|rock|76|259|0|0|0|0|0|0|1|0|0|0|0|agin|14|rich|10|poor|9|fiend|6|loose|4|new|4|hit|4|said|4|head|3|2|3
+The Wonderful and Frightening World of...The Fall|The Fall|1984|rock|102|197|1|0|0|0|0|0|0|3|1|0|0|hey|7|song|5|copped|4|singing|3|cause|3|baby|3|say|2|get|2|far|2|last|2
+The Wonderful and Frightening World of...The Fall|The Fall|1984|rock|85|155|0|0|0|0|1|0|0|0|0|0|0|scotch|3|job|3|done|3|price|2|scum|2|spitting|2|good|2|gone|2|alignment|2|fantastic|2
+The Wonderful and Frightening World of...The Fall|The Fall|1984|rock|143|277|0|0|0|0|0|0|0|0|0|0|0|slip|9|whip|6|wire|6|easy|6|slang|5|king|5|swoop|5|go|4|sugar|4|ace|3
+The Wonderful and Frightening World of...The Fall|The Fall|1984|rock|74|122|0|0|0|0|0|0|0|0|0|0|0|day|11|bug|10|midges|2|moths|2|shivered|2|green|2|minoa|2|said|2|eek|2|things|2
+The Wonderful and Frightening World of...The Fall|The Fall|1984|rock|97|150|2|0|1|0|0|2|0|0|0|0|0|song|2|nothing|2|hero|2|deeply|2|loved|2|moonlit|2|past|2|privet|2|wide|2|leaved|2
+The Wonderful and Frightening World of...The Fall|The Fall|1984|rock|56|113|0|0|0|0|0|3|0|1|0|0|0|mind|8|moving|6|co|3|habs|3|mass|3|blonde|3|curls|3|fast|3|mad|3|slow|3
+The Wonderful and Frightening World of...The Fall|The Fall|1984|rock|106|232|0|0|0|0|0|0|1|0|0|0|0|day|8|dream|6|debased|5|disney|5|doubt|4|blood|3|two|3|ways|3|ride|2|people|2
+Chris|Christine and The Queens|2018|pop|109|385|2|0|0|0|0|0|1|3|0|0|0|oh|46|comme|18|aimait|18|play|8|encore|7|let|5|loud|4|go|4|cause|3|baby|3
+Chris|Christine and The Queens|2018|pop|128|292|8|0|0|0|0|9|1|3|0|0|0|touché|34|f|9|b|9|girlfriend|8|lover|8|feel|4|like|4|damn|4|fuck|4|rollin|3
+Chris|Christine and The Queens|2018|pop|110|295|0|0|0|0|0|0|0|0|0|0|0|walk|6|chose|6|talk|6|violent|6|hits|6|violet|6|blossoms|6|akin|6|back|3|staining|3
+Chris|Christine and The Queens|2018|pop|157|502|0|28|1|0|0|0|0|0|0|0|0|god|28|believe|12|exist|12|back|8|yeah|8|oh|7|matter|6|know|6|exit|6|sunlight|6
+Chris|Christine and The Queens|2018|pop|70|248|0|0|0|0|0|0|0|22|0|0|0|5|22|dollars|22|baby|22|get|8|blues|8|eager|6|unashamed|6|prove|6|wrong|6|every|4
+Chris|Christine and The Queens|2018|pop|155|348|2|0|0|0|0|0|0|0|1|0|0|soda|21|goya|10|imprécis|7|see|6|always|5|imbécile|4|thought|4|happening|3|much|3|jamais|3
+Chris|Christine and The Queens|2018|pop|90|224|0|0|0|0|0|8|2|1|0|0|0|damn|8|must|8|woman|8|pay|6|follarse|4|joderse|4|wait|4|let|3|clay|3|deep|2
+Chris|Christine and The Queens|2018|pop|99|238|0|0|0|0|0|0|0|0|0|0|0|ever|47|years|6|since|6|playground|6|forever|2|eyes|2|closed|2|fast|2|pace|2|singing|2
+Chris|Christine and The Queens|2018|pop|120|389|0|0|0|0|0|0|0|0|0|0|0|feel|9|somebody|8|scared|8|still|8|good|8|even|6|losing|4|looking|3|might|3|occurred|2
+Chris|Christine and The Queens|2018|pop|86|261|0|0|0|0|0|0|0|0|0|0|0|make|7|oh|6|cause|6|nothing|3|see|3|sense|3|choose|3|side|3|tell|3|think|2
+Chris|Christine and The Queens|2018|pop|76|212|0|0|0|0|0|0|0|0|0|0|0|water|9|stranger|6|behind|6|barrels|6|us|6|animals|6|years|4|maserati|2|kept|2|headlights|2
+A Quick One|The Who|1966|rock|82|144|0|0|0|0|0|0|0|1|0|0|0|run|14|little|4|well|3|pin|3|better|2|girl|2|get|2|walk|2|whenever|2|baby|1
+A Quick One|The Who|1966|rock|77|180|0|0|0|0|0|0|0|0|0|0|0|crawly|24|creepy|23|boris|8|spider|8|floor|2|look|1|crawling|1|wall|1|black|1|hairy|1
+A Quick One|The Who|1966|rock|57|130|0|0|2|0|0|0|0|0|0|0|0|talk|5|yet|3|crowd|3|please|3|need|3|knowing|2|people|2|tell|2|thinking|2|wrong|2
+A Quick One|The Who|1966|rock|94|179|0|0|0|0|0|0|0|0|0|0|0|whiskey|6|fine|3|friend|2|nearly|2|time|2|always|2|joins|2|drink|2|get|2|must|2
+A Quick One|The Who|1966|rock|64|145|2|0|0|0|0|0|0|0|0|0|0|heat|8|wave|8|yeah|8|oh|4|heart|3|got|3|burning|3|feel|3|could|2|way|2
+A Quick One|The Who|1966|rock|64|249|3|0|0|0|0|0|0|0|0|0|0|away|17|look|14|head|3|always|3|true|3|still|3|love|3|lot|3|get|3|got|3
+A Quick One|The Who|1966|rock|53|155|0|0|0|0|0|0|0|0|0|0|0|way|9|see|7|make|4|back|4|think|3|day|3|tried|2|hard|2|point|2|view|2
+A Quick One|The Who|1966|rock|40|167|1|0|0|0|0|0|0|0|0|0|0|sad|10|us|9|bad|5|never|4|suppose|3|meant|2|break|2|make|2|switch|2|news|1
+A Quick One|The Who|1966|rock|151|596|1|0|0|0|0|1|14|0|0|0|0|soon|24|cello|24|fa|14|forgiven|14|home|13|dang|8|engine|7|driver|7|remedy|6|old|6
+Les Stances a Sophie|Art Ensemble of Chicago|1970|jazz|53|79|1|0|0|0|0|1|0|0|0|0|0|like|6|two|3|neck|1|string|1|body|1|camembert|1|oozing|1|skin|1|fanny|1|sperm|1
+Les Stances a Sophie|Art Ensemble of Chicago|1970|jazz|15|24|0|0|0|0|0|0|1|0|0|0|0|sitteth|2|among|2|elders|2|lion|1|husband|1|known|1|gate|1|land|1|NA|0|NA|0
+Wild Tchoupitoulas|Wild Tchoupitoulas|1976|no genre|129|415|0|0|0|0|0|0|0|0|0|0|0|meet|26|boys|26|battlefront|26|gon|13|yeah|9|wild|9|tchoupitoulas|9|stomp|9|rump|9|injuns|5
+Curtis/Live!|Curtis Mayfield|1971|r&b|72|153|2|0|0|0|0|0|0|0|0|0|0|makings|4|little|3|would|3|righteous|2|way|2|go|2|know|2|believe|2|told|2|second|2

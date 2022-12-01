@@ -1,5 +1,5 @@
 class Line {
-    constructor(main_data, genre_data, line_div, globalApplicationState){
+    constructor(main_data, genre_data, line_div, globalApplicationState, histogram){
 
         //**********************************************************************************************
         //                                  CONSTANTS FOR CHART SIZE
@@ -31,6 +31,7 @@ class Line {
         this.main_data = main_data
         this.genre_data = genre_data
         this.line_div = line_div
+        this.histogram = histogram
         
         this.lineSvg = this.line_div.append("svg")
             .attr('id', 'line_svg')
@@ -172,7 +173,7 @@ class Line {
             // console.log("this.linesRight", this.linesRight)
 
             if (event.clientX > this.linesLeft + this.PUSH_AXIS_RIGHT && event.clientX <this.linesRight ){
-                console.log("YE")
+                // console.log("YE")
         
                 overlay
                 .select('line')
@@ -182,10 +183,11 @@ class Line {
                 .attr('y1', this.TOTAL_HEIGHT - this.MARGIN_TOP)
                 .attr('y2', 0);
 
-                let year_hovered = this.scale_year.invert(event.clientX - this.linesLeft)//.toISOString().substring(0,10)//FIXME 
+                let year_hovered = this.scale_year.invert(event.clientX - this.linesLeft - this.PUSH_AXIS_RIGHT)//.toISOString().substring(0,10)//FIXME 
                 year_hovered = Math.floor(year_hovered)
+                this.histogram.draw_year(year_hovered)
                 //TODO the hovered year is off by about 4 or 5
-                console.log(year_hovered)
+                // console.log(year_hovered)
 
 
 
@@ -613,6 +615,90 @@ class Line {
         else{
             d3
             .select('#easy_listening_group')
+            .remove()
+        }
+
+        //latin
+        if (this.globalApplicationState.latin_checked){
+            let latin_data = this.genre_data.filter((d) => d.genre == "latin")
+            this.lineSvg 
+            .append("g")
+            .attr("id", "latin_group")
+            .append("path")
+            .attr('id', 'latin_line_id')
+            .style('stroke', (d) => {
+                return(this.globalApplicationState.scaleColor('latin'))
+            })
+            .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
+
+            let latinChart = 
+                d3.select("#latin_group")
+                .select('#latin_line_id')
+                .datum(latin_data)
+                .attr('d', this.lineGenerator)
+                .attr('opacity',  this.GENRE_LINE_OPACITY)
+                .attr('fill', 'none')
+                .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+        }
+        else{
+            d3
+            .select('#latin_group')
+            .remove()
+        }
+
+         //metal
+         if (this.globalApplicationState.metal_checked){
+            let metal_data = this.genre_data.filter((d) => d.genre == "metal")
+            this.lineSvg 
+            .append("g")
+            .attr("id", "metal_group")
+            .append("path")
+            .attr('id', 'metal_line_id')
+            .style('stroke', (d) => {
+                return(this.globalApplicationState.scaleColor('metal'))
+            })
+            .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
+
+            let metalChart = 
+                d3.select("#metal_group")
+                .select('#metal_line_id')
+                .datum(metal_data)
+                .attr('d', this.lineGenerator)
+                .attr('opacity',  this.GENRE_LINE_OPACITY)
+                .attr('fill', 'none')
+                .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+        }
+        else{
+            d3
+            .select('#metal_group')
+            .remove()
+        }
+
+        //edm
+        if (this.globalApplicationState.edm_checked){
+            let edm_data = this.genre_data.filter((d) => d.genre == "edm")
+            this.lineSvg 
+            .append("g")
+            .attr("id", "edm_group")
+            .append("path")
+            .attr('id', 'edm_line_id')
+            .style('stroke', (d) => {
+                return(this.globalApplicationState.scaleColor('edm'))
+            })
+            .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
+
+            let edmChart = 
+                d3.select("#edm_group")
+                .select('#edm_line_id')
+                .datum(edm_data)
+                .attr('d', this.lineGenerator)
+                .attr('opacity',  this.GENRE_LINE_OPACITY)
+                .attr('fill', 'none')
+                .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+        }
+        else{
+            d3
+            .select('#edm_group')
             .remove()
         }
 

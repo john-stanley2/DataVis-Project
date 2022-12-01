@@ -27,7 +27,7 @@ let histogramDiv = wrapper.append('div')
                 .attr("id", 'histogram_div')
 ;
 let allGenres =  ["pop", 'rock', 'hip hop', 'latin', 'edm', 'r&b', 
-'country', 'folk',  'metal', 'jazz', 'easy listening', 'new age', 'blues', 'world']
+'country', 'folk',  'metal', 'jazz', 'easy listening', 'blues']
 ;
 
 // scaleColor = d3.scaleOrdinal() 
@@ -47,9 +47,7 @@ const globalApplicationState = {
     metal_checked: false,
     jazz_checked: false,
     easy_listening_checked: false,
-    new_age_checked: false,
     blues_checked: false,
-    world_checked: false,
     scaleColor,
     love_checked: false,
     dance_checked: false,
@@ -67,8 +65,10 @@ main_line_data = d3.json("./vis_data/main_line.json");
 genre_lines_data = d3.json('./vis_data/genre_lines.json');
 word_freq_data = d3.json('./vis_data/word_freq.json');
 overall_word_freq_data = d3.json('./vis_data/word_freq_year.json');
+hist_data = d3.json("./vis_data/hist.json");
 
-Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_data]).then( data =>
+
+Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_data,hist_data]).then( data =>
     {
         //data[0] = main_line_data
         //data[1] = genre_line_data
@@ -76,9 +76,11 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
         console.log("genre line", data[1]);
         console.log("word frequency", data[2]);
         console.log("overall word frequency", data[3]);
+        console.log("hist data", data[4]);
 
-        histogram = new Histogram(data[0], data[1],histogramDiv ,globalApplicationState)
-        line = new Line(data[0], data[1],lineDiv ,globalApplicationState);
+
+        histogram = new Histogram(data[0], data[4],histogramDiv ,globalApplicationState)
+        line = new Line(data[0], data[1],lineDiv ,globalApplicationState, histogram);
         word_line = new Word_Line(data[2],data[3],lineWordsDiv,globalApplicationState);
         word_line.draw_main_line();
 
@@ -95,6 +97,7 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
      else{
          globalApplicationState.rock_checked = true
      }
+     histogram.draw_year(histogram.get_selected_year());
      line.draw_genre_lines();
      word_line.draw_genre_lines();
  });
@@ -108,6 +111,7 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
      else{
          globalApplicationState.pop_checked = true
      }
+     histogram.draw_year(histogram.get_selected_year());
      line.draw_genre_lines();
      word_line.draw_genre_lines();
  });
@@ -121,6 +125,7 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
      else{
          globalApplicationState.hip_hop_checked = true
      }
+     histogram.draw_year(histogram.get_selected_year());
      line.draw_genre_lines()
      word_line.draw_genre_lines();
  });
@@ -135,6 +140,7 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
      else{
          globalApplicationState.jazz_checked = true
      }
+     histogram.draw_year(histogram.get_selected_year());
      line.draw_genre_lines()
  });
 
@@ -147,6 +153,7 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
      else{
          globalApplicationState.blues_checked = true
      }
+     histogram.draw_year(histogram.get_selected_year());
      line.draw_genre_lines()
  });
 
@@ -159,6 +166,7 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
       else{
           globalApplicationState.rnb_checked = true
       }
+      histogram.draw_year(histogram.get_selected_year());
       line.draw_genre_lines()
   });
 
@@ -173,6 +181,7 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
       else{
           globalApplicationState.country_checked = true
       }
+      histogram.draw_year(histogram.get_selected_year());
       line.draw_genre_lines();
       word_line.draw_genre_lines();
   });
@@ -186,6 +195,7 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
       else{
           globalApplicationState.folk_checked = true
       }
+      histogram.draw_year(histogram.get_selected_year());
       line.draw_genre_lines()
   });
 
@@ -198,8 +208,52 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
       else{
           globalApplicationState.easy_listening_checked = true
       }
+      histogram.draw_year(histogram.get_selected_year());
       line.draw_genre_lines()
   });
+
+  d3.select('#latin_box').on('click', (d) => 
+  {        
+
+      if (globalApplicationState.latin_checked){
+          globalApplicationState.latin_checked = false
+      }
+      else{
+          globalApplicationState.latin_checked = true
+      }
+      histogram.draw_year(histogram.get_selected_year());
+      line.draw_genre_lines()
+  });
+
+  d3.select('#metal_box').on('click', (d) => 
+  {        
+
+      if (globalApplicationState.metal_checked){
+          globalApplicationState.metal_checked = false
+      }
+      else{
+          globalApplicationState.metal_checked = true
+      }
+      histogram.draw_year(histogram.get_selected_year());
+      line.draw_genre_lines()
+  });
+
+  d3.select('#edm_box').on('click', (d) => 
+  {        
+
+      if (globalApplicationState.edm_checked){
+          globalApplicationState.edm_checked = false
+      }
+      else{
+          globalApplicationState.edm_checked = true
+      }
+      histogram.draw_year(histogram.get_selected_year());
+      line.draw_genre_lines()
+  });
+
+
+
+
 
 
 

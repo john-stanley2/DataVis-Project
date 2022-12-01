@@ -1,5 +1,5 @@
 class Histogram {
-    constructor(main_data, genre_data, histogram_div, globalApplicationState){
+    constructor(main_data, histogram_data, histogram_div, globalApplicationState){
 
         //**********************************************************************************************
         //                                  CONSTANTS FOR CHART SIZE
@@ -23,13 +23,15 @@ class Histogram {
        
         this.ANIMATION_DURATION = 8
 
+        this.selected_year = 0
+
 
         //**********************************************************************************************
         //                                  GENERAL SET UP
         //**********************************************************************************************
         this.globalApplicationState = globalApplicationState
         this.main_data = main_data
-        this.genre_data = genre_data
+        this.histogram_data = histogram_data
         this.histogram_div = histogram_div
         
         this.histogramSvg = this.histogram_div.append("svg")
@@ -44,105 +46,128 @@ class Histogram {
 
         // Min and max 
 
-        // this.x_scale = d3.scaleLinear()
-        // .domain([this.min, this.max]).nice()
-        // .range([this.MARGIN_LEFT, this.WIDTH - this.MARGIN_RIGHT])
+        this.x_scale = d3.scaleLinear()
+        .domain([0, 1]).nice()
+        .range([this.MARGIN_LEFT, this.TOTAL_WIDTH - this.MARGIN_RIGHT])
 
-        // this.y_scale = d3.scaleLinear()
-        // .domain([this.min, this.max]).nice()
-        // .range([this.HEIGHT - this.MARGIN_BOTTOM, this.MARGIN_TOP])
+        this.y_scale = d3.scaleLinear()
+        .domain([0, 40]).nice()
+        .range([this.TOTAL_HEIGHT - this.MARGIN_BOTTOM, this.MARGIN_TOP])
 
-        // this.xAxis = g => g
-        // .attr("transform", `translate(0,${this.HEIGHT - this.MARGIN_BOTTOM })`)
-        // .call(d3.axisBottom(this.x_scale))
+        this.xAxis = g => g
+        .attr("transform", `translate(${this.PUSH_AXIS_RIGHT},${this.TOTAL_HEIGHT - this.MARGIN_BOTTOM })`)
+        .call(d3.axisBottom(this.x_scale))
 
-        // this.yAxis = g => g
-        // .attr("transform", `translate(${this.MARGIN_LEFT},0)`)
-        // .call(d3.axisLeft(this.y_scale))
-
-
-        // this.x_axis = this.alphaSvg.append('g').call(this.xAxis)
-        // this.y_axis = this.alphaSvg.append('g').call(this.yAxis)
-        // this.points = this.alphaSvg.append('g')
-
-        // //Consider putting the buttonSVG in lineSVG
-        // this.buttonsSvg = this.line_div.append("svg")
-        //     .attr('id', 'buttons_svg')
-        //     .attr('height', this.TOTAL_HEIGHT)
-        //     .attr('width', this.TOTAL_WIDTH)
-        //     .style('position', 'absolute')
-
-        // this.lineSvg 
-        //     .append("g")
-        //     .attr("id", "y_axis");
-        // this.lineSvg 
-        //     .append("g")
-        //     .attr("id", "x_axis");
-
-        // this.lineSvg 
-        //     .append("g")
-        //     .attr("id", "lineChart")
-        //     .append("path")
-        //     .attr('id', 'line_id')
-        //     .style('stroke', 'grey')
-        //     .style('stroke-width', this.MAIN_LINE_STROKE_WIDTH)
-
-        // this.linesLeft = document.getElementById("line_svg").getBoundingClientRect().left
-        // this.linesRight = document.getElementById("line_svg").getBoundingClientRect().right
-    
-
-        //**********************************************************************************************
-        //                                  GET MIN AND MAX
-        //**********************************************************************************************
-
-        // //min max for source x and y
-        // this.max_metric = d3.max(this.genre_data.map(d => d.median_metric))
-        // this.min_metric = d3.min(this.genre_data.map(d => d.median_metric))
+        this.yAxis = g => g
+        .attr("transform", `translate(${this.MARGIN_LEFT + this.PUSH_AXIS_RIGHT},0)`)
+        .call(d3.axisLeft(this.y_scale))
 
 
-        // this.max_year = d3.max(this.main_data.map(d => d.year))
-        // this.min_year = d3.min(this.main_data.map(d => d.year))
-       
-        // // //**********************************************************************************************
-        // // //                                  SCALES
-        // // //**********************************************************************************************
-
-        // //TODO FIX HARD CODING
-        // this.scale_metric = d3.scaleLinear()
-        //     .range([ this.TOTAL_HEIGHT - this.MARGIN_BOTTOM, 0 + this.MARGIN_TOP]) 
-        //     .domain([this.min_metric, this.max_metric]);
-
-        // //TODO scale
-        // this.scale_year = d3.scaleLinear()  
-        //     .range([0 , this.TOTAL_WIDTH - this.MARGIN_RIGHT ]) 
-        //     .domain([this.min_year, this.max_year + 3]);
-
-        // let legend_data = [1940, 1950, 1960, 1970, 1980,1990, 2000, 2010, 2020]
-        // let xAxisGenerator = d3.axisBottom(this.scale_year);
-    
-        // xAxisGenerator.ticks(9);
-        // xAxisGenerator.tickValues(['1940', '1950', '1960', '1970', '1980','1990', '2000', '2010', '2020'])
-        // xAxisGenerator.tickSize(1)
-
-
-        //     let xAxis =  d3.select('#x_axis')
-        //           .call(xAxisGenerator)
-        //           .selectAll("text")
-        //           .data(legend_data)
-        //           .text((d)=>d)
-        //           .attr("color", 'black')
-        //           .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${this.TOTAL_HEIGHT - this.PUSH_X_DOWN})`)
-
-               
-        //     xAxis
-        //     .data(legend_data)
-        //     .text((d)=>d)
-        //     .style("font", "12px sans-serif")
-
-        //     d3.select('.domain').attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${this.TOTAL_HEIGHT - this.PUSH_X_DOWN})`)
-        //     d3.select('.ticks').attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${this.TOTAL_HEIGHT - this.PUSH_X_DOWN})`)
+        this.x_axis = this.histogramSvg.append('g').call(this.xAxis)
+        this.y_axis = this.histogramSvg.append('g').call(this.yAxis)
+        this.bars = this.histogramSvg.append('g')
 
   
+    }
+
+    get_selected_year(){
+        return this.selected_year
+    }
+
+    get_checked(){
+        let clicked_genres = []
+        if (this.globalApplicationState.rock_checked) {clicked_genres.push('rock')}
+        if (this.globalApplicationState.pop_checked) {clicked_genres.push('pop')}
+        if (this.globalApplicationState.hip_hop_checked) {clicked_genres.push('hip hop')}
+        if (this.globalApplicationState.latin_checked) {clicked_genres.push('latin')}
+        if (this.globalApplicationState.rnb_checked) {clicked_genres.push('r&b')}
+        if (this.globalApplicationState.edm_checked) {clicked_genres.push('edm')}
+        if (this.globalApplicationState.country_checked) {clicked_genres.push('country')}
+        if (this.globalApplicationState.folk_checked) {clicked_genres.push('folk')}
+        if (this.globalApplicationState.metal_checked) {clicked_genres.push('metal')}
+        if (this.globalApplicationState.jazz_checked) {clicked_genres.push('jazz')}
+        if (this.globalApplicationState.easy_listening_checked) {clicked_genres.push('easy listening')}
+        if (this.globalApplicationState.blues_checked) {clicked_genres.push('blues')}
+
+    
+        return clicked_genres
+      
+    }
+
+    draw_year(year_hovered){
+        this.selected_year = year_hovered
+
+        if (this.selected_year != 0){
+
+            let year_data = this.histogram_data.filter(d => (d.year == this.selected_year))
+            let clicked_genres = this.get_checked()
+            let final_data = []
+
+            function onlyUnique(value, index, self) {
+                return self.indexOf(value) === index;
+            }
+
+            for (let i = 0; i < year_data.map(d=>d.metric).filter(onlyUnique).length; i ++){
+
+                let cur_metric = year_data.map(d=>d.metric).filter(onlyUnique)[i]
+                let cur_row = {}
+                cur_row["metric"] = cur_metric
+                cur_row["other"] = 0
+                for (let k = 0; k < year_data.length; k ++){
+                    if (year_data[k].metric === cur_metric){
+                        if (clicked_genres.includes(year_data[k].genre)){ // clicked_genres[j] === year_data[k].genre)
+                            cur_row[year_data[k].genre] = year_data[k].n  //   cur_row[clicked_genres[j]] = year_data[k].n 
+
+                        }
+                        else{
+                            // cur_row[year_data[k].genre] = 0 //cur_row[clicked_genres[j]] = 0
+                            cur_row["other"] += year_data[k].n
+                        }
+                }
+                }
+                final_data.push(cur_row)
+            }
+
+        let bars = ['other']
+        for (let i = 0; i < clicked_genres.length; i++){
+            bars.push(clicked_genres[i])
+        }
+
+        //Code taken an modified from https://d3-graph-gallery.com/graph/barplot_stacked_basicWide.html
+
+        var stackedData = d3.stack()
+        .keys(bars)
+        (final_data)
+
+        // console.log(stackedData)
+
+        const that = this
+        this.bars
+        .selectAll("g")
+        // Enter in the stack data = loop key per key = group per group
+        .data(stackedData)
+        .join("g")
+        .selectAll("rect")
+        .data(function(d) {
+            // console.log("this d", d)
+            return d.map(e => ({key: d.key, ...e}) ) }) //d.map(d => );
+        .join("rect")
+            .attr("fill", function(d) {
+                // console.log("here", d)
+                if (d.key === 'other'){
+                    return 'grey'
+                }
+                return that.globalApplicationState.scaleColor(d.key); })
+            .attr("x", function(d) {
+                return that.x_scale(d.data.metric) + that.PUSH_AXIS_RIGHT; })
+            .attr("y", function(d) { 
+                return that.y_scale(d[1]); })
+            .attr("height", function(d) { return that.y_scale(d[0]) - that.y_scale(d[1]); })
+            .attr("width",7)
+            .style("animation", 8)
+
+        }
+            
     }
 
 }
