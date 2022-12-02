@@ -9,8 +9,8 @@ class BubbleChart {
         this.TOTAL_HEIGHT = 900
         this.MARGIN_BOTTOM = 50
         this.MARGIN_TOP = 10
-        this.MARGIN_LEFT = 30
-        this.MARGIN_RIGHT = 50
+        this.MARGIN_LEFT = 100
+        this.MARGIN_RIGHT = 30
 
         this.PUSH_AXIS_RIGHT = 50
         this.PUSH_X_DOWN = 40 
@@ -30,7 +30,7 @@ class BubbleChart {
         this.globalApplicationState = globalApplicationState;
         //this.overall_data = overall_data;
         //let overall_data_filtered = this.overall_data.filter(d => d.freq > 10);
-        this.overall_data = overall_data.filter(d => d.freq > 20);//////////////////////
+        this.overall_data = overall_data.filter(d => d.freq_norm > .05);//////////////////////
         this.year_data = year_data;
 
         this.line_div = line_div;
@@ -56,7 +56,7 @@ class BubbleChart {
 
         svg
         .append('g')
-        .attr('id','cat-text')
+        .attr('id','genre-text')
         ;
 
         svg
@@ -113,21 +113,19 @@ class BubbleChart {
 
         let overall_data_genre = this.overall_data.filter(d => d.genre in checkedGenres);
 
-        console.log(Object.keys(checkedGenres).length);
-
         d3.select('#bubblechart_svg')
         .attr('height', Object.keys(checkedGenres).length * this.TOTAL_HEIGHT/10 + 200);
 
         //////////////////////Gather new information for xScale//////////////////////////////////
 
         let freq_min = d3.min(overall_data_genre, function (d) {
-            return d.freq});
+            return d.freq_norm});
 
         let freq_max = d3.max(overall_data_genre, function (d) {
-            return d.freq});
+            return d.freq_norm});
 
         let scaleX = d3.scaleLinear()
-        .domain([0, Math.ceil(freq_max/100) * 100])
+        .domain([0, freq_max])//Math.ceil(freq_max/100) * 100])
         .range([this.MARGIN_LEFT, this.TOTAL_WIDTH - this.MARGIN_RIGHT]);
 
         if (!expanded){
@@ -146,7 +144,7 @@ class BubbleChart {
             */
 
             d3.forceSimulation(overall_data_genre)
-            .force("x", d3.forceX().x(d => scaleX(d.freq)))
+            .force("x", d3.forceX().x(d => scaleX(d.freq_norm)))
             .force("y", d3.forceY().y(d => {
                 /*
                 if (d.freq > 200){
@@ -165,6 +163,16 @@ class BubbleChart {
             .tick(300)
             .on('tick',this.renderCircles(overall_data_genre))
             ;
+
+            d3.select('#genre-text').selectAll('text')
+            .data(Object.keys(checkedGenres))
+            .join('text')
+            .transition().duration((d,i) => i * 3+180)
+            .text(d => d)
+            .attr('y',d => (this.MARGIN_TOP + 50 + this.TOTAL_HEIGHT/10 * checkedGenres[d]))
+            .attr('x',10)
+            ;
+
             this.drawXaxis(scaleX);
             //this.renderCircles(overall_data_genre);
 

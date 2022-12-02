@@ -67,8 +67,10 @@ word_freq_data = d3.json('./vis_data/word_freq.json');
 overall_word_freq_data = d3.json('./vis_data/word_freq_year.json');
 hist_data = d3.json("./vis_data/hist.json");
 
+overall_cw_data = d3.json('./vis_data/overall_common_word.json');
+yearly_cw_data = d3.json('./vis_data/yearly_common_word.json');
 
-Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_data,hist_data]).then( data =>
+Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_data,hist_data, overall_cw_data, yearly_cw_data]).then( data =>
     {
         //data[0] = main_line_data
         //data[1] = genre_line_data
@@ -83,6 +85,8 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
         line = new Line(data[0], data[1],lineDiv ,globalApplicationState, histogram);
         word_line = new Word_Line(data[2],data[3],lineWordsDiv,globalApplicationState);
         word_line.draw_main_line();
+        bubblechart = new BubbleChart(data[5],data[6],popWordsDiv,globalApplicationState);
+        bubblechart.drawCircles();
 
     });
 
@@ -100,6 +104,7 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
      histogram.draw_year(histogram.get_selected_year());
      line.draw_genre_lines();
      word_line.draw_genre_lines();
+     bubblechart.drawCircles();
  });
 
  //POP
@@ -114,6 +119,7 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
      histogram.draw_year(histogram.get_selected_year());
      line.draw_genre_lines();
      word_line.draw_genre_lines();
+     bubblechart.drawCircles();
  });
 
  //HIP HOP
@@ -128,6 +134,7 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
      histogram.draw_year(histogram.get_selected_year());
      line.draw_genre_lines()
      word_line.draw_genre_lines();
+     bubblechart.drawCircles();
  });
 
 
@@ -141,7 +148,9 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
          globalApplicationState.jazz_checked = true
      }
      histogram.draw_year(histogram.get_selected_year());
-     line.draw_genre_lines()
+     line.draw_genre_lines();
+     word_line.draw_genre_lines();
+     bubblechart.drawCircles();
  });
 
  //BLUES
@@ -155,6 +164,8 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
      }
      histogram.draw_year(histogram.get_selected_year());
      line.draw_genre_lines()
+     word_line.draw_genre_lines();
+     bubblechart.drawCircles();
  });
 
   //R&B
@@ -168,6 +179,8 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
       }
       histogram.draw_year(histogram.get_selected_year());
       line.draw_genre_lines()
+      word_line.draw_genre_lines();
+      bubblechart.drawCircles();
   });
 
   //country
@@ -184,6 +197,7 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
       histogram.draw_year(histogram.get_selected_year());
       line.draw_genre_lines();
       word_line.draw_genre_lines();
+      bubblechart.drawCircles();
   });
 
   d3.select('#folk_box').on('click', (d) => 
@@ -196,7 +210,9 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
           globalApplicationState.folk_checked = true
       }
       histogram.draw_year(histogram.get_selected_year());
-      line.draw_genre_lines()
+      line.draw_genre_lines();
+      word_line.draw_genre_lines();
+      bubblechart.drawCircles();
   });
 
   d3.select('#easy_listening_box').on('click', (d) => 
@@ -209,7 +225,9 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
           globalApplicationState.easy_listening_checked = true
       }
       histogram.draw_year(histogram.get_selected_year());
-      line.draw_genre_lines()
+      line.draw_genre_lines();
+      word_line.draw_genre_lines();
+      bubblechart.drawCircles();
   });
 
   d3.select('#latin_box').on('click', (d) => 
@@ -222,7 +240,9 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
           globalApplicationState.latin_checked = true
       }
       histogram.draw_year(histogram.get_selected_year());
-      line.draw_genre_lines()
+      line.draw_genre_lines();
+      word_line.draw_genre_lines();
+      bubblechart.drawCircles();
   });
 
   d3.select('#metal_box').on('click', (d) => 
@@ -235,7 +255,9 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
           globalApplicationState.metal_checked = true
       }
       histogram.draw_year(histogram.get_selected_year());
-      line.draw_genre_lines()
+      line.draw_genre_lines();
+      word_line.draw_genre_lines();
+      bubblechart.drawCircles();
   });
 
   d3.select('#edm_box').on('click', (d) => 
@@ -248,7 +270,9 @@ Promise.all([main_line_data,genre_lines_data,word_freq_data,overall_word_freq_da
           globalApplicationState.edm_checked = true
       }
       histogram.draw_year(histogram.get_selected_year());
-      line.draw_genre_lines()
+      line.draw_genre_lines();
+      word_line.draw_genre_lines();
+      bubblechart.drawCircles();
   });
 
 
