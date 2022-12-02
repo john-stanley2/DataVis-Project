@@ -11,12 +11,16 @@ raw_csv2 <- read_delim("../../input_data/albums_97_335.csv", delim = "|")
 raw_csv3 <- read_delim("../../input_data/albums_336_600.csv", delim = "|")
 raw_csv4 <- read_delim("../../input_data/albums_600_ 827.csv", delim = "|")
 raw_csv5 <- read_delim("../../input_data/albums_827_1500.csv", delim = "|")
+raw_csv6 <- read_delim("../../input_data/albums_2500_3000.csv", delim = "|")
+raw_csv7 <- read_delim("../../input_data/albums_1884_2500.csv", delim = "|")
+
+
 
 
 
 
 #combine all the csv's
-all_songs <- bind_rows(raw_csv1,raw_csv2,raw_csv3,raw_csv4,raw_csv5) %>% 
+all_songs <- bind_rows(raw_csv1,raw_csv2,raw_csv3,raw_csv4,raw_csv5,raw_csv6,raw_csv7) %>% 
   filter(totalWords < 5000) #Filter because some songs seem to have returned paragraph written about the song, not the lyrics
 
 #Work with the most common words (skip for now)
@@ -43,7 +47,6 @@ all_songs %>%
 
 write_json(genre_lines_df, "genre_lines.json",dataframe = 'rows')
 
-
 all_songs %>%
   group_by(year, genre) %>%
   summarise( n = n(),
@@ -58,10 +61,30 @@ all_songs %>%
              cool_sum = sum(cool_words),
              cool_norm = cool_sum/n,
              rock_sum = sum(rock_words),
-             rock_norm = rock_sum/n) -> word_freq_df
+             rock_norm = rock_sum/n,
+             family_sum = sum(family_words),
+             family_norm = family_sum/n,
+             baby_sum = sum(baby_words),
+             baby_norm = baby_sum/n,
+             money_sum = sum(money_words),
+             money_norm = money_sum/n,
+             funky_sum = sum(funky_words),
+             funky_norm = funky_sum/n,
+             chill_sum = sum(chill_words),
+             chill_norm = chill_sum/n) -> word_freq_df
 
 write_json(word_freq_df, "word_freq.json",dataframe = 'rows')
 
 
+# Histogram 
+
+all_songs %>% 
+  mutate(metric = round(numUnique/totalWords, digits = 2)) %>%
+  select(year, metric, genre) %>%
+  group_by(year, metric, genre) %>%
+  summarise(n = n()) %>% 
+  filter(!is.na(metric))-> hist
+
+write_json(hist, "hist.json",dataframe = 'rows')
 
 
