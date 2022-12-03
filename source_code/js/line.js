@@ -56,6 +56,11 @@ class Line {
 
         this.lineSvg 
             .append("g")
+            .attr("id", "linelabels")
+            .attr('class','labels');
+
+        this.lineSvg 
+            .append("g")
             .attr("id", "lineChart")
             .append("path")
             .attr('id', 'line_id')
@@ -117,7 +122,17 @@ class Line {
             d3.select('.domain').attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${this.TOTAL_HEIGHT - this.PUSH_X_DOWN})`)
             d3.select('.ticks').attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${this.TOTAL_HEIGHT - this.PUSH_X_DOWN})`)
 
+            d3.select('#linelabels')
+            .append('text')
+            .text('Average uniqueness of song lyrics')
+            .attr("transform", "translate(15,330)rotate(270)");
+            ;
 
+            d3.select('#linelabels')
+            .append('text')
+            .text('Year')
+            .attr("transform", "translate(450,495)");
+            ;
      
 
         //**********************************************************************************************

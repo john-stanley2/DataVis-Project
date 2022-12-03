@@ -59,6 +59,11 @@ class Word_Line {
             .style('stroke', 'grey')
             .style('stroke-width', this.MAIN_LINE_STROKE_WIDTH);
 
+        this.lineSvg 
+            .append("g")
+            .attr("id", "wordlinelabels")
+            .attr('class','labels');
+
         //**********************************************************************************************
         //                                  GET MIN AND MAX
         //**********************************************************************************************
@@ -101,6 +106,19 @@ class Word_Line {
 
             d3.select('#word_x_axis').select('.domain').attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${this.TOTAL_HEIGHT - this.MARGIN_BOTTOM})`);
             d3.select('#word_x_axis').select('.ticks').attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${this.TOTAL_HEIGHT - this.PUSH_X_DOWN})`);
+
+
+            d3.select('#wordlinelabels')
+            .append('text')
+            .text('Counts per Song')
+            .attr("transform", "translate(15,280)rotate(270)");
+            ;
+
+            d3.select('#wordlinelabels')
+            .append('text')
+            .text('Year')
+            .attr("transform", "translate(450,495)");
+            ;
 
         
     }

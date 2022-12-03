@@ -62,10 +62,28 @@ class Histogram {
         .attr("transform", `translate(${this.MARGIN_LEFT + this.PUSH_AXIS_RIGHT},0)`)
         .call(d3.axisLeft(this.y_scale))
 
+        this.histogramSvg
+            .append("g")
+            .attr("id", "histlabels")
+            .attr('class','labels');
+
 
         this.x_axis = this.histogramSvg.append('g').call(this.xAxis)
         this.y_axis = this.histogramSvg.append('g').call(this.yAxis)
         this.bars = this.histogramSvg.append('g')
+
+
+        d3.select('#histlabels')
+            .append('text')
+            .text('Counts')
+            .attr("transform", "translate(30,270)rotate(270)");
+            ;
+
+            d3.select('#histlabels')
+            .append('text')
+            .text('Uniqueness of song lyrics')
+            .attr("transform", "translate(450,490)");
+            ;
 
   
     }

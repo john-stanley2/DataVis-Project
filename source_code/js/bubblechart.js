@@ -43,11 +43,14 @@ class BubbleChart {
 
         let svg = this.lineSvg;
 
-        svg
+        let axislabel = svg.append('g')
+        .attr('class','labels');
+
+        axislabel
         .append('text')
-        .text('Most Common Words by Genre')
-        .attr('x', this.MARGIN_LEFT)
-        .attr('y', 20);
+        .text('Average word count per Song')
+        .attr('x', 650)
+        .attr('y', 50);
 
         svg
         .append('g')

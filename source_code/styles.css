@@ -45,3 +45,10 @@ header {
     font-weight: 500;
     font-family: Arial;
 }
+
+.vis_title text {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial;
+    line-height: 48px;
+}

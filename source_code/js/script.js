@@ -17,6 +17,8 @@ wrapper.append('div')
     .attr('id','view1_title')
     .append('text')
     .text('Has music become more repetitive?')
+    //.attr('transform', `translate(0, 500)`)
+    
     
     //.style('text-align','center')
     ;
@@ -59,7 +61,7 @@ wrapper.append('div')
     .style('height','50px')
     .attr('id','view3_title')
     .append('text')
-    .text('How has the lingo changed?')
+    .text('Has the lingo changed?')
     ;
 
 
@@ -258,7 +260,7 @@ pop_button
 
 pop_button
  .append('text')
- .text('pop')
+ .text('Pop')
  .attr('transform', `translate(20, ${33})`)
 ;
 
@@ -379,7 +381,7 @@ d3.select('#hip_hop_rect').on("mouseover", function(event,info){
 
 jazz_button
  .append('text')
- .text('jazz')
+ .text('Jazz')
  .attr('transform', `translate(20, ${33})`)
 ;
 
@@ -438,7 +440,7 @@ d3.select('#jazz_rect').on("mouseover", function(event,info){
 
 blues_button
  .append('text')
- .text('blues')
+ .text('Blues')
  .attr('transform', `translate(20, ${33})`)
 ;
 
@@ -557,7 +559,7 @@ d3.select('#blues_rect').on("mouseover", function(event,info){
 
 country_button
  .append('text')
- .text('country')
+ .text('Country')
  .attr('transform', `translate(20, ${33})`)
 ;
 
@@ -617,7 +619,7 @@ d3.select('#country_rect').on("mouseover", function(event,info){
  
  folk_button
   .append('text')
-  .text('folk')
+  .text('Folk')
   .attr('transform', `translate(20, ${33})`)
  ;
  
