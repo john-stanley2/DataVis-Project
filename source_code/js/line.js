@@ -38,13 +38,15 @@ class Line {
             .attr('width', this.TOTAL_WIDTH)
             .attr('height', this.TOTAL_HEIGHT)
 
+
         //Consider putting the buttonSVG in lineSVG
+        /*
         this.buttonsSvg = this.line_div.append("svg")
             .attr('id', 'buttons_svg')
             .attr('height', this.TOTAL_HEIGHT)
             .attr('width', this.TOTAL_WIDTH)
             .style('position', 'absolute')
-
+*/
         this.lineSvg 
             .append("g")
             .attr("id", "y_axis");
@@ -160,11 +162,17 @@ class Line {
             .attr('fill', 'none')
             .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${0})`);
 
+        const pathLength = lineChart.node().getTotalLength();
+        lineChart
+            .attr('stroke-dashoffset', pathLength)
+            .attr('stroke-dasharray', pathLength)
+            .transition().duration(900)
+            .attr('stroke-dashoffset', 0);
+
         let overlay = this.lineSvg
         .append("g")
         .attr('id', 'overlay')
         .append('line')
-
    
         this.lineSvg.on('mousemove', (event) => {
             // console.log(event.clientX)
@@ -352,8 +360,17 @@ class Line {
        
     }
 
-    draw_genre_lines(){
+    line_animation(line_id) {
+        const pathLength = line_id.node().getTotalLength();
+        line_id
+            .attr('stroke-dashoffset', pathLength)
+            .attr('stroke-dasharray', pathLength)
+            .transition().ease(d3.easeSin).duration(900)
+            .attr('stroke-dashoffset', 0);
+    }
 
+    draw_genre_lines(){
+        let that = this;
         //ROCK
         if (this.globalApplicationState.rock_checked){
             let rock_data = this.genre_data.filter((d) => d.genre == "rock")
@@ -377,14 +394,15 @@ class Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
-        }
 
+            this.line_animation(rockChart);
+            
+        }
         else{
             d3
             .select('#rock_group')
             .remove()
         }
-
         //POP
         if (this.globalApplicationState.pop_checked){
             let pop_data = this.genre_data.filter((d) => d.genre == "pop")
@@ -408,6 +426,8 @@ class Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+
+            this.line_animation(popChart);
         }
 
         else{
@@ -439,6 +459,8 @@ class Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+            
+            this.line_animation(hipHopChart);
         }
         else{
             d3
@@ -468,6 +490,8 @@ class Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+
+            this.line_animation(jazzChart);
         }
         else{
             d3
@@ -497,6 +521,8 @@ class Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+
+            this.line_animation(bluesChart);
         }
         else{
             d3
@@ -525,6 +551,7 @@ class Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+            this.line_animation(rnbChart);
         }
         else{
             d3
@@ -554,6 +581,8 @@ class Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+
+            this.line_animation(countryChart);
         }
         else{
             d3
@@ -582,6 +611,8 @@ class Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+
+            this.line_animation(folkChart);
         }
         else{
             d3
@@ -611,6 +642,8 @@ class Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+
+            this.line_animation(easy_listeningChart);
         }
         else{
             d3
@@ -639,6 +672,8 @@ class Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+
+            this.line_animation(latinChart);
         }
         else{
             d3
@@ -667,6 +702,8 @@ class Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+
+            this.line_animation(metalChart);
         }
         else{
             d3
@@ -695,6 +732,8 @@ class Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+                
+            this.line_animation(edmChart);
         }
         else{
             d3

@@ -14,18 +14,21 @@ let lineDiv = wrapper.append('div')
                 .style('width', '900px')
                 .style('float', 'left')
 ;
-let popWordsDiv = wrapper.append('div')
-                .attr("id", 'pop_words_div')
-                // .style('width', '900px')
-                // .style('float', 'left')
-;
-let lineWordsDiv = wrapper.append('div')
-                .attr("id", 'line_words_div')
-;
 
 let histogramDiv = wrapper.append('div')
                 .attr("id", 'histogram_div')
 ;
+
+let popWordsDiv = wrapper.append('div')
+                .attr("id", 'pop_words_div')
+                // .style('width', '900px')
+                 .style('float', 'left')
+;
+let lineWordsDiv = wrapper.append('div')
+                .attr("id", 'line_words_div')
+                .style('float','left')
+;
+
 let allGenres =  ["pop", 'rock', 'hip hop', 'latin', 'edm', 'r&b', 
 'country', 'folk',  'metal', 'jazz', 'easy listening', 'blues']
 ;
