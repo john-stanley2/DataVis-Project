@@ -37,7 +37,7 @@ class Histogram {
         this.histogramSvg = this.histogram_div.append("svg")
             .attr('id', 'histogram_svg')
             .attr('width', this.TOTAL_WIDTH)
-            .attr('height', this.TOTAL_HEIGHT)
+            .attr('height', 0)
 
         
         //**********************************************************************************************

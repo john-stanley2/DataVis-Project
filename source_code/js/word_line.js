@@ -35,7 +35,7 @@ class Word_Line {
         this.lineSvg = this.line_div.append("svg")
             .attr('id', 'line_words_svg')
             .attr('width', this.TOTAL_WIDTH)
-            .attr('height', this.TOTAL_HEIGHT)
+            .attr('height', 0)
         ;
         //Consider putting the buttonSVG in lineSVG
         // this.buttonsSvg = this.line_div.append("svg")

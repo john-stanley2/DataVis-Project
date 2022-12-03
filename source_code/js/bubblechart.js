@@ -5,7 +5,7 @@ class BubbleChart {
         //                                  CONSTANTS FOR CHART SIZE
         //**********************************************************************************************
   
-        this.TOTAL_WIDTH = 900
+        this.TOTAL_WIDTH = 1500
         this.TOTAL_HEIGHT = 900
         this.MARGIN_BOTTOM = 50
         this.MARGIN_TOP = 10
@@ -38,7 +38,7 @@ class BubbleChart {
         this.lineSvg = this.line_div.append("svg")
             .attr('id', 'bubblechart_svg')
             .attr('width', this.TOTAL_WIDTH)
-            .attr('height', this.TOTAL_HEIGHT)
+            .attr('height', 0)
         ;
 
         let svg = this.lineSvg;
@@ -112,9 +112,11 @@ class BubbleChart {
         }
 
         let overall_data_genre = this.overall_data.filter(d => d.genre in checkedGenres);
-
-        d3.select('#bubblechart_svg')
-        .attr('height', Object.keys(checkedGenres).length * this.TOTAL_HEIGHT/10 + 200);
+        if (this.globalApplicationState.view2_expanded){
+            d3.select('#bubblechart_svg')
+            .transition().ease(d3.easeSin).duration(900)
+            .attr('height', Object.keys(checkedGenres).length * this.TOTAL_HEIGHT/10 + 200);
+        }
 
         //////////////////////Gather new information for xScale//////////////////////////////////
 
@@ -125,7 +127,7 @@ class BubbleChart {
             return d.freq_norm});
 
         let scaleX = d3.scaleLinear()
-        .domain([0, freq_max])//Math.ceil(freq_max/100) * 100])
+        .domain([0, Math.ceil(freq_max/.1) * .1])
         .range([this.MARGIN_LEFT, this.TOTAL_WIDTH - this.MARGIN_RIGHT]);
 
         if (!expanded){
