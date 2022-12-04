@@ -81,8 +81,8 @@ class Histogram {
 
         d3.select('#histlabels')
             .append('text')
-            .text('Counts')
-            .attr("transform", "translate(30,270)rotate(270)");
+            .text('Number of Songs')
+            .attr("transform", "translate(30,300)rotate(270)");
             ;
 
             d3.select('#histlabels')

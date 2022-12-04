@@ -124,8 +124,8 @@ class Line {
 
             d3.select('#linelabels')
             .append('text')
-            .text('Average uniqueness of song lyrics')
-            .attr("transform", "translate(15,330)rotate(270)");
+            .text('Uniqueness of song lyrics')
+            .attr("transform", "translate(15,350)rotate(270)");
             ;
 
             d3.select('#linelabels')

@@ -23,6 +23,18 @@ wrapper.append('div')
     //.style('text-align','center')
     ;
 
+wrapper
+    .append('div')
+    .attr('class','center')
+    .style('width','1000px')
+    .append('text')
+    .attr('id','view1_paragraph')
+    .style('height','0px')
+    .style('opacity',0)
+    .style('font-size' , '20px')
+    
+    ;
+
 let view1 = wrapper.append('div')
             .attr('class','center')
             .style('width','1800px')
@@ -97,7 +109,7 @@ let allGenres =  ["pop", 'rock', 'hip hop', 'latin', 'edm', 'r&b',
 
 let scaleColor = d3.scaleOrdinal() 
         .domain(allGenres)
-        .range(["#47694f", //pop
+        .range(["#83F2C6", //pop
         "#fa7900" , //rock
         "#d1463f",  //hip hop
         "#e317dc",  //latin
@@ -192,8 +204,8 @@ rock_button
     .attr('width',200)
     .attr('height',50)
     .attr('stroke','black')
-    .style('stroke-width', 3)
-    .style('stroke-opacity',.5)
+    .style('stroke-width', 1)
+    .style('stroke-opacity',.4)
     .attr('fill-opacity',1)
 ;
 
@@ -221,8 +233,8 @@ rock_button
      if (globalApplicationState.rock_checked){
          globalApplicationState.rock_checked = false;
          d3.select('#rock_rect')
-         .style('stroke-width', 2)
-         .style('stroke-opacity',.5)
+         .style('stroke-width', 1)
+         .style('stroke-opacity',.4)
          ;
         
         ;
@@ -230,8 +242,8 @@ rock_button
      else{
          globalApplicationState.rock_checked = true;
          d3.select('#rock_rect')
-         .style('stroke-width', 4)
-         .style('stroke-opacity',.9)
+         .style('stroke-width', 5)
+         .style('stroke-opacity',1)
         ;
      }
      histogram.draw_year(histogram.get_selected_year());
@@ -253,8 +265,8 @@ pop_button
  .attr('width',200)
  .attr('height',50)
  .attr('stroke','black')
- .style('stroke-width', 3)
- .style('stroke-opacity',.5)
+ .style('stroke-width', 1)
+ .style('stroke-opacity',.4)
  .attr('fill-opacity',1)
 ;
 
@@ -283,15 +295,15 @@ d3.select('#pop_rect').on("mouseover", function(event,info){
      if (globalApplicationState.pop_checked){
          globalApplicationState.pop_checked = false;
          d3.select('#pop_rect')
-         .style('stroke-width', 2)
-         .style('stroke-opacity',.5)
+         .style('stroke-width', 1)
+         .style('stroke-opacity',.4)
          ;
      }
      else{
          globalApplicationState.pop_checked = true;
          d3.select('#pop_rect')
-         .style('stroke-width', 4)
-         .style('stroke-opacity',.9)
+         .style('stroke-width', 5)
+         .style('stroke-opacity',1)
         ;
      }
      histogram.draw_year(histogram.get_selected_year());
@@ -313,8 +325,8 @@ d3.select('#pop_rect').on("mouseover", function(event,info){
  .attr('width',200)
  .attr('height',50)
  .attr('stroke','black')
- .style('stroke-width', 3)
- .style('stroke-opacity',.5)
+ .style('stroke-width', 1)
+ .style('stroke-opacity',.4)
  .attr('fill-opacity',1)
 ;
 
@@ -343,15 +355,15 @@ d3.select('#hip_hop_rect').on("mouseover", function(event,info){
      if (globalApplicationState.hip_hop_checked){
          globalApplicationState.hip_hop_checked = false;
          d3.select('#hip_hop_rect')
-         .style('stroke-width', 2)
-         .style('stroke-opacity',.5)
+         .style('stroke-width', 1)
+         .style('stroke-opacity',.4)
          ;
      }
      else{
          globalApplicationState.hip_hop_checked = true;
          d3.select('#hip_hop_rect')
-         .style('stroke-width', 4)
-         .style('stroke-opacity',.9)
+         .style('stroke-width', 5)
+         .style('stroke-opacity',1)
         ;
      }
      histogram.draw_year(histogram.get_selected_year());
@@ -374,8 +386,8 @@ d3.select('#hip_hop_rect').on("mouseover", function(event,info){
  .attr('width',200)
  .attr('height',50)
  .attr('stroke','black')
- .style('stroke-width', 3)
- .style('stroke-opacity',.5)
+ .style('stroke-width', 1)
+ .style('stroke-opacity',.4)
  .attr('fill-opacity',1)
 ;
 
@@ -403,15 +415,15 @@ d3.select('#jazz_rect').on("mouseover", function(event,info){
      if (globalApplicationState.jazz_checked){
          globalApplicationState.jazz_checked = false;
          d3.select('#jazz_rect')
-         .style('stroke-width', 2)
-         .style('stroke-opacity',.5)
+         .style('stroke-width', 1)
+         .style('stroke-opacity',.4)
          ;
      }
      else{
          globalApplicationState.jazz_checked = true;
          d3.select('#jazz_rect')
-         .style('stroke-width', 4)
-         .style('stroke-opacity',.9)
+         .style('stroke-width', 5)
+         .style('stroke-opacity',1)
         ;
      }
      histogram.draw_year(histogram.get_selected_year());
@@ -433,8 +445,8 @@ d3.select('#jazz_rect').on("mouseover", function(event,info){
  .attr('width',200)
  .attr('height',50)
  .attr('stroke','black')
- .style('stroke-width', 3)
- .style('stroke-opacity',.5)
+ .style('stroke-width', 1)
+ .style('stroke-opacity',.4)
  .attr('fill-opacity',1)
 ;
 
@@ -462,15 +474,15 @@ d3.select('#blues_rect').on("mouseover", function(event,info){
      if (globalApplicationState.blues_checked){
          globalApplicationState.blues_checked = false;
          d3.select('#blues_rect')
-         .style('stroke-width', 2)
-         .style('stroke-opacity',.5)
+         .style('stroke-width', 1)
+         .style('stroke-opacity',.4)
          ;
      }
      else{
          globalApplicationState.blues_checked = true;
          d3.select('#blues_rect')
-         .style('stroke-width', 4)
-         .style('stroke-opacity',.9)
+         .style('stroke-width', 5)
+         .style('stroke-opacity',1)
         ;
      }
      histogram.draw_year(histogram.get_selected_year());
@@ -492,8 +504,8 @@ d3.select('#blues_rect').on("mouseover", function(event,info){
   .attr('width',200)
   .attr('height',50)
   .attr('stroke','black')
-  .style('stroke-width', 3)
-  .style('stroke-opacity',.5)
+  .style('stroke-width', 1)
+  .style('stroke-opacity',.4)
   .attr('fill-opacity',1)
  ;
  
@@ -521,15 +533,15 @@ d3.select('#blues_rect').on("mouseover", function(event,info){
       if (globalApplicationState.rnb_checked){
           globalApplicationState.rnb_checked = false;
           d3.select('#r_b_box_rect')
-         .style('stroke-width', 2)
-         .style('stroke-opacity',.5)
+         .style('stroke-width', 1)
+         .style('stroke-opacity',.4)
          ;
       }
       else{
           globalApplicationState.rnb_checked = true;
           d3.select('#r_b_box_rect')
-         .style('stroke-width', 4)
-         .style('stroke-opacity',.9)
+         .style('stroke-width', 5)
+         .style('stroke-opacity',1)
         ;
       }
       histogram.draw_year(histogram.get_selected_year());
@@ -552,8 +564,8 @@ d3.select('#blues_rect').on("mouseover", function(event,info){
  .attr('width',200)
  .attr('height',50)
  .attr('stroke','black')
- .style('stroke-width', 3)
- .style('stroke-opacity',.5)
+ .style('stroke-width', 1)
+ .style('stroke-opacity',.4)
  .attr('fill-opacity',1)
 ;
 
@@ -582,15 +594,15 @@ d3.select('#country_rect').on("mouseover", function(event,info){
       if (globalApplicationState.country_checked){
           globalApplicationState.country_checked = false;
           d3.select('#country_rect')
-         .style('stroke-width', 2)
-         .style('stroke-opacity',.5)
+         .style('stroke-width', 1)
+         .style('stroke-opacity',.4)
          ;
       }
       else{
           globalApplicationState.country_checked = true;
           d3.select('#country_rect')
-         .style('stroke-width', 4)
-         .style('stroke-opacity',.9)
+         .style('stroke-width', 5)
+         .style('stroke-opacity',1)
         ;
       }
       histogram.draw_year(histogram.get_selected_year());
@@ -612,8 +624,8 @@ d3.select('#country_rect').on("mouseover", function(event,info){
   .attr('width',200)
   .attr('height',50)
   .attr('stroke','black')
-  .style('stroke-width', 3)
-  .style('stroke-opacity',.5)
+  .style('stroke-width', 1)
+  .style('stroke-opacity',.4)
   .attr('fill-opacity',1)
  ;
  
@@ -642,15 +654,15 @@ d3.select('#country_rect').on("mouseover", function(event,info){
       if (globalApplicationState.folk_checked){
           globalApplicationState.folk_checked = false;
           d3.select('#folk_rect')
-         .style('stroke-width', 2)
-         .style('stroke-opacity',.5)
+         .style('stroke-width', 1)
+         .style('stroke-opacity',.4)
          ;
       }
       else{
           globalApplicationState.folk_checked = true;
           d3.select('#folk_rect')
-         .style('stroke-width', 4)
-         .style('stroke-opacity',.9)
+         .style('stroke-width', 5)
+         .style('stroke-opacity',1)
         ;
       }
       histogram.draw_year(histogram.get_selected_year());
@@ -670,8 +682,8 @@ d3.select('#country_rect').on("mouseover", function(event,info){
   .attr('width',200)
   .attr('height',50)
   .attr('stroke','black')
-  .style('stroke-width', 3)
-  .style('stroke-opacity',.5)
+  .style('stroke-width', 1)
+  .style('stroke-opacity',.4)
   .attr('fill-opacity',1)
  ;
  
@@ -700,15 +712,15 @@ d3.select('#country_rect').on("mouseover", function(event,info){
       if (globalApplicationState.easy_listening_checked){
           globalApplicationState.easy_listening_checked = false;
           d3.select('#easy_listening_rect')
-         .style('stroke-width', 2)
-         .style('stroke-opacity',.5)
+         .style('stroke-width', 1)
+         .style('stroke-opacity',.4)
          ;
       }
       else{
           globalApplicationState.easy_listening_checked = true;
           d3.select('#easy_listening_rect')
-         .style('stroke-width', 4)
-         .style('stroke-opacity',.9)
+         .style('stroke-width', 5)
+         .style('stroke-opacity',1)
         ;
       }
       histogram.draw_year(histogram.get_selected_year());
@@ -730,8 +742,8 @@ d3.select('#country_rect').on("mouseover", function(event,info){
   .attr('width',200)
   .attr('height',50)
   .attr('stroke','black')
-  .style('stroke-width', 3)
-  .style('stroke-opacity',.5)
+  .style('stroke-width', 1)
+  .style('stroke-opacity',.4)
   .attr('fill-opacity',1)
  ;
  
@@ -760,15 +772,15 @@ d3.select('#country_rect').on("mouseover", function(event,info){
       if (globalApplicationState.latin_checked){
           globalApplicationState.latin_checked = false;
           d3.select('#latin_rect')
-         .style('stroke-width', 2)
-         .style('stroke-opacity',.5)
+         .style('stroke-width', 1)
+         .style('stroke-opacity',.4)
          ;
       }
       else{
           globalApplicationState.latin_checked = true;
           d3.select('#latin_rect')
-         .style('stroke-width', 4)
-         .style('stroke-opacity',.9)
+         .style('stroke-width', 5)
+         .style('stroke-opacity',1)
         ;
       }
       histogram.draw_year(histogram.get_selected_year());
@@ -790,8 +802,8 @@ d3.select('#country_rect').on("mouseover", function(event,info){
   .attr('width',200)
   .attr('height',50)
   .attr('stroke','black')
-  .style('stroke-width', 3)
-  .style('stroke-opacity',.5)
+  .style('stroke-width', 1)
+  .style('stroke-opacity',.4)
   .attr('fill-opacity',.7)
  ;
  
@@ -820,15 +832,15 @@ d3.select('#country_rect').on("mouseover", function(event,info){
       if (globalApplicationState.metal_checked){
           globalApplicationState.metal_checked = false;
           d3.select('#metal_rect')
-         .style('stroke-width', 2)
-         .style('stroke-opacity',.5)
+         .style('stroke-width', 1)
+         .style('stroke-opacity',.4)
          ;
       }
       else{
           globalApplicationState.metal_checked = true;
           d3.select('#metal_rect')
-         .style('stroke-width', 4)
-         .style('stroke-opacity',.9)
+         .style('stroke-width', 5)
+         .style('stroke-opacity',1)
         ;
       }
       histogram.draw_year(histogram.get_selected_year());
@@ -850,8 +862,8 @@ d3.select('#country_rect').on("mouseover", function(event,info){
   .attr('width',200)
   .attr('height',50)
   .attr('stroke','black')
-  .style('stroke-width', 3)
-  .style('stroke-opacity',.5)
+  .style('stroke-width', 1)
+  .style('stroke-opacity',.4)
   .attr('fill-opacity',1)
  ;
  
@@ -880,15 +892,15 @@ d3.select('#country_rect').on("mouseover", function(event,info){
       if (globalApplicationState.edm_checked){
           globalApplicationState.edm_checked = false;
           d3.select('#edm_rect')
-         .style('stroke-width', 2)
-         .style('stroke-opacity',.5)
+         .style('stroke-width', 1)
+         .style('stroke-opacity',.4)
          ;
       }
       else{
           globalApplicationState.edm_checked = true;
           d3.select('#edm_rect')
-         .style('stroke-width', 4)
-         .style('stroke-opacity',.9)
+         .style('stroke-width', 5)
+         .style('stroke-opacity',1)
         ;
       }
       histogram.draw_year(histogram.get_selected_year());
@@ -926,6 +938,13 @@ d3.select('#view1_title').on('click', (d) => {
         .transition().ease(d3.easeSin).duration(900)
         .attr('height',0)
         ;
+        d3.select('#view1_paragraph')
+        .transition().ease(d3.easeSin).duration(900)
+        .style('opacity',0)
+        .attr('height',0)
+        .transition().ease(d3.easeSin).duration(900)
+        .text('')
+        ;
     }else{
         globalApplicationState.view1_expanded = 1;
         d3.select('#line_svg')
@@ -935,6 +954,16 @@ d3.select('#view1_title').on('click', (d) => {
         d3.select('#histogram_svg')
         .transition().ease(d3.easeSin).duration(900)
         .attr('height',500)
+        ;
+        d3.select('#view1_paragraph')
+        .transition().ease(d3.easeSin).duration(900)
+        .style('opacity',1)
+        .style('height','100px')
+        .text('Here we can see how repetitive song lyrics are for all songs (gray) and all selected genres. The y-axis for the line chart represents \
+        the median \'uniqueness metric\' for a year. The uniqueness metric is all unique lyrics over the total lyrics in a song. Smaller values means the song is more repetitive! \
+        The histogram shows the distribution of uniqueness\
+        of all songs in a year.')
+        //.style('padding','500px')
         ;
     }
     
