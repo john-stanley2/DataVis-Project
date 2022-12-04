@@ -103,14 +103,18 @@ class BubbleChart {
     drawCircles (expanded=0) {
 
         let allGenres =  ["pop", 'rock', 'hip_hop', 'latin', 'edm', 'rnb', 
-        'country', 'folk',  'metal', 'jazz', 'easy_listening', 'new_age', 'blues', 'world'];
-        let checkedGenres = {};
-        let i = 1;
+        'country', 'folk',  'metal', 'jazz', 'easy_listening', 'blues'];
 
-        for (let genre of allGenres){
-            if (this.globalApplicationState[genre + "_checked"] && !(genre in checkedGenres)){
-                checkedGenres[genre] = i;
-                i++;
+        let allGenresfilter =  ["pop", 'rock', 'hip hop', 'latin', 'edm', 'r&b', 
+        'country', 'folk',  'metal', 'jazz', 'easy listening', 'blues'];
+
+        let checkedGenres = {};
+        let j = 1;
+
+        for (let i = 0; i < allGenres.length; i++){
+            if (this.globalApplicationState[allGenres[i] + "_checked"] && !(allGenresfilter[i] in checkedGenres)){
+                checkedGenres[allGenresfilter[i]] = j;
+                j++;
             }
         }
 
@@ -222,6 +226,7 @@ class BubbleChart {
         let sourceY_ = selected[0].y;
         let word_ = selected[0].word;
         let freq_ = selected[0].freq;
+        let freq_norm = selected[0].freq_norm;
     
         let text_selection = d3.select('#bubblechart_svg')
             .append('g')
@@ -229,7 +234,7 @@ class BubbleChart {
             .attr("transform", function() {
             let x = null;
             let y = sourceY_ + 10;
-            if ((sourceX_ < 650))
+            if ((sourceX_ < 850))
             {x = sourceX_ + 20}
             else{x = sourceX_-250}
             return "translate("+ x.toString()+ "," + y.toString() + ")";})
@@ -237,7 +242,7 @@ class BubbleChart {
     
         text_selection
             .append('rect')
-            .attr('width',230)
+            .attr('width',240)
             .attr('height',100)
             .attr('x',0)
             .attr('y',0)
@@ -255,20 +260,20 @@ class BubbleChart {
                 word_
             )
             .attr('x', 10)
-            .attr('y', 25)
+            .attr('y', 28)
             .attr("font-weight",600)
-            .style('font-size','20px')
+            .style('font-size','30px')
             ;
 
         text_selection
             .append('text')
             .text(
-                freq_
+                'Average count per song: ' + freq_norm.toPrecision(2)
             )
             .attr('x', 10)
-            .attr('y', 45)
-            .attr("font-weight",600)
-            .style('font-size','20px')
+            .attr('y', 55)
+            .attr("font-weight",400)
+            .style('font-size','18px')
             ;
         })
         .on('mouseout',function(){

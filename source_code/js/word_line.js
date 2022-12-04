@@ -28,7 +28,7 @@ class Word_Line {
         //                                  GENERAL SET UP 
         //**********************************************************************************************
         this.globalApplicationState = globalApplicationState;
-        this.word_counts = word_counts;
+        this.word_counts = word_counts.filter((d) => !((d.genre === 'new age') || (d.genre === 'world') || (d.genre === 'classical')));
         this.overall_word_counts = overall_word_counts;
         this.line_div = line_words_div;
         
@@ -123,40 +123,47 @@ class Word_Line {
         
     }
 
-
-
-    draw_main_line() {
-
+    get_xScale(){
         let min_metric = 0;//d3.min(this.genre_data.map(d => d.median_metric))
         let max_metric = 0;
 
         if (this.globalApplicationState.love_checked){
-            max_metric = d3.max(this.overall_word_counts.map(d => d.love_norm))
+            max_metric = d3.max(this.word_counts.map(d => d.love_norm))
         }
         if (this.globalApplicationState.dance_checked){
-            max_metric = d3.max(this.overall_word_counts.map(d => d.dance_norm))
+            max_metric = d3.max(this.word_counts.map(d => d.dance_norm))
         }
         if (this.globalApplicationState.cool_checked){
-            max_metric = d3.max(this.overall_word_counts.map(d => d.cool_norm))
+            max_metric = d3.max(this.word_counts.map(d => d.cool_norm))
         }
         if (this.globalApplicationState.god_checked){
-            max_metric = d3.max(this.overall_word_counts.map(d => d.god_norm))
+            max_metric = d3.max(this.word_counts.map(d => d.god_norm))
         }
         if (this.globalApplicationState.rock_w_checked){
-            max_metric = d3.max(this.overall_word_counts.map(d => d.rock_norm))
+            max_metric = d3.max(this.word_counts.map(d => d.rock_norm))
         }
         if (this.globalApplicationState.swear_checked){
-            max_metric = d3.max(this.overall_word_counts.map(d => d.swear_norm))
+            max_metric = d3.max(this.word_counts.map(d => d.swear_norm))
         }
 
         //TODO FIX HARD CODING
         let scale_metric = d3.scaleLinear()
         .range([ this.TOTAL_HEIGHT - this.MARGIN_BOTTOM, 0 + this.MARGIN_TOP]) 
-        .domain([0, max_metric]);
+        .domain([0, Math.ceil(max_metric)]);
+
+        return scale_metric
+    }
+
+
+
+    draw_main_line() {
+
+        let scale_metric = this.get_xScale();
 
         //FIXME!!! I'm hard coding this stuff. Got to make it better
         d3.select('#word_y_axis')
         .attr('transform', `translate(${this.PUSH_AXIS_RIGHT},${0})`)
+        .transition().ease(d3.easeSin).duration(900)
         .call(d3.axisLeft(scale_metric));
     
 
@@ -207,36 +214,18 @@ class Word_Line {
             .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, ${0})`);
     }
 
+    line_animation(line_id) {
+        const pathLength = line_id.node().getTotalLength();
+        line_id
+            .attr('stroke-dashoffset', pathLength)
+            .attr('stroke-dasharray', pathLength)
+            .transition().ease(d3.easeSin).duration(900)
+            .attr('stroke-dashoffset', 0);
+    }
 
-
-    draw_genre_lines(){
-
-        let min_metric = 0;//d3.min(this.genre_data.map(d => d.median_metric))
-        let max_metric = 0;
-
-        if (this.globalApplicationState.love_checked){
-            max_metric = d3.max(this.overall_word_counts.map(d => d.love_norm))
-        }
-        if (this.globalApplicationState.dance_checked){
-            max_metric = d3.max(this.overall_word_counts.map(d => d.dance_norm))
-        }
-        if (this.globalApplicationState.cool_checked){
-            max_metric = d3.max(this.overall_word_counts.map(d => d.cool_norm))
-        }
-        if (this.globalApplicationState.god_checked){
-            max_metric = d3.max(this.overall_word_counts.map(d => d.god_norm))
-        }
-        if (this.globalApplicationState.rock_w_checked){
-            max_metric = d3.max(this.overall_word_counts.map(d => d.rock_norm))
-        }
-        if (this.globalApplicationState.swear_checked){
-            max_metric = d3.max(this.overall_word_counts.map(d => d.swear_norm))
-        }
-
-        //TODO FIX HARD CODING
-        let scale_metric = d3.scaleLinear()
-        .range([ this.TOTAL_HEIGHT - this.MARGIN_BOTTOM, 0 + this.MARGIN_TOP]) 
-        .domain([0, max_metric]);
+    draw_genre_lines(selected_genre){
+        
+        let scale_metric = this.get_xScale();
 
         const lineGenerator = d3
             .line()
@@ -295,6 +284,10 @@ class Word_Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+
+                if (selected_genre === 'rock'){
+                    this.line_animation(rockChart);
+                } 
         }
         else{
             d3
@@ -326,6 +319,10 @@ class Word_Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+
+                if (selected_genre === 'pop'){
+                    this.line_animation(popChart);
+                } 
         }
 
         else{
@@ -358,11 +355,124 @@ class Word_Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+
+                if (selected_genre === 'hip hop'){
+                    this.line_animation(hip_hopChart);
+                } 
         }
 
         else{
             d3
             .select('#wc_hip_hop_group')
+            .remove()
+        }
+
+        //Latin
+        if (this.globalApplicationState.latin_checked){
+            let wc_filtered = JSON.parse(JSON.stringify(this.word_counts));
+            let latin_data = wc_filtered.filter((d) => d.genre === "latin");
+            this.lineSvg 
+            .append("g")
+            .attr('class','line_group')
+            .attr("id", "wc_latin_group")
+            .append("path")
+            .attr('id', 'wc_latin_line_id')
+            .style('stroke', (d) => {
+                return(this.globalApplicationState.scaleColor('latin'))
+            })
+            .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
+
+            
+            let latinChart = 
+                d3.select("#wc_latin_group")
+                .select('#wc_latin_line_id')
+                .datum(latin_data)
+                .attr('d', lineGenerator)
+                .attr('opacity',  this.GENRE_LINE_OPACITY)
+                .attr('fill', 'none')
+                .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+
+                if (selected_genre === 'latin'){
+                    this.line_animation(latinChart);
+                } 
+        }
+
+        else{
+            d3
+            .select('#wc_latin_group')
+            .remove()
+        }
+
+
+        //edm
+        if (this.globalApplicationState.edm_checked){
+            let wc_filtered = JSON.parse(JSON.stringify(this.word_counts));
+            let edm_data = wc_filtered.filter((d) => d.genre === "edm");
+            this.lineSvg 
+            .append("g")
+            .attr('class','line_group')
+            .attr("id", "wc_edm_group")
+            .append("path")
+            .attr('id', 'wc_edm_line_id')
+            .style('stroke', (d) => {
+                return(this.globalApplicationState.scaleColor('edm'))
+            })
+            .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
+
+            
+            let edmChart = 
+                d3.select("#wc_edm_group")
+                .select('#wc_edm_line_id')
+                .datum(edm_data)
+                .attr('d', lineGenerator)
+                .attr('opacity',  this.GENRE_LINE_OPACITY)
+                .attr('fill', 'none')
+                .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+
+                if (selected_genre === 'edm'){
+                    this.line_animation(edmChart);
+                } 
+        }
+
+        else{
+            d3
+            .select('#wc_edm_group')
+            .remove()
+        }
+
+        //rnb
+        if (this.globalApplicationState.rnb_checked){
+            let wc_filtered = JSON.parse(JSON.stringify(this.word_counts));
+            let rnb_data = wc_filtered.filter((d) => d.genre === "r&b");
+            this.lineSvg 
+            .append("g")
+            .attr('class','line_group')
+            .attr("id", "wc_rnb_group")
+            .append("path")
+            .attr('id', 'wc_rnb_line_id')
+            .style('stroke', (d) => {
+                return(this.globalApplicationState.scaleColor('r&b'))
+            })
+            .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
+
+            
+            let rnbChart = 
+                d3.select("#wc_rnb_group")
+                .select('#wc_rnb_line_id')
+                .datum(rnb_data)
+                .attr('d', lineGenerator)
+                .attr('opacity',  this.GENRE_LINE_OPACITY)
+                .attr('fill', 'none')
+                .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+
+                if (selected_genre === 'rnb'){
+                    this.line_animation(rnbChart);
+                } 
+        }
+
+        else{
+            d3
+            .select('#wc_rnb_group')
             .remove()
         }
 
@@ -391,6 +501,9 @@ class Word_Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+                if (selected_genre === 'country'){
+                    this.line_animation(countryChart);
+                } 
         }
 
         else{
@@ -399,10 +512,118 @@ class Word_Line {
             .remove()
         }
 
+        //Folk
+        if (this.globalApplicationState.folk_checked){
+            let wc_filtered = JSON.parse(JSON.stringify(this.word_counts));
+            let folk_data = wc_filtered.filter((d) => d.genre === "folk");
+            this.lineSvg 
+            .append("g")
+            .attr('class','line_group')
+            .attr("id", "wc_folk_group")
+            .append("path")
+            .attr('id', 'wc_folk_line_id')
+            .style('stroke', (d) => {
+                return(this.globalApplicationState.scaleColor('folk'))
+            })
+            .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
+
+            
+            let folkChart = 
+                d3.select("#wc_folk_group")
+                .select('#wc_folk_line_id')
+                .datum(folk_data)
+                .attr('d', lineGenerator)
+                .attr('opacity',  this.GENRE_LINE_OPACITY)
+                .attr('fill', 'none')
+                .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+                if (selected_genre === 'folk'){
+                    this.line_animation(folkChart);
+                } 
+        }
+
+        else{
+            d3
+            .select('#wc_folk_group')
+            .remove()
+        }
+
+        //Metal
+        if (this.globalApplicationState.metal_checked){
+            let wc_filtered = JSON.parse(JSON.stringify(this.word_counts));
+            let metal_data = wc_filtered.filter((d) => d.genre === "metal");
+            this.lineSvg 
+            .append("g")
+            .attr('class','line_group')
+            .attr("id", "wc_metal_group")
+            .append("path")
+            .attr('id', 'wc_metal_line_id')
+            .style('stroke', (d) => {
+                return(this.globalApplicationState.scaleColor('metal'))
+            })
+            .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
+
+            
+            let metalChart = 
+                d3.select("#wc_metal_group")
+                .select('#wc_metal_line_id')
+                .datum(metal_data)
+                .attr('d', lineGenerator)
+                .attr('opacity',  this.GENRE_LINE_OPACITY)
+                .attr('fill', 'none')
+                .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+                if (selected_genre === 'metal'){
+                    this.line_animation(metalChart);
+                } 
+        }
+
+        else{
+            d3
+            .select('#wc_metal_group')
+            .remove()
+        }
+
+        //Jazz
+        if (this.globalApplicationState.jazz_checked){
+            let wc_filtered = JSON.parse(JSON.stringify(this.word_counts));
+            let jazz_data = wc_filtered.filter((d) => d.genre === "jazz");
+            this.lineSvg 
+            .append("g")
+            .attr('class','line_group')
+            .attr("id", "wc_jazz_group")
+            .append("path")
+            .attr('id', 'wc_jazz_line_id')
+            .style('stroke', (d) => {
+                return(this.globalApplicationState.scaleColor('jazz'))
+            })
+            .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
+
+            
+            let jazzChart = 
+                d3.select("#wc_jazz_group")
+                .select('#wc_jazz_line_id')
+                .datum(jazz_data)
+                .attr('d', lineGenerator)
+                .attr('opacity',  this.GENRE_LINE_OPACITY)
+                .attr('fill', 'none')
+                .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+                if (selected_genre === 'jazz'){
+                    this.line_animation(jazzChart);
+                } 
+        }
+
+        else{
+            d3
+            .select('#wc_jazz_group')
+            .remove()
+        }
+
+
+
+
         //Easy Listening
         if (this.globalApplicationState.easy_listening_checked){
             let wc_filtered = JSON.parse(JSON.stringify(this.word_counts));
-            let easy_listening_data = wc_filtered.filter((d) => d.genre === "easy_listening");
+            let easy_listening_data = wc_filtered.filter((d) => d.genre === "easy listening");
             this.lineSvg 
             .append("g")
             .attr('class','line_group')
@@ -423,6 +644,10 @@ class Word_Line {
                 .attr('opacity',  this.GENRE_LINE_OPACITY)
                 .attr('fill', 'none')
                 .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+
+                if (selected_genre === 'easy listening'){
+                    this.line_animation(easy_listeningChart);
+                } 
         }
 
         else{
@@ -430,6 +655,44 @@ class Word_Line {
             .select('#wc_easy_listening_group')
             .remove()
         }
+
+
+        //Blues
+        if (this.globalApplicationState.blues_checked){
+            let wc_filtered = JSON.parse(JSON.stringify(this.word_counts));
+            let blues_data = wc_filtered.filter((d) => d.genre === "blues");
+            this.lineSvg 
+            .append("g")
+            .attr('class','line_group')
+            .attr("id", "wc_blues_group")
+            .append("path")
+            .attr('id', 'wc_blues_line_id')
+            .style('stroke', (d) => {
+                return(this.globalApplicationState.scaleColor('blues'))
+            })
+            .style('stroke-width', this.GENRE_LINE_STROKE_WIDTH)
+
+            
+            let bluesChart = 
+                d3.select("#wc_blues_group")
+                .select('#wc_blues_line_id')
+                .datum(blues_data)
+                .attr('d', lineGenerator)
+                .attr('opacity',  this.GENRE_LINE_OPACITY)
+                .attr('fill', 'none')
+                .attr('transform', `translate(${this.PUSH_AXIS_RIGHT}, 0)`);
+
+                if (selected_genre === 'blues'){
+                    this.line_animation(bluesChart);
+                } 
+        }
+
+        else{
+            d3
+            .select('#wc_blues_group')
+            .remove()
+        }
+        
 
     }
 

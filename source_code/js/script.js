@@ -16,7 +16,7 @@ wrapper.append('div')
     .style('height','50px')
     .attr('id','view1_title')
     .append('text')
-    .text('Has music become more repetitive?')
+    .text('Have music lyrics become more repetitive?')
     //.attr('transform', `translate(0, 500)`)
     
     
@@ -236,7 +236,7 @@ rock_button
      }
      histogram.draw_year(histogram.get_selected_year());
      line.draw_genre_lines('rock');
-     word_line.draw_genre_lines();
+     word_line.draw_genre_lines('rock');
      bubblechart.drawCircles();
  });
 
@@ -296,7 +296,7 @@ d3.select('#pop_rect').on("mouseover", function(event,info){
      }
      histogram.draw_year(histogram.get_selected_year());
      line.draw_genre_lines('pop');
-     word_line.draw_genre_lines();
+     word_line.draw_genre_lines('pop');
      bubblechart.drawCircles();
  });
 
@@ -356,7 +356,7 @@ d3.select('#hip_hop_rect').on("mouseover", function(event,info){
      }
      histogram.draw_year(histogram.get_selected_year());
      line.draw_genre_lines('hip hop')
-     word_line.draw_genre_lines();
+     word_line.draw_genre_lines('hip hop');
      bubblechart.drawCircles();
  });
 
@@ -416,7 +416,7 @@ d3.select('#jazz_rect').on("mouseover", function(event,info){
      }
      histogram.draw_year(histogram.get_selected_year());
      line.draw_genre_lines('jazz');
-     word_line.draw_genre_lines();
+     word_line.draw_genre_lines('jazz');
      bubblechart.drawCircles();
  });
 
@@ -475,7 +475,7 @@ d3.select('#blues_rect').on("mouseover", function(event,info){
      }
      histogram.draw_year(histogram.get_selected_year());
      line.draw_genre_lines('blues')
-     word_line.draw_genre_lines();
+     word_line.draw_genre_lines('blues');
      bubblechart.drawCircles();
  });
 
@@ -534,7 +534,7 @@ d3.select('#blues_rect').on("mouseover", function(event,info){
       }
       histogram.draw_year(histogram.get_selected_year());
       line.draw_genre_lines('rnb')
-      word_line.draw_genre_lines();
+      word_line.draw_genre_lines('rnb');
       bubblechart.drawCircles();
   });
 
@@ -595,7 +595,7 @@ d3.select('#country_rect').on("mouseover", function(event,info){
       }
       histogram.draw_year(histogram.get_selected_year());
       line.draw_genre_lines('country');
-      word_line.draw_genre_lines();
+      word_line.draw_genre_lines('country');
       bubblechart.drawCircles();
   });
 
@@ -655,7 +655,7 @@ d3.select('#country_rect').on("mouseover", function(event,info){
       }
       histogram.draw_year(histogram.get_selected_year());
       line.draw_genre_lines('folk');
-      word_line.draw_genre_lines();
+      word_line.draw_genre_lines('folk');
       bubblechart.drawCircles();
   });
 
@@ -713,7 +713,7 @@ d3.select('#country_rect').on("mouseover", function(event,info){
       }
       histogram.draw_year(histogram.get_selected_year());
       line.draw_genre_lines('easy listening');
-      word_line.draw_genre_lines();
+      word_line.draw_genre_lines('easy listening');
       bubblechart.drawCircles();
   });
 
@@ -773,7 +773,7 @@ d3.select('#country_rect').on("mouseover", function(event,info){
       }
       histogram.draw_year(histogram.get_selected_year());
       line.draw_genre_lines('latin');
-      word_line.draw_genre_lines();
+      word_line.draw_genre_lines('latin');
       bubblechart.drawCircles();
   });
 
@@ -833,7 +833,7 @@ d3.select('#country_rect').on("mouseover", function(event,info){
       }
       histogram.draw_year(histogram.get_selected_year());
       line.draw_genre_lines('metal');
-      word_line.draw_genre_lines();
+      word_line.draw_genre_lines('metal');
       bubblechart.drawCircles();
   });
 
@@ -893,7 +893,7 @@ d3.select('#country_rect').on("mouseover", function(event,info){
       }
       histogram.draw_year(histogram.get_selected_year());
       line.draw_genre_lines('edm');
-      word_line.draw_genre_lines();
+      word_line.draw_genre_lines('edm');
       bubblechart.drawCircles();
   });
 
