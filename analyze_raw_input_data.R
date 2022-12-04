@@ -3,7 +3,7 @@ library(dplyr)
 library(jsonlite)
 
 
-setwd("/Users/sam/Desktop/U_of_U/Fall_2022/data_vis/new_final/DataVis-Project/source_code/vis_data")
+setwd("/Users/johna/Desktop/SchoolWork/DataVis/project/DataVis-Project/source_code/vis_data")
 
 #read all of the csv's
 raw_csv1 <- read_delim("../../input_data/albums_0_96.csv", delim = "|")
@@ -13,6 +13,7 @@ raw_csv4 <- read_delim("../../input_data/albums_600_ 827.csv", delim = "|")
 raw_csv5 <- read_delim("../../input_data/albums_827_1500.csv", delim = "|")
 raw_csv6 <- read_delim("../../input_data/albums_2500_3000.csv", delim = "|")
 raw_csv7 <- read_delim("../../input_data/albums_1884_2500.csv", delim = "|")
+raw_csv8 <- read_delim("../../input_data/albums_1500_1884.csv", delim = "|")
 
 
 
@@ -75,6 +76,25 @@ all_songs %>%
 
 write_json(word_freq_df, "word_freq.json",dataframe = 'rows')
 
+#Word Freq by year -- (total word count/total song count)
+
+all_songs %>%
+  group_by(year) %>%
+  summarise( n = n(),
+             love_sum = sum(love_words), 
+             love_norm = love_sum/n,  
+             swear_sum = sum(swear_words),
+             swear_norm = swear_sum/n,
+             god_sum = sum(god_words),
+             god_norm = god_sum/n,
+             dance_sum = sum(dance_words),
+             dance_norm = dance_sum/n,
+             cool_sum = sum(cool_words),
+             cool_norm = cool_sum/n,
+             rock_sum = sum(rock_words),
+             rock_norm = rock_sum/n) -> word_freq_year_df
+
+write_json(word_freq_year_df, "word_freq_year.json",dataframe = 'rows')
 
 # Histogram 
 
