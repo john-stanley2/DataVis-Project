@@ -67,6 +67,12 @@ class Histogram {
             .attr("id", "histlabels")
             .attr('class','labels');
 
+        this.histogramSvg
+            .append("g")
+            .append('text')
+            .attr("id", "histyear")
+            ;
+
 
         this.x_axis = this.histogramSvg.append('g').call(this.xAxis)
         this.y_axis = this.histogramSvg.append('g').call(this.yAxis)
@@ -114,6 +120,15 @@ class Histogram {
 
     draw_year(year_hovered){
         this.selected_year = year_hovered
+
+        d3.select('#histyear')
+            //.join('text')
+            .text(this.selected_year)
+            .attr('x',700)
+            .attr('y',100)
+            .attr("font-weight",600)
+            .style('font-size','50px')
+            ;
 
         if (this.selected_year != 0){
 
