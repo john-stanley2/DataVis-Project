@@ -6,7 +6,7 @@ Tutorial Video: https://www.youtube.com/watch?v=RSo8qP2dAfY
 
 Process Book: 'Process Book_final'
 
-Website uses 'js', 'vis_data', 'index.html', and 'styles.css'. All other R and jupyter notebooks contain code for pulling data using API's, data analysis, and building final json's.
+Website uses 'js', 'vis_data', 'index.html', and 'styles.css'.
 
 'data' contains genre information and initial album title list. When extracting song genre, we were given subgenres. The genre files help us map these subgenres to their supergenre. The album title list we got from http://www.acclaimedmusic.net/year/alltime_albums.htm . These were the albums searched for through the genius and spotify API's.
 
